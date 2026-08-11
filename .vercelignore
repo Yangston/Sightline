@@ -1,0 +1,8 @@
+.astro/
+.private/
+.venv-photo-calibration/
+dist/
+node_modules/
+playwright-report/
+src/content/photography/iCloud Photos/
+test-results/

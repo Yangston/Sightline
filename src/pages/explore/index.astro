@@ -1,0 +1,55 @@
+---
+import SightlineLayout from "@/layouts/SightlineLayout.astro";
+import { cityDatasetSummaries } from "@/lib/dataset";
+
+const summaries = cityDatasetSummaries();
+---
+
+<SightlineLayout
+  title="Explore reconstructions — Sightline"
+  description="Review Sightline's complete public dataset by city, including verified, rejected, and incomplete camera reconstructions."
+>
+  <div class="sightline-shell">
+    <header class="sightline-page-head">
+      <p class="sightline-kicker">Public evidence register</p>
+      <h1>Explore every result.</h1>
+      <p class="sightline-lede">
+        Accepted, rejected, and incomplete outcomes are retained together. Three
+        coverage-approved cities add an opt-in photorealistic viewer; every city
+        keeps a durable contact sheet.
+      </p>
+    </header>
+    <section class="scene-grid" aria-label="Sightline city datasets">
+      {
+        summaries.map(({ city, images, sample }) => {
+          const preview =
+            sample?.variants.find((variant) => variant.width >= 960) ??
+            sample?.variants.at(-1);
+          return (
+            <a class="scene-card" href={`/explore/${city.id}`}>
+              {preview && sample && (
+                <img
+                  src={preview.src}
+                  width={sample.width}
+                  height={sample.height}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
+              <p class="sightline-mono">
+                {city.publicMap === "google-2d-3d"
+                  ? "2D + opt-in 3D"
+                  : "Evidence register"}
+              </p>
+              <strong>{city.name}</strong>
+              <p>
+                {images.length} photographs · {city.description}
+              </p>
+            </a>
+          );
+        })
+      }
+    </section>
+  </div>
+</SightlineLayout>

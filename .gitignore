@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+.env
+.env.*
+!.env.example
+.private/
+.venv-photo-calibration/
+src/content/photography/iCloud Photos/
+test-results/
+playwright-report/
+__pycache__/
+*.py[cod]
+*.log

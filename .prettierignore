@@ -1,0 +1,13 @@
+.agents/
+.astro/
+.private/
+.venv-photo-calibration/
+.vercel/
+dist/
+node_modules/
+package-lock.json
+playwright-report/
+public/media/
+src/content/photography/iCloud Photos/
+src/data/
+test-results/

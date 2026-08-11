@@ -1,0 +1,81 @@
+---
+import SightlineLayout from "@/layouts/SightlineLayout.astro";
+import { cityScenes } from "@/lib/photography-map";
+import manifest from "@/data/photography-manifest.json";
+import automaticPilots from "@/data/photography-auto-pilots.json";
+---
+
+<SightlineLayout
+  title="Sightline — Camera pose reconstruction"
+  description="Sightline locates archival photographs, reconstructs their cameras in 3D, and verifies each result before publication."
+>
+  <div class="sightline-shell">
+    <section class="sightline-hero">
+      <div>
+        <p class="sightline-kicker">
+          Visual localization / camera reconstruction
+        </p>
+        <h1>Return to the original <em>sightline.</em></h1>
+        <p class="sightline-lede">
+          Sightline finds where a photograph was made, reconstructs the camera
+          that made it, and tests that pose against the city before it can be
+          presented as evidence.
+        </p>
+        <div class="sightline-actions">
+          <a class="sightline-button primary" href="/explore"
+            >Explore reconstructions</a
+          >
+          <a class="sightline-button" href="/methodology">Read the method</a>
+        </div>
+      </div>
+      <div
+        class="sightline-schematic"
+        aria-label="Abstract camera-frustum alignment diagram"
+      >
+      </div>
+    </section>
+    <section class="sightline-metrics" aria-label="Dataset summary">
+      <div>
+        <strong>{manifest.length}</strong><span>reviewed photographs</span>
+      </div>
+      <div>
+        <strong>{cityScenes.length}</strong><span>bounded city scenes</span>
+      </div>
+      <div>
+        <strong>{automaticPilots.length}</strong><span
+          >verified automatic poses</span
+        >
+      </div>
+    </section>
+    <section class="sightline-section">
+      <p class="sightline-kicker">A fail-closed pipeline</p>
+      <h2>A plausible match is not a fact.</h2>
+      <div class="sightline-grid">
+        <article class="sightline-card">
+          <p class="sightline-mono">01 / Locate</p>
+          <h3>Bound the search</h3>
+          <p>
+            Metadata-assisted and image-only paths gather candidate reference
+            views without inventing a publishable location.
+          </p>
+        </article>
+        <article class="sightline-card">
+          <p class="sightline-mono">02 / Solve</p>
+          <h3>Recover the camera</h3>
+          <p>
+            Matched pixels are lifted into metric city geometry before robust
+            absolute pose and field-of-view refinement.
+          </p>
+        </article>
+        <article class="sightline-card">
+          <p class="sightline-mono">03 / Verify</p>
+          <h3>Render it again</h3>
+          <p>
+            Every candidate is returned to the 3D scene and measured. Rejected
+            evidence remains visibly rejected.
+          </p>
+        </article>
+      </div>
+    </section>
+  </div>
+</SightlineLayout>

@@ -1,0 +1,144 @@
+---
+type Media = {
+  id: string;
+  captureDate?: string;
+  width: number;
+  height: number;
+  alt: string;
+  variants: { width: number; src: string }[];
+};
+
+interface Props {
+  cityName: string;
+  media: Media[];
+}
+
+const { cityName, media } = Astro.props;
+const variantAt = (item: Media, width: number) =>
+  item.variants.find((variant) => variant.width === width) ??
+  item.variants.find((variant) => variant.width > width) ??
+  item.variants.at(-1)!;
+---
+
+<section
+  class="city-gallery"
+  data-gallery-ready="true"
+  aria-labelledby="city-gallery-title"
+>
+  <header>
+    <p class="eyebrow">
+      Complete contact sheet / {String(media.length).padStart(2, "0")}
+    </p>
+    <h2 id="city-gallery-title">All of <em>{cityName}.</em></h2>
+    <p>Every published frame, kept deliberately compact until opened.</p>
+  </header>
+  <div class="city-collage">
+    {
+      media.map((item, index) => {
+        const small = variantAt(item, 480);
+        const medium = variantAt(item, 960);
+        const large = variantAt(item, 1600);
+        return (
+          <figure data-manifest-id={item.id}>
+            <button
+              type="button"
+              class="city-lightbox-trigger"
+              data-index={index}
+              data-src={large.src}
+              data-alt={item.alt}
+              aria-label={`Open image: ${item.alt}`}
+            >
+              <img
+                src={small.src}
+                srcset={`${small.src} ${small.width}w, ${medium.src} ${medium.width}w`}
+                sizes="(min-width: 900px) 32rem, 86vw"
+                width={item.width}
+                height={item.height}
+                alt={item.alt}
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+            <figcaption>
+              {item.captureDate && (
+                <time datetime={item.captureDate}>
+                  {new Date(`${item.captureDate}T00:00:00Z`).toLocaleDateString(
+                    "en-CA",
+                    {
+                      month: "short",
+                      day: "2-digit",
+                      timeZone: "UTC",
+                    },
+                  )}
+                </time>
+              )}
+              <span>{String(index + 1).padStart(2, "0")}</span>
+            </figcaption>
+          </figure>
+        );
+      })
+    }
+  </div>
+</section>
+
+<dialog class="city-lightbox" aria-label={`${cityName} image lightbox`}>
+  <button type="button" data-lightbox-close aria-label="Close lightbox"
+    >×</button
+  >
+  <button type="button" data-lightbox-previous aria-label="Previous image"
+    >←</button
+  >
+  <img alt="" />
+  <button type="button" data-lightbox-next aria-label="Next image">→</button>
+  <p></p>
+</dialog>
+
+<script>
+  const triggers = Array.from(
+    document.querySelectorAll<HTMLButtonElement>(".city-lightbox-trigger"),
+  );
+  const dialog = document.querySelector<HTMLDialogElement>(".city-lightbox");
+  const image = dialog?.querySelector<HTMLImageElement>("img");
+  const caption = dialog?.querySelector<HTMLParagraphElement>("p");
+  let active = 0;
+  let opener: HTMLButtonElement | undefined;
+
+  const render = () => {
+    const trigger = triggers[active];
+    if (!trigger || !image || !caption) return;
+    image.src = trigger.dataset.src ?? "";
+    image.removeAttribute("srcset");
+    image.alt = trigger.dataset.alt ?? "";
+    caption.textContent = `${active + 1} / ${triggers.length} — ${trigger.dataset.alt ?? ""}`;
+  };
+  const step = (amount: number) => {
+    active = (active + amount + triggers.length) % triggers.length;
+    render();
+  };
+
+  triggers.forEach((trigger, index) =>
+    trigger.addEventListener("click", () => {
+      active = index;
+      opener = trigger;
+      render();
+      dialog?.showModal();
+      dialog
+        ?.querySelector<HTMLButtonElement>("[data-lightbox-close]")
+        ?.focus();
+    }),
+  );
+  dialog
+    ?.querySelector("[data-lightbox-close]")
+    ?.addEventListener("click", () => dialog.close());
+  dialog
+    ?.querySelector("[data-lightbox-previous]")
+    ?.addEventListener("click", () => step(-1));
+  dialog
+    ?.querySelector("[data-lightbox-next]")
+    ?.addEventListener("click", () => step(1));
+  dialog?.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowRight") step(1);
+    if (event.key === "ArrowLeft") step(-1);
+  });
+  dialog?.addEventListener("close", () => opener?.focus());
+</script>

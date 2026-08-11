@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sightline camera reconstruction</title>
+  <desc id="desc">A Sightline diagram connects a source photograph, matched control points, a camera frustum, and a city scene.</desc>
+  <defs>
+    <radialGradient id="space" cx="72%" cy="34%" r="78%">
+      <stop offset="0" stop-color="#1c2c3b"/>
+      <stop offset=".48" stop-color="#101722"/>
+      <stop offset="1" stop-color="#07090d"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff7656" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#c4d37b" stop-opacity=".08"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#d7e1ff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#space)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g fill="#f6f0df">
+    <circle cx="104" cy="118" r="2" opacity=".8"/><circle cx="326" cy="74" r="1.5" opacity=".45"/>
+    <circle cx="742" cy="146" r="2.2" opacity=".6"/><circle cx="1410" cy="112" r="1.7" opacity=".72"/>
+    <circle cx="1288" cy="724" r="2" opacity=".45"/><circle cx="596" cy="790" r="1.4" opacity=".7"/>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="20" letter-spacing="4" fill="#ff7656">
+    <text x="92" y="96">SIGHTLINE / SOURCE FRAME</text>
+    <text x="1112" y="96">SOLVED CAMERA</text>
+  </g>
+  <g transform="translate(92 150)">
+    <rect width="590" height="442" rx="8" fill="url(#frame)" stroke="#f0eadc" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M0 356 112 232l78 58 104-142 118 104 82-74 96 96v168H0Z" fill="#142823" stroke="#c4d37b" stroke-opacity=".65" stroke-width="2"/>
+    <path d="M0 386 112 262l78 58 104-142 118 104 82-74 96 96" fill="none" stroke="#c4d37b" stroke-opacity=".3"/>
+    <g fill="#ff7656" stroke="#f6f0df" stroke-width="2">
+      <circle cx="138" cy="252" r="8"/><circle cx="294" cy="149" r="8"/><circle cx="410" cy="252" r="8"/><circle cx="508" cy="198" r="8"/>
+    </g>
+    <path d="M28 28h52M28 28v52M562 28h-52M562 28v52M28 414h52M28 414v-52M562 414h-52M562 414v-52" fill="none" stroke="#f0eadc" stroke-width="3"/>
+  </g>
+  <g stroke="#ff7656" stroke-opacity=".72" stroke-width="2" stroke-dasharray="8 9">
+    <path d="M230 402 1115 590"/><path d="M386 299 1115 590"/><path d="M502 402 1115 590"/><path d="M600 348 1115 590"/>
+  </g>
+  <g transform="translate(1115 590)">
+    <circle r="42" fill="#07090d" stroke="#ff7656" stroke-width="3"/>
+    <path d="M-18-14h36l12 28h-60Z" fill="#f0eadc" fill-opacity=".14" stroke="#f0eadc" stroke-width="2"/>
+    <circle r="9" fill="#c4d37b"/>
+  </g>
+  <path d="M1115 590 814 280M1115 590 1430 310M1115 590 1456 720M1115 590 804 724M814 280 1430 310 1456 720 804 724Z" fill="#ff7656" fill-opacity=".035" stroke="#f0eadc" stroke-opacity=".55" stroke-width="2"/>
+  <g stroke="#c4d37b" stroke-width="2" fill="#c4d37b">
+    <circle cx="814" cy="280" r="6"/><circle cx="1430" cy="310" r="6"/><circle cx="1456" cy="720" r="6"/><circle cx="804" cy="724" r="6"/>
+  </g>
+  <g font-family="Space Grotesk, sans-serif" fill="#f0eadc">
+    <text x="92" y="716" font-size="76" font-weight="600" letter-spacing="-3">LOCATE.</text>
+    <text x="92" y="788" font-size="76" font-style="italic" fill="#c4d37b" letter-spacing="-3">RENDER. VERIFY.</text>
+  </g>
+  <text x="1115" y="842" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="17" letter-spacing="3" fill="#f0eadc" opacity=".6">EXACT-RENDER CAMERA AUDIT</text>
+</svg>

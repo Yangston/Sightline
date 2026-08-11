@@ -1,0 +1,337 @@
+:root {
+  color-scheme: dark;
+  --sl-bg: #07100f;
+  --sl-panel: #0d1917;
+  --sl-panel-strong: #122421;
+  --sl-ink: #e8f3ed;
+  --sl-muted: #91aaa1;
+  --sl-line: rgb(151 198 181 / 22%);
+  --sl-signal: #8dffca;
+  --sl-warn: #ffcf70;
+  --sl-fail: #ff8f7b;
+}
+
+html {
+  background: var(--sl-bg);
+}
+.sightline-body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--sl-ink);
+  background:
+    radial-gradient(circle at 78% 8%, rgb(54 133 108 / 18%), transparent 35rem),
+    linear-gradient(180deg, #07100f 0%, #081310 62%, #050b0a 100%);
+  font-family: var(--font-sans);
+}
+.sightline-body a {
+  color: inherit;
+}
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 1000;
+  background: var(--sl-signal);
+  color: #04100c;
+  padding: 0.75rem 1rem;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+.sightline-nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem clamp(1rem, 4vw, 4rem);
+  border-bottom: 1px solid var(--sl-line);
+  background: rgb(7 16 15 / 86%);
+  backdrop-filter: blur(18px);
+}
+.sightline-nav nav {
+  display: flex;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  font-size: 0.82rem;
+}
+.sightline-nav a {
+  text-decoration: none;
+}
+.sightline-nav a:hover,
+.sightline-nav a:focus-visible {
+  color: var(--sl-signal);
+}
+.sightline-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.sightline-wordmark span {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--sl-signal);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 0.35rem var(--sl-bg);
+}
+.sightline-shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+.sightline-hero {
+  min-height: calc(100svh - 4.5rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.8fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+  padding: 5rem 0;
+}
+.sightline-kicker,
+.sightline-mono {
+  color: var(--sl-signal);
+  font: 500 0.72rem/1.4 var(--font-code);
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.sightline-hero h1,
+.sightline-page-head h1 {
+  margin: 0.4rem 0 1.25rem;
+  max-width: 12ch;
+  font: 450 clamp(3.2rem, 9vw, 8rem)/0.9 var(--font-display);
+  letter-spacing: -0.055em;
+}
+.sightline-hero h1 em {
+  color: var(--sl-signal);
+  font-weight: 450;
+}
+.sightline-lede {
+  max-width: 49rem;
+  color: var(--sl-muted);
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  line-height: 1.65;
+}
+.sightline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+.sightline-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--sl-signal);
+  text-decoration: none;
+  font-weight: 650;
+}
+.sightline-button.primary {
+  background: var(--sl-signal);
+  color: #06100d;
+}
+.sightline-schematic {
+  position: relative;
+  aspect-ratio: 1;
+  border: 1px solid var(--sl-line);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(141 255 202 / 12%), transparent 62%);
+}
+.sightline-schematic::before,
+.sightline-schematic::after {
+  content: "";
+  position: absolute;
+  inset: 14%;
+  border: 1px solid var(--sl-line);
+  transform: rotate(45deg);
+}
+.sightline-schematic::after {
+  inset: 35% 12%;
+  border-color: var(--sl-signal);
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+.sightline-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-block: 1px solid var(--sl-line);
+}
+.sightline-metrics div {
+  padding: 2rem clamp(1rem, 3vw, 2.5rem);
+  border-right: 1px solid var(--sl-line);
+}
+.sightline-metrics div:last-child {
+  border-right: 0;
+}
+.sightline-metrics strong {
+  display: block;
+  font: 500 clamp(2rem, 4vw, 4rem)/1 var(--font-display);
+}
+.sightline-metrics span {
+  color: var(--sl-muted);
+  font-size: 0.82rem;
+}
+.sightline-section {
+  padding: clamp(4rem, 9vw, 8rem) 0;
+}
+.sightline-section h2 {
+  max-width: 16ch;
+  font: 500 clamp(2rem, 5vw, 4rem)/1 var(--font-display);
+}
+.sightline-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--sl-line);
+  border: 1px solid var(--sl-line);
+}
+.sightline-card {
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  background: var(--sl-panel);
+}
+.sightline-card p {
+  color: var(--sl-muted);
+  line-height: 1.65;
+}
+.sightline-page-head {
+  padding: 6rem 0 3rem;
+  border-bottom: 1px solid var(--sl-line);
+}
+.sightline-page-head h1 {
+  max-width: none;
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+.scene-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 1rem;
+  padding: 3rem 0 6rem;
+}
+.scene-card {
+  display: grid;
+  min-height: 24rem;
+  padding: 1.4rem;
+  border: 1px solid var(--sl-line);
+  background: var(--sl-panel);
+  text-decoration: none;
+  align-content: end;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+.scene-card:hover,
+.scene-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--sl-signal);
+}
+.scene-card strong {
+  font: 500 2rem/1 var(--font-display);
+}
+.scene-card p {
+  color: var(--sl-muted);
+}
+.scene-card img {
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+  margin-bottom: auto;
+}
+.sightline-city {
+  width: min(1400px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 6rem;
+}
+.sightline-breadcrumb {
+  display: flex;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+  color: var(--sl-muted);
+  font-size: 0.8rem;
+}
+.sightline-body .city-atlas,
+.sightline-body .city-gallery {
+  color: var(--sl-ink);
+}
+.sightline-body .city-atlas,
+.sightline-body .city-gallery header,
+.sightline-body .city-photo-drawer {
+  background: var(--sl-panel);
+}
+.sightline-body .city-gallery {
+  margin-top: 4rem;
+}
+.method-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 0.45fr) minmax(0, 1fr);
+  gap: clamp(2rem, 7vw, 7rem);
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--sl-line);
+}
+.method-copy h2 {
+  margin: 0;
+  font: 500 clamp(2rem, 4vw, 3.6rem)/1 var(--font-display);
+}
+.method-copy p,
+.method-copy li {
+  color: var(--sl-muted);
+  line-height: 1.75;
+}
+.sightline-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+  border-top: 1px solid var(--sl-line);
+  color: var(--sl-muted);
+  font-size: 0.75rem;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--sl-signal);
+  outline-offset: 4px;
+}
+@media (max-width: 760px) {
+  .sightline-nav {
+    align-items: flex-start;
+  }
+  .sightline-nav nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .sightline-hero,
+  .method-copy {
+    grid-template-columns: 1fr;
+  }
+  .sightline-hero {
+    min-height: 0;
+    padding: 4rem 0;
+  }
+  .sightline-schematic {
+    width: min(22rem, 80vw);
+    justify-self: center;
+  }
+  .sightline-grid,
+  .sightline-metrics {
+    grid-template-columns: 1fr;
+  }
+  .sightline-metrics div {
+    border-right: 0;
+    border-bottom: 1px solid var(--sl-line);
+  }
+  .sightline-footer {
+    flex-direction: column;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

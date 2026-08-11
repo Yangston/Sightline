@@ -1,0 +1,57 @@
+---
+import "@/styles/global.css";
+import "@/styles/sightline.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const {
+  title,
+  description,
+  image = "/media/projects/sightline.svg",
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL(image, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#07100f" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{title}</title>
+  </head>
+  <body class="sightline-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="sightline-nav">
+      <a class="sightline-wordmark" href="/" aria-label="Sightline home">
+        <span aria-hidden="true"></span>Sightline
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="/explore">Explore</a>
+        <a href="/methodology">Methodology</a>
+        <a href="https://github.com/Yangston/Sightline">Repository</a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="sightline-footer">
+      <p>Sightline reconstructs evidence, not ground truth.</p>
+      <p>&copy; 2026 Stone Yang. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

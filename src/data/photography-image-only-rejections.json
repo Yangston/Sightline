@@ -1,0 +1,310 @@
+[
+  {
+    "id": "img-7492",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "77a20e0ce2a0f82da7149e91fa34a4c63c0c76106c89e526830a0563bb4f3cd9",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "b5e0df9f7891cd6ae4b32621612bcddd2ec5cea54b1e6d1b2b3dd09170bab2c5"
+    }
+  },
+  {
+    "id": "img-7498",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "d362fbbbda5efd5243a468b820ca36cd69788c5f0634f055b93617877a663db8",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "caa2b95af92ab97316542cdb89f03709144feb30e9a63e4431f94f30c1925b96"
+    }
+  },
+  {
+    "id": "img-7526",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "577e58a21425e341e8b657b7d561687ed41ba00e90aeeaee99b0dc7b2e2494c3",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 270,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "e4b982ae2b693636ed21407c7c6da06e85ff2bcf407d828760bf01982fab538e"
+    }
+  },
+  {
+    "id": "img-7532",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "89e0c240c4494b103fcb24aebe30f9b581bef3ecb36ce7b9ed84665d3df2d61d",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 270,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "eee10f9c549cf7438ca162a3152a989933efb4dbde2efa3ffaaf02c519b4c011"
+    }
+  },
+  {
+    "id": "img-7536",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "bf1a310d9b506f9f4a5f3e4792889b41da840b760c704c4be5245dba2ae21ea6",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "a5081a65ca9dc2f4f372ad8947f3f03c506247761a202d74873617b8fae50e8e"
+    }
+  },
+  {
+    "id": "img-7561",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "a90973194284c8ca7d7c6d91281e07f1094fd1df46391c90ff60224a35946359",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 270,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "b9ff8f1375bbbdabdb89012b7d2da19eba6980e1dd5d1a74a93d85347b62098c"
+    }
+  },
+  {
+    "id": "img-7563",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "a23f73cdeea058fae0c2348e3f776909ee074ea3468e337125174dfff7ca6533",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "8d53fb6f4855a3b780beaee91756bf00e93b6affe9e2152c355ffa8486faf877"
+    }
+  },
+  {
+    "id": "img-7574",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "b7030f63349569b208a0e3a4784a9946356d17878fc9874971b98b59683d70ad",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "04bda0115a8dca7e619c55ac602a78df93da52c0d2dc664741caf651169be74e"
+    }
+  },
+  {
+    "id": "img-7577",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "64a42dab872e27a3111ac05c63f68f66f380d274d985733d3fe848be4bb17ab4",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "760466d917546478e70406a0634cae49f0608cbc03c3fd0d3b52c12f54cd4dee"
+    }
+  },
+  {
+    "id": "img-7578",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "e30941ac095f0b630bba781258947ffd8d0f7ac035381733ec45a57febb20890",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 270,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "4fce46a8f91d69b045240e1e9dcfbbb80e3c55fffff810a2214addf2345557a3"
+    }
+  },
+  {
+    "id": "img-7600",
+    "cityId": "san-francisco",
+    "experimentId": "sf-north-v1",
+    "method": "image-only",
+    "status": "rejected",
+    "pixelDigest": "6400736b52a5728d062709f845c05670a9f4c3a55bc58174761dae9491b52542",
+    "pipelineVersion": "sf-north-v1.0.0",
+    "pixelRotationDeg": 0,
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "evidence": {
+      "coarseCandidates": 24,
+      "panoramaCandidates": 1,
+      "rankedReferences": 0,
+      "matches": 0,
+      "inliers": 0,
+      "inlierRatio": 0,
+      "rmsErrorPx": null,
+      "imageCoverage": 0,
+      "referenceDistanceM": null
+    },
+    "sealed": {
+      "algorithm": "sha256",
+      "predictionDigest": "11d1d8584c6646d137f4c50b3fdf00ad064f5c55321b77970b8da3384393aeee"
+    }
+  }
+]

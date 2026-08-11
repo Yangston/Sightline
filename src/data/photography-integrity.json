@@ -1,0 +1,3876 @@
+[
+  {
+    "id": "img-7348",
+    "source": "Canada/elora/IMG_7348.JPEG",
+    "sourceDigest": "08346215c1f0eac0c834134b6eb1d3279668579564bb5fca9d0b61a5970e6193",
+    "sourceBytes": 1010796,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-7348-6a99ff61-480.webp",
+        "bytes": 27480,
+        "digest": "a3c4b07d3b22d0be7065a8fdda5338b68f69c11683536a5fba2534dfca8accc7"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-7348-6a99ff61-960.webp",
+        "bytes": 112458,
+        "digest": "14a67978f95f9cc85557fdd1776239c5372e5af0fde149260e3d2278256cf447"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/canada/img-7348-6a99ff61-1600.webp",
+        "bytes": 253024,
+        "digest": "84aef6f57253bc87255dc945dda1027a1044ae7e9e3765f5a8832b0ed4d5b75d"
+      }
+    ]
+  },
+  {
+    "id": "img-2309",
+    "source": "Canada/toronto/IMG_2309.JPEG",
+    "sourceDigest": "a552f3d7aa48f547afc3223a22c7e854f3c4352b5c3d452562f7aee923f354d0",
+    "sourceBytes": 638371,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-2309-878673ea-480.webp",
+        "bytes": 28604,
+        "digest": "5461c3a85c491a660428a4830ec89edde28119f6a513b536b132a0fa5d7dd95d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-2309-878673ea-960.webp",
+        "bytes": 87322,
+        "digest": "f2e5a4d9fbc3ed21a311801c0d41ddfaa36c9d0c4b8680cada3f4df21dbf003d"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/canada/img-2309-878673ea-1536.webp",
+        "bytes": 159754,
+        "digest": "c1bcb7e2e043914b1a0e48f7802484b00de0b0e51246597d2a89efdadc8b0279"
+      }
+    ]
+  },
+  {
+    "id": "img-2604",
+    "source": "Canada/toronto/IMG_2604.JPEG",
+    "sourceDigest": "997d8d18550413c220aa50588fa6137590a36763744d25670e65239958286fa1",
+    "sourceBytes": 1454619,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-2604-44d5b600-480.webp",
+        "bytes": 77682,
+        "digest": "210e71ad4c5d318f7b9b71dc04b7a23e6341f7c51694189b18d9280b3bbe7201"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-2604-44d5b600-960.webp",
+        "bytes": 278508,
+        "digest": "fde723fb83a12b7c1456ef6fe062882ad9d9f1afb053ea725fcefd18f0f2eb1c"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/canada/img-2604-44d5b600-1536.webp",
+        "bytes": 534408,
+        "digest": "1b9d3c5a060f86d2206c31d158f832cd2132b277397a0e9369dd7a63205d54c1"
+      }
+    ]
+  },
+  {
+    "id": "img-2689",
+    "source": "Canada/toronto/IMG_2689.JPEG",
+    "sourceDigest": "3f3c075592778dae899e8313bf2270e8e31534b1104e5783e055cf4e6fe306d9",
+    "sourceBytes": 950114,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-2689-efe0ed38-480.webp",
+        "bytes": 42586,
+        "digest": "2a21221d99f9f0d98f24398774cbabf9fea4cb7b2e7df2a3c497e360e90da4dd"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-2689-efe0ed38-960.webp",
+        "bytes": 135120,
+        "digest": "6b195606cc9df98cd8dbb378fc0015a2dc51053644d367f1f406558a10dbd969"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/canada/img-2689-efe0ed38-1536.webp",
+        "bytes": 261434,
+        "digest": "a8ddc900f0e0cc5a3f04321d71bee2b9e3b13b610761c40bdf93a4e525a6874e"
+      }
+    ]
+  },
+  {
+    "id": "img-2713",
+    "source": "Canada/toronto/IMG_2713.JPEG",
+    "sourceDigest": "9ee413eb235ba71d27a5600293397df41ab24790d10118466c543e9a025e02c0",
+    "sourceBytes": 815630,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-2713-d8abd034-480.webp",
+        "bytes": 44296,
+        "digest": "048ea4165d3f1a9e5fa6bc4748c0cb6f8c9f35b48492959535f24c848cc46b37"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-2713-d8abd034-960.webp",
+        "bytes": 132344,
+        "digest": "ad5384c4d1e640e32b09ed84537398879048c53344635c720f679fa7916923d8"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/canada/img-2713-d8abd034-1536.webp",
+        "bytes": 232062,
+        "digest": "b1b75dcfeaff24c8b92a2ea70e585b515d31012aaa9c0fe948a6b9865929255f"
+      }
+    ]
+  },
+  {
+    "id": "img-7283",
+    "source": "Canada/toronto/IMG_7283.JPEG",
+    "sourceDigest": "e059c4318b5dfbf131dea7bca5606326ab3c7fc5cb7a075a422bbc2055efbcde",
+    "sourceBytes": 846200,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-7283-693f9023-480.webp",
+        "bytes": 40134,
+        "digest": "63b42da09ef4fefe7c1d3e086cf3ab48f85f0bce55c58332bd2e62effe2e756d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-7283-693f9023-960.webp",
+        "bytes": 128414,
+        "digest": "021de496744631278fd667a077ea6caeaa1a9b82695449c1499e3b4d6cb067be"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/canada/img-7283-693f9023-1536.webp",
+        "bytes": 248142,
+        "digest": "b264c328fc4f7a061172aba144e32c7be72bf210897284a02b21aee0faa7ba4e"
+      }
+    ]
+  },
+  {
+    "id": "img-7449",
+    "source": "Canada/toronto/IMG_7449.JPEG",
+    "sourceDigest": "22e6f31b7beddd8d330a159811ce6eb1acb4d23ff0e6e1fdd47657b9170cb229",
+    "sourceBytes": 668980,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/canada/img-7449-f035eb39-480.webp",
+        "bytes": 17158,
+        "digest": "2e6676961d597ce184109f4933a19b1918489b0da813c6885056faee7638acd4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/canada/img-7449-f035eb39-960.webp",
+        "bytes": 54384,
+        "digest": "79bfb697c7272455be0d5cd63d34207198eedcc7f0438216ff31e5b3b47d86ff"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/canada/img-7449-f035eb39-1600.webp",
+        "bytes": 108934,
+        "digest": "c56f8d03d212b25368112413f109394499e5f10ecf9a1b4bec7fedf9298a4585"
+      }
+    ]
+  },
+  {
+    "id": "dscf0186",
+    "source": "China/chongqing/DSCF0186.JPG",
+    "sourceDigest": "6ed3c8206e4a1a4c29bc5290fce52c6b1c769fb5230f23d84d71b9bf82e2196a",
+    "sourceBytes": 14623139,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0186-3e16a02b-480.webp",
+        "bytes": 28992,
+        "digest": "ecbd5c2878ed0217f075d36b74da9d59e8a74f5e4576c5ba31ec8dcedb24a757"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0186-3e16a02b-960.webp",
+        "bytes": 104388,
+        "digest": "f0f888eb81472a0c390f0f25b111fe36db277a17f3f1ae14a0d5ec28412b4715"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0186-3e16a02b-1600.webp",
+        "bytes": 241088,
+        "digest": "de987e3162dc4692b2a2221d4167efdbd608ca3db3d25eb5736183ae4ef06196"
+      }
+    ]
+  },
+  {
+    "id": "dscf0197",
+    "source": "China/chongqing/DSCF0197.JPG",
+    "sourceDigest": "894aedb6969b730fcb2fbec4f7fbd1704b57f06d4110ff83c526f3b3156fa140",
+    "sourceBytes": 11448511,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0197-1faf7325-480.webp",
+        "bytes": 9024,
+        "digest": "0da8396edfe8b31b3847f2a7fa6acc92679a61d6590839f0a21149d7edaedcc1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0197-1faf7325-960.webp",
+        "bytes": 28038,
+        "digest": "c2b09821655f5848951db0433138afc29c094b5a9126310882ceac30f42e2f5d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0197-1faf7325-1600.webp",
+        "bytes": 59304,
+        "digest": "9ed0f38704f5e5629c92d71a474bc6b7acfd772f6edd705690d7f2f7c8c70aea"
+      }
+    ]
+  },
+  {
+    "id": "dscf0207",
+    "source": "China/chongqing/DSCF0207.JPG",
+    "sourceDigest": "3e22e3352eafa33cd891dbee04b74d5204bfb4b743e71074cb866f1e46d20267",
+    "sourceBytes": 17093592,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0207-3a83e5cb-480.webp",
+        "bytes": 72974,
+        "digest": "e2e066e573c596616dcc93e120712314b8a5576033e9bd7c054cccb35dfa6905"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0207-3a83e5cb-960.webp",
+        "bytes": 249142,
+        "digest": "4c6733ca55b7a7c243e99e24abb31e9f3119139d54b5a609b34b3fa6962e9757"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0207-3a83e5cb-1600.webp",
+        "bytes": 599156,
+        "digest": "727bfbb1e2ff935468c3ed87f532679bcd0e78adca6b706efac4606366085c7f"
+      }
+    ]
+  },
+  {
+    "id": "dscf0297",
+    "source": "China/chongqing/DSCF0297.JPG",
+    "sourceDigest": "50509207f2aa0c6e223e855e4ba9e6158c54baaaf99a52843f76783f6cba65f9",
+    "sourceBytes": 13494028,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0297-92bc1e12-480.webp",
+        "bytes": 14760,
+        "digest": "3cbecaef13a354fb490a4ee4f1d7b056f4ef9410f3c35aea9e876cf53dbfe309"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0297-92bc1e12-960.webp",
+        "bytes": 41160,
+        "digest": "4faf8eb76de82decba1fd5899c9faf9d0e6493be5583ead41dd6ec47504629de"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0297-92bc1e12-1600.webp",
+        "bytes": 87508,
+        "digest": "d2ef5fd4a3e3172c48404c6f17ef414870aaf0d4175aebdae618d9c5a31364f7"
+      }
+    ]
+  },
+  {
+    "id": "dscf0394",
+    "source": "China/chongqing/DSCF0394.JPG",
+    "sourceDigest": "ae767991b92811aa168e0fc5c5668fdbc3aac1e37fc63865dd931b079ce05eef",
+    "sourceBytes": 16951968,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0394-c3b0a472-480.webp",
+        "bytes": 44062,
+        "digest": "a187eba2212d62cd13887ad1b4a50e9368b36c2fad325019502dc52e5d47b1fe"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0394-c3b0a472-960.webp",
+        "bytes": 132666,
+        "digest": "58dff684dfa0925f579d5704ff142e94ed1e7709e39c1dcb76df4a49916505c2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0394-c3b0a472-1600.webp",
+        "bytes": 315086,
+        "digest": "7816bcc7b924eae923fdf37bd3b9baa8cd191ef82256aa3e3441357eb55b036d"
+      }
+    ]
+  },
+  {
+    "id": "dscf0411",
+    "source": "China/chongqing/DSCF0411.JPG",
+    "sourceDigest": "f817372a7b00317f988ab4d0746e9d1696db41a823b3db0e545889b4edf84f8a",
+    "sourceBytes": 16736174,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0411-6fb2d821-480.webp",
+        "bytes": 31418,
+        "digest": "3d28ab7cbc3775baa0bc1acb377159024e38fb9998dd2a95d367a7ccc9d0ba96"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0411-6fb2d821-960.webp",
+        "bytes": 105944,
+        "digest": "4d1644436ca290be5a595b35ed270ee26a9fc9d0f24f6d0caaaca499349e5a4d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0411-6fb2d821-1600.webp",
+        "bytes": 252472,
+        "digest": "1a42786099b5d3542114de34e95be3f59c105adace46b8ba1ada583aa254a891"
+      }
+    ]
+  },
+  {
+    "id": "dscf0439",
+    "source": "China/chongqing/DSCF0439.JPG",
+    "sourceDigest": "02773f8397cf029fe1e409bfd1cf8e34a2e8bc19bf7527c7c3219caaa586ade3",
+    "sourceBytes": 17557752,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0439-7483bf5f-480.webp",
+        "bytes": 41372,
+        "digest": "207be6bee525b919229ba336ddee74f1251ca1884e0b7ca3397fa98656eacd6b"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0439-7483bf5f-960.webp",
+        "bytes": 153094,
+        "digest": "20f44708684ecf27db4fcdf36933c2e95eb6b820ed7b5318cef4386924092d60"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0439-7483bf5f-1600.webp",
+        "bytes": 380194,
+        "digest": "868a0695c8c12cce7340cfe354c8062fa28b9282d4f60c0f68cdfef01d35c824"
+      }
+    ]
+  },
+  {
+    "id": "dscf0449",
+    "source": "China/chongqing/DSCF0449.JPG",
+    "sourceDigest": "1015689531db8377af5301dbe440dea77b90bd6fef3fee76db2602c6b7821606",
+    "sourceBytes": 16870536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0449-7f070e16-480.webp",
+        "bytes": 60938,
+        "digest": "180e93c8ed7bffe806cc470145204d9c9b40727310ab36b965a2139a0f8517a3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0449-7f070e16-960.webp",
+        "bytes": 230114,
+        "digest": "9141d9f94821c156a7fe4b6fca6f9606b37611438349455e8d88738c7a71e3fe"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0449-7f070e16-1600.webp",
+        "bytes": 597962,
+        "digest": "70265dab10ae4a068ea9a515617aeb91f50c64ae1d86f78e26b7941c11e2953b"
+      }
+    ]
+  },
+  {
+    "id": "dscf0450",
+    "source": "China/chongqing/DSCF0450.JPG",
+    "sourceDigest": "dc00664ce86edd9dc086d47787f43794043fbcc499931a2583999ab9bf726681",
+    "sourceBytes": 16593832,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf0450-64d10bd3-480.webp",
+        "bytes": 52190,
+        "digest": "7ee8b5edfabea425397a6de8c57c5eeb806fd1e9569e156791b55f0b555440d2"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf0450-64d10bd3-960.webp",
+        "bytes": 161984,
+        "digest": "8b26516604c5911cabd808cc7afb56810949135d29d1a3cbe9bc1775d7b15f7e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf0450-64d10bd3-1600.webp",
+        "bytes": 369792,
+        "digest": "4b9b5c12ce369b16ecdcfaf5f5c5cd24e14e425414ac00913f06dbac28f4fe65"
+      }
+    ]
+  },
+  {
+    "id": "dscf9270",
+    "source": "China/chongqing/DSCF9270.JPG",
+    "sourceDigest": "adf913ba7645a345e325458c890029d250ebc443174cd33713284672da28bf1a",
+    "sourceBytes": 17228787,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9270-440f4ac7-480.webp",
+        "bytes": 68624,
+        "digest": "584fb8f908c62153c4ec537cf49f09deb77b79e32afa2b7ced8a7b25707d889e"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9270-440f4ac7-960.webp",
+        "bytes": 221696,
+        "digest": "57c284e01ebd10bdc4c5a85434049d5289ca0e89629ad371a0624fb5ff8190f5"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9270-440f4ac7-1600.webp",
+        "bytes": 602360,
+        "digest": "c7a54368c5e0a0e151863e6c8b0c9f4df88df9433d4f180eb5b01cb8bd44e03f"
+      }
+    ]
+  },
+  {
+    "id": "dscf9280",
+    "source": "China/chongqing/DSCF9280.JPG",
+    "sourceDigest": "6a9f331bd8841331d7bb8e30e768cadcd029dd00415b1d68190cf75348e7fbb3",
+    "sourceBytes": 17523289,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9280-963ff331-480.webp",
+        "bytes": 50958,
+        "digest": "d129940363ddc1f4a50bc5775e5a5531cf4ebcc6e8bacaf50503bb358ef2b438"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9280-963ff331-960.webp",
+        "bytes": 129780,
+        "digest": "ee0649b749f0cc7af4844786d18c603ae484800095526ef0c25f79cd0928415e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9280-963ff331-1600.webp",
+        "bytes": 320298,
+        "digest": "ddc4b50cd8335c26b01386e489d89510dba43b25b65405319772c1c510df704b"
+      }
+    ]
+  },
+  {
+    "id": "dscf9401",
+    "source": "China/chongqing/DSCF9401.JPG",
+    "sourceDigest": "7fd9b693abf974c34a0bdfa796f988b41734e46d4e7af52d72e287902b8f78d5",
+    "sourceBytes": 17104040,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9401-f029260c-480.webp",
+        "bytes": 54852,
+        "digest": "922a0764eb3e24f9751044ce30f15362333b0747d5982da20b73682532dd8d6c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9401-f029260c-960.webp",
+        "bytes": 152140,
+        "digest": "3dc7ce047078c30291eeefe10fe83fe41ccedc43efb0a5d1de5468f8d152f1c2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9401-f029260c-1600.webp",
+        "bytes": 327502,
+        "digest": "88345046f31c12f148fe9d025b3b301a1960d2bf7ad8897278053bc37f655d14"
+      }
+    ]
+  },
+  {
+    "id": "dscf9425",
+    "source": "China/chongqing/DSCF9425.JPG",
+    "sourceDigest": "c04ff722f800f10b4fce6f08a3d23ebe4a48a4fea053380f0ef7f6119b38557f",
+    "sourceBytes": 16642772,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9425-45cdfe63-480.webp",
+        "bytes": 32774,
+        "digest": "17f595a758251fc7eafbf266ce9742272e9b87480a615656fd24afc334c0b5d1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9425-45cdfe63-960.webp",
+        "bytes": 96720,
+        "digest": "41b396269fe215e912ae2b18655e49843201e3481ecb3c19adcefa098f26c5c9"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9425-45cdfe63-1600.webp",
+        "bytes": 215228,
+        "digest": "ad2d3dc52158ff1b5364d3617438aebb0e7f2ff8dbda7444ac72644e7037b5ab"
+      }
+    ]
+  },
+  {
+    "id": "dscf9450",
+    "source": "China/chongqing/DSCF9450.JPG",
+    "sourceDigest": "2b5f6d36b31350eb026e43d950ddd7d57bb9866eb9020bbe8f691f2a6e888710",
+    "sourceBytes": 16363322,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9450-f7c3acd1-480.webp",
+        "bytes": 23044,
+        "digest": "6e6bf0c84bbabd66bfcece84e9c18223288926d419b5478e330863423c621d31"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9450-f7c3acd1-960.webp",
+        "bytes": 63862,
+        "digest": "1902a73f3e70ea0d0e0285b173e9f4ed205f852cc7c264b058729256b448dc09"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9450-f7c3acd1-1600.webp",
+        "bytes": 129716,
+        "digest": "847a63a8ea3bc5ead7b1e14dbe2937e0efd5b691c3c9c08530dc3f38667a684c"
+      }
+    ]
+  },
+  {
+    "id": "dscf9495",
+    "source": "China/chongqing/DSCF9495.JPG",
+    "sourceDigest": "1cab8894ce4192562848bbee25d6f9a4013a61563a58421aac570944d08c7a01",
+    "sourceBytes": 17097448,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9495-dbcb603e-480.webp",
+        "bytes": 57886,
+        "digest": "f3c3d371d9fdefa647aab60e5d0eeb6c26a785f240490036b68604d4ffe3208d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9495-dbcb603e-960.webp",
+        "bytes": 170156,
+        "digest": "e55a9e68fce33e6bd0b8aeb381a29bb483fe13ac221133fd3cb12add2567fe5e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9495-dbcb603e-1600.webp",
+        "bytes": 358614,
+        "digest": "f3af9281dee442348c79a2981293cfe65677690bf64ef8d25f214d04447b9c8a"
+      }
+    ]
+  },
+  {
+    "id": "dscf9552",
+    "source": "China/chongqing/DSCF9552.JPG",
+    "sourceDigest": "2065012e5692f18de79966c0737bcce70277d31af864265e09e0192cbb1d18a2",
+    "sourceBytes": 14278619,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9552-fc46b2fc-480.webp",
+        "bytes": 13220,
+        "digest": "8914ed59ba8bbab746951103ef48f0c87e4b6818336ee3b25a1cd3b3e0a26617"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9552-fc46b2fc-960.webp",
+        "bytes": 45458,
+        "digest": "e1c9baf7acd806155a99a770fd5d956f9db991438aac5fcbe5f624d9658c4c62"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9552-fc46b2fc-1600.webp",
+        "bytes": 103598,
+        "digest": "8759130620317f1ae48f96fbec075eaf0cbe75739e97ca70e7755709a076e38c"
+      }
+    ]
+  },
+  {
+    "id": "dscf9562",
+    "source": "China/chongqing/DSCF9562.JPG",
+    "sourceDigest": "a6fa9f785d5909a7c088be12ff79d87508fdc6a6ca37f7749112ea149547ef0c",
+    "sourceBytes": 17151820,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9562-4e425d6d-480.webp",
+        "bytes": 30002,
+        "digest": "f5b58bef211397d4417ae83e679a0c60fd5a666d5da3af0cb499d506ac60b61a"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9562-4e425d6d-960.webp",
+        "bytes": 113888,
+        "digest": "e892040ef12ed67f0f10c8f1b3c9256e5fc1ad71cceb05d07200cf96d028d94b"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9562-4e425d6d-1600.webp",
+        "bytes": 288744,
+        "digest": "665fc0f33feb09fec1d3ef7f24ef972e79fc7917012cf05372216ac39ec48d44"
+      }
+    ]
+  },
+  {
+    "id": "dscf9637",
+    "source": "China/chongqing/DSCF9637.JPG",
+    "sourceDigest": "42873523badab4208a8fa4a8b762d9ac0278d30ad850133742edc4be647e5e37",
+    "sourceBytes": 15108368,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9637-306df405-480.webp",
+        "bytes": 36150,
+        "digest": "761e65a4760e5bce74479b90a64c62adadfb823b3dcfba9d827188dad7be5e17"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9637-306df405-960.webp",
+        "bytes": 98666,
+        "digest": "f09f79fa955a64f2b3d5019bb0b1e5e4fd9607c8f16c9e2c76e4f856dbe5df56"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9637-306df405-1600.webp",
+        "bytes": 197258,
+        "digest": "cfc29e66bb9bb42a9562abf430942945ed969538091a86825e691f84305d7c57"
+      }
+    ]
+  },
+  {
+    "id": "dscf9665",
+    "source": "China/chongqing/DSCF9665.JPG",
+    "sourceDigest": "bd781c39d45af574ffe28dafc91d9acefd9e39235517f184833a252498225909",
+    "sourceBytes": 16532478,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9665-2dd27541-480.webp",
+        "bytes": 38572,
+        "digest": "a91ae36266a359a4c10be7e2c74c624b791bdda71d733da4a5738d3b952c896c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9665-2dd27541-960.webp",
+        "bytes": 129202,
+        "digest": "b46dcf44cf78259d436ed31dee84c7f955a7e42c84423eeef99dddb455cffd78"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9665-2dd27541-1600.webp",
+        "bytes": 334234,
+        "digest": "98e5db690bd42c38a7e16809252228d92ee427836c582f70c4baccd48e8d172e"
+      }
+    ]
+  },
+  {
+    "id": "dscf9690",
+    "source": "China/chongqing/DSCF9690.JPG",
+    "sourceDigest": "4e29e0d2298cbadde1c5ea1034a565884f2bddc2f129acc7985141fad36f370f",
+    "sourceBytes": 16418390,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9690-3434de37-480.webp",
+        "bytes": 38386,
+        "digest": "ad9a9e3d68a6c21a313919ddd6f9ecae109819608cf31c276dfb9b40e5746741"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9690-3434de37-960.webp",
+        "bytes": 122500,
+        "digest": "634af02924fb6914cfb2da19008d1b41e3f41311f9e20d0c294f7f6f608ae56d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9690-3434de37-1600.webp",
+        "bytes": 291892,
+        "digest": "108e286ce507b1dae5a979102ef888ff2b361d07dce3f0242d922b2b32e5aeb7"
+      }
+    ]
+  },
+  {
+    "id": "dscf9856",
+    "source": "China/chongqing/DSCF9856.JPG",
+    "sourceDigest": "07d982828c406ccc9430f18a09cbc7d52e6d9d83caa55033e2fe1dd386ca1cb3",
+    "sourceBytes": 17118537,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9856-5c0b4059-480.webp",
+        "bytes": 79564,
+        "digest": "8970520aceff30e2d54948c4ee2125da1fe51b78cb4dc2ac146e72ca32714f92"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9856-5c0b4059-960.webp",
+        "bytes": 259370,
+        "digest": "9689986db2d640df2eca8c7956e02f15aba95b29973a10c3676650654a2d3e69"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9856-5c0b4059-1600.webp",
+        "bytes": 570710,
+        "digest": "a861155e0b4195245228eb152a5969f1186fa88479a755f1a4d66ffe9b736ab6"
+      }
+    ]
+  },
+  {
+    "id": "dscf9984",
+    "source": "China/chongqing/DSCF9984.JPG",
+    "sourceDigest": "dd2d15061f89a12c4aaf7088d80471ea623a97291dd368e8df9720cd74f14dfd",
+    "sourceBytes": 16964064,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9984-38f3bda9-480.webp",
+        "bytes": 10926,
+        "digest": "2a0ba7d851a9306d0d266698948ed9e18e823348e4410cab7291712674a35879"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9984-38f3bda9-960.webp",
+        "bytes": 81668,
+        "digest": "46bfde829c6bbb6ffa0895fc6b0bf55b14f1b27c402c79e8a8f86de55b2481c1"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9984-38f3bda9-1600.webp",
+        "bytes": 390068,
+        "digest": "ae36c93932df1510bf20ed8a0b932d11170b451e39953f8b33c08e190270d235"
+      }
+    ]
+  },
+  {
+    "id": "dscf9987",
+    "source": "China/chongqing/DSCF9987.JPG",
+    "sourceDigest": "4c52aae3190e93d422e4ae72d5e061f1548478542bb0a792586160a05a04ccf7",
+    "sourceBytes": 17550508,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9987-10c0a803-480.webp",
+        "bytes": 50840,
+        "digest": "b760e761f0efcc5f3ca9975ba2adaed437ab76934834dea082c8ec43e3675aca"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9987-10c0a803-960.webp",
+        "bytes": 178582,
+        "digest": "aa0390cebdf03ffb5f2b39b2de8f46a566b3c996e6db5b8a72394419799ef65f"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9987-10c0a803-1600.webp",
+        "bytes": 455982,
+        "digest": "af6423d7971d016f5330d1840aaf819a7048ba7f94281d6ddd49d0d70e0141d3"
+      }
+    ]
+  },
+  {
+    "id": "dscf7860",
+    "source": "China/guilin-yangshuo/DSCF7860.JPG",
+    "sourceDigest": "6a6a07d4f86be7792e33a57bb4d95074349963d9644f92f2d8bd57d1291f091c",
+    "sourceBytes": 16708793,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf7860-39461cc4-480.webp",
+        "bytes": 18736,
+        "digest": "c6e9e4f38dbb14bd968fee826186718bee0e8899b7e0e62cd3c8dc4f60c0cbc0"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf7860-39461cc4-960.webp",
+        "bytes": 74468,
+        "digest": "4bd2f7617406968da80522cbd4f0088ea6dbfedd8d2514a6a560c4d1d0288341"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf7860-39461cc4-1600.webp",
+        "bytes": 214500,
+        "digest": "ca5c0e3f23f20cf6a5e0833ef20bf6eafd9b99d2587421e67d662eae7a635a0a"
+      }
+    ]
+  },
+  {
+    "id": "dscf7869",
+    "source": "China/guilin-yangshuo/DSCF7869.JPG",
+    "sourceDigest": "59d3074e0e15ef8f748082a882135d36e17dded2deba87b1b9d49d28c8290792",
+    "sourceBytes": 16223313,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf7869-526eb660-480.webp",
+        "bytes": 17142,
+        "digest": "f7aece20b27eaec7414a0babf1850d59840ceff1b11d7ad851941c8b8065ab79"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf7869-526eb660-960.webp",
+        "bytes": 81478,
+        "digest": "0ea662c4c38cad35cfcd1b7eecbad4dca2619e88ab6417360cbbd58caaf0205e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf7869-526eb660-1600.webp",
+        "bytes": 229422,
+        "digest": "ef7b99e164702a17ed40a84a8944b3f25aaf2108901e9f42fb7f3f70289c5d70"
+      }
+    ]
+  },
+  {
+    "id": "dscf7898",
+    "source": "China/guilin-yangshuo/DSCF7898.JPG",
+    "sourceDigest": "24f4014b821744e5fc89883d871c99c90f6cef47c6a72544b54ada54200bb028",
+    "sourceBytes": 15644270,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf7898-8734be2e-480.webp",
+        "bytes": 12940,
+        "digest": "569867a1ba747b697ecf45ffa7a899692bc5f4a874dd959ec139e03f830952d7"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf7898-8734be2e-960.webp",
+        "bytes": 50006,
+        "digest": "f74aa9f9302246486f6f0ed2277a9162a315f7db7deb66c88a94cdd79500aa8d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf7898-8734be2e-1600.webp",
+        "bytes": 141530,
+        "digest": "d8288378a96525ba0995dcc655fbd183a7bd21e92cc90c05a370035d663f3624"
+      }
+    ]
+  },
+  {
+    "id": "dscf7904",
+    "source": "China/guilin-yangshuo/DSCF7904.JPG",
+    "sourceDigest": "e1d2a404aabc2d7b091f6b367478b96c028c901b3e4817929fbafc2f5f9fdce3",
+    "sourceBytes": 17451943,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf7904-d48dc68e-480.webp",
+        "bytes": 37292,
+        "digest": "404685776c1a7f822fb92e758f35050e66e4495e7c92d5e50100250faf5ea1a2"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf7904-d48dc68e-960.webp",
+        "bytes": 149198,
+        "digest": "4a3b98845186a005bd198137b1381882f24e119cb0fa78f690823453b967c245"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf7904-d48dc68e-1600.webp",
+        "bytes": 409534,
+        "digest": "1cd6d7468d034f539986dc49be5973d5e0256c57123d27705ed5209f94ff4056"
+      }
+    ]
+  },
+  {
+    "id": "dscf8015",
+    "source": "China/guilin-yangshuo/DSCF8015.JPG",
+    "sourceDigest": "c060d4829959f10412d2c67392076314d7fd5d3516440d5035ba847051c0a25c",
+    "sourceBytes": 17103711,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8015-5397dc0c-480.webp",
+        "bytes": 27924,
+        "digest": "9f1e27e69843bc6bb160457142c054b0fa8d379e98170a505d3ec97423d0edbc"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8015-5397dc0c-960.webp",
+        "bytes": 105284,
+        "digest": "8848e0207962339a215281e4ae6a79592ebf0f4b22725fe05225c1bd2681cea2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8015-5397dc0c-1600.webp",
+        "bytes": 251652,
+        "digest": "fb703202dc5c3685b089efe6c096d11739ee814db3de3461e37ef269cbaa2d66"
+      }
+    ]
+  },
+  {
+    "id": "dscf8046",
+    "source": "China/guilin-yangshuo/DSCF8046.JPG",
+    "sourceDigest": "6e7e9a102517cf715d75397a771af14e6510b8ee02b5b2ed45da3d1a12fa7132",
+    "sourceBytes": 17280360,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8046-1fdb513a-480.webp",
+        "bytes": 98116,
+        "digest": "d87087e65b2cff70d47e79ec263c6e938a83044b3038904faf3b2b0a6b0831c1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8046-1fdb513a-960.webp",
+        "bytes": 347328,
+        "digest": "c96ed579cd7c8e89ce460bd571a3d0af94d0c81726f38e9b7af676207adf95ec"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8046-1fdb513a-1600.webp",
+        "bytes": 826034,
+        "digest": "ae319f8575fd1def24a53c809c65f05e0584c4296fb838c9e574076dba497e3f"
+      }
+    ]
+  },
+  {
+    "id": "dscf8064",
+    "source": "China/guilin-yangshuo/DSCF8064.JPG",
+    "sourceDigest": "003d7b92a62ef068de59f0372b299b9639e3280aa768ef9213b3484c17bc0e9b",
+    "sourceBytes": 16389092,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8064-6f41754f-480.webp",
+        "bytes": 34506,
+        "digest": "d9efa4bde5d67624032a4d8b4418be2af11bb81ae52f8b2c095cc57bc4cd3fec"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8064-6f41754f-960.webp",
+        "bytes": 124422,
+        "digest": "8ddf4120a3d2c8ca2b1195e36a5b0525b3d4b8d4e2e2e83fdbfddc4352c0bf8f"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8064-6f41754f-1600.webp",
+        "bytes": 287392,
+        "digest": "7071690105ce47fdc49aeb7153b8f862d3567cceefdab18d5db797a449859c7b"
+      }
+    ]
+  },
+  {
+    "id": "dscf8109",
+    "source": "China/guilin-yangshuo/DSCF8109.JPG",
+    "sourceDigest": "3f2e83b344e3a7d53609da75a967e96d0b831b8bc78b9d60bf8083d8b9ef1e54",
+    "sourceBytes": 15565545,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8109-c6919248-480.webp",
+        "bytes": 43532,
+        "digest": "bec886c1fd45feabbe3eadb90533c75534ff1288512715f09b14e02f394c07b4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8109-c6919248-960.webp",
+        "bytes": 177464,
+        "digest": "b22c4fcdbddac5510b730276c2775db9229bd6b2e81ff0e2bc38eaee73f1ca00"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8109-c6919248-1600.webp",
+        "bytes": 492594,
+        "digest": "3bc29b4ada32957d271a107300e8de3d5e9705db23592929499732c08ad8926b"
+      }
+    ]
+  },
+  {
+    "id": "dscf8186",
+    "source": "China/guilin-yangshuo/DSCF8186.JPG",
+    "sourceDigest": "c877e456a350451e0980bfd5b85ca5e64b7b776d9756c12e6b11f0a5cb895022",
+    "sourceBytes": 15589640,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8186-4132a97a-480.webp",
+        "bytes": 14058,
+        "digest": "42e6f091bb445ce90dc407d317436570cf2010d7b5717859d0c4db67706881ac"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8186-4132a97a-960.webp",
+        "bytes": 39204,
+        "digest": "5284d48b83ca5e5d54a36b53cb0bf50a346268b5859c2caffda79e201f8efff9"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8186-4132a97a-1600.webp",
+        "bytes": 73418,
+        "digest": "9fd3064186312af9f5cd43c56ca6674aa908fae9518856d9112dcf06262b4371"
+      }
+    ]
+  },
+  {
+    "id": "dscf8202",
+    "source": "China/guilin-yangshuo/DSCF8202.JPEG",
+    "sourceDigest": "0ce66081139779fc5cbb7608c4472febca6c6078063de1b8911b72c093c3c665",
+    "sourceBytes": 8686243,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8202-72adf9d1-480.webp",
+        "bytes": 64406,
+        "digest": "d0a9de7473bd311b9505cdcfa45611bec4790415ea0e32a3ebeb5d0ecb171b85"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8202-72adf9d1-960.webp",
+        "bytes": 226350,
+        "digest": "343a22fc247f039d44ead777e316a4fdc2ff86c340e080329bc1ff1ac0e7de97"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8202-72adf9d1-1600.webp",
+        "bytes": 524804,
+        "digest": "a2aedb872c6a93cfb874f789618f7ca39488ff2a69d4c375a4cfb265e18b6008"
+      }
+    ]
+  },
+  {
+    "id": "dscf8219",
+    "source": "China/guilin-yangshuo/DSCF8219.JPG",
+    "sourceDigest": "3520c2623d44fcd214e11b0814d2f9b2dc64d5d4c3692f6298a08b06aa4d3112",
+    "sourceBytes": 15128892,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8219-ff9e04ea-480.webp",
+        "bytes": 25220,
+        "digest": "f1ec9800329785777682642b080e4fcf36e670adffac3b49cdf53d8302bdb7ec"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8219-ff9e04ea-960.webp",
+        "bytes": 67950,
+        "digest": "464cc518044c39cd51d45a461f1a8a7041b03a055de699cde91e8b92bd68289a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8219-ff9e04ea-1600.webp",
+        "bytes": 147074,
+        "digest": "a280831a794da43294b233ddbf299aeb1e4db12d5fceee658223d2df826c6c7b"
+      }
+    ]
+  },
+  {
+    "id": "dscf8252",
+    "source": "China/guilin-yangshuo/DSCF8252.JPG",
+    "sourceDigest": "bbdf62a922437dd837d51dcf42c09772524f779ca8c442da8af0b99b3c29dcc8",
+    "sourceBytes": 16107763,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8252-8e3d240e-480.webp",
+        "bytes": 16596,
+        "digest": "def8849c1108362631602dd5c2011f74e8feb244a93ff50ec2e4c430d1268ab9"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8252-8e3d240e-960.webp",
+        "bytes": 54912,
+        "digest": "70c383ce27cf03aeb91b99d92167fffbe68c60afc4560e794eaf74906886ba2e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8252-8e3d240e-1600.webp",
+        "bytes": 120504,
+        "digest": "9a597968950428efe9432f1be03bfa46a3e319b6a930de2b21ff678a2f473435"
+      }
+    ]
+  },
+  {
+    "id": "dscf8261",
+    "source": "China/guilin-yangshuo/DSCF8261.JPG",
+    "sourceDigest": "0730c9928fbfe565ca9f58c21d311c3f8a83f1c9db5eee8c5056846387682fba",
+    "sourceBytes": 17613678,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8261-ee802ab9-480.webp",
+        "bytes": 10378,
+        "digest": "11a848a5041c91d07541589b4ebbab220b60bb816987e34e3fdba37227e7c9da"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8261-ee802ab9-960.webp",
+        "bytes": 26592,
+        "digest": "495bd3117e7422a8553387f6ea453d2ba4dd6061696126c818fa8e64289b5eae"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8261-ee802ab9-1600.webp",
+        "bytes": 51498,
+        "digest": "2b1f6f6c393fd8ef0830e8eaa4419b3afbefd0348ac7d31a1cac643e7c904c80"
+      }
+    ]
+  },
+  {
+    "id": "dscf8299",
+    "source": "China/guilin-yangshuo/DSCF8299.JPG",
+    "sourceDigest": "ec87cf0c7e59f5aa01664942ecad2030d609bfe53b36285965195b1db4d82d62",
+    "sourceBytes": 16334737,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8299-6cb9877f-480.webp",
+        "bytes": 8040,
+        "digest": "4f5e64940241e4a5b45500d888fcd94a8f9054d84bed64d1b0b8e27a207ada24"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8299-6cb9877f-960.webp",
+        "bytes": 27738,
+        "digest": "12b5497b8cae4f68ac45b6bdb8526dc2959c8512d9d9af67b23ec4b652580045"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8299-6cb9877f-1600.webp",
+        "bytes": 65674,
+        "digest": "d5e392815d4001264cbbcf7a4f8916b448a8c68e68f4dff82cab186e5319e1c0"
+      }
+    ]
+  },
+  {
+    "id": "dscf8345",
+    "source": "China/guilin-yangshuo/DSCF8345.JPG",
+    "sourceDigest": "26fdf7d4f9a28e2ee2427ddf2502980141ebaa9fdf19c98c4340c298a995a08f",
+    "sourceBytes": 14514864,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8345-e5593221-480.webp",
+        "bytes": 22332,
+        "digest": "571455fcb528312be5aa2636a5921bb325ec804cd5e7a358eff33b28960fbe48"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8345-e5593221-960.webp",
+        "bytes": 70804,
+        "digest": "64f529f46c5de24c58cb97bcaadd41710580db92859d90f8d1f0b4f9047ffe36"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8345-e5593221-1600.webp",
+        "bytes": 156100,
+        "digest": "d574fc29f6c1124c586aab8aba6c4978d07d6e5b75e079d684864b3d83948640"
+      }
+    ]
+  },
+  {
+    "id": "dscf8356",
+    "source": "China/guilin-yangshuo/DSCF8356.JPG",
+    "sourceDigest": "24173ff9740a79d4823080d107c4b56e05013e21c42f8741083b594be951310c",
+    "sourceBytes": 16826991,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8356-4d1426c8-480.webp",
+        "bytes": 24550,
+        "digest": "8fb65271947231c05ac3ea3d400c7bbd5c0b423d7c42fd19c684825ab8e30ff1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8356-4d1426c8-960.webp",
+        "bytes": 77206,
+        "digest": "93b3dc79cd5f41701e0dcf3520c5460af9bff7c7ade32a0bfd7c13502e070a6c"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8356-4d1426c8-1600.webp",
+        "bytes": 182952,
+        "digest": "57163cdcbf5c81b7a8d71c97fe5330142fbf6eea71095f261bf09fb7427edcb4"
+      }
+    ]
+  },
+  {
+    "id": "img-3163",
+    "source": "China/guilin-yangshuo/IMG_3163.JPEG",
+    "sourceDigest": "2d217581af0ae10100e315121e074ea8a001adfc56993d1d3c1c17b9ad9efcbf",
+    "sourceBytes": 185355,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/img-3163-ed8a6297-480.webp",
+        "bytes": 13632,
+        "digest": "f5b1b0de5cb7db5e45004b62083b45628aab6fd1d326c987035235120b55dc38"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/img-3163-ed8a6297-960.webp",
+        "bytes": 43842,
+        "digest": "d4c227ddd8773741be58052d1d77e76dab5dd521ab9d7b73ae3048f4a5954eee"
+      },
+      {
+        "width": 1206,
+        "src": "/media/photography/china/img-3163-ed8a6297-1206.webp",
+        "bytes": 67208,
+        "digest": "b022adec5ee20cc8593c97bb422445b250940ffa2abecccf95afb1ba1e4cfd1c"
+      }
+    ]
+  },
+  {
+    "id": "dscf8469",
+    "source": "China/zhangjiajie/DSCF8469.JPG",
+    "sourceDigest": "1717b6af1a7136e980a7b580c7463c73813f30e44130a840478721ed79770c65",
+    "sourceBytes": 16286769,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8469-f51f2568-480.webp",
+        "bytes": 38112,
+        "digest": "9c7ea435ea07b04ca25e854f7fe600f22b59f49e06d09893ff247fee81f6791e"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8469-f51f2568-960.webp",
+        "bytes": 135808,
+        "digest": "1c15bc1730439b31ceecb439ceef80bd305dc65dbce4559d9adcb5fbd5a8c0ad"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8469-f51f2568-1600.webp",
+        "bytes": 343328,
+        "digest": "3700e6717b0066d3bd2e8261028b1db7841411f948eca637ff6bfafc51cfc659"
+      }
+    ]
+  },
+  {
+    "id": "dscf8472",
+    "source": "China/zhangjiajie/DSCF8472.JPG",
+    "sourceDigest": "15d3cd92147c4d6d410e02161108d073c9ac48575752ba659f302d424b1db06e",
+    "sourceBytes": 15883763,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8472-660086d4-480.webp",
+        "bytes": 22228,
+        "digest": "b3f8b5f9fcf0a4592a14991ce1ccfc35e12baf17a6a08fb5b6f00809ebacc2b1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8472-660086d4-960.webp",
+        "bytes": 69560,
+        "digest": "03c90857af4b1a653838f3565f447a4627daadbb09530b9b9df24d72264100f2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8472-660086d4-1600.webp",
+        "bytes": 150982,
+        "digest": "a04e827f194d0e675e6a899344729e5f07755ab8c17f11f975fee9ed27d17511"
+      }
+    ]
+  },
+  {
+    "id": "dscf8473",
+    "source": "China/zhangjiajie/DSCF8473.JPG",
+    "sourceDigest": "3847acbcd4668ade76947e3b79ea7c0211e1b4537a0157450b6aea85b6a4c6fd",
+    "sourceBytes": 15466321,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8473-529ecdb5-480.webp",
+        "bytes": 18966,
+        "digest": "e4f4772931e8a4ab715b53aa8d3ed1b122431feb567de63e19f47b5affde66fc"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8473-529ecdb5-960.webp",
+        "bytes": 59622,
+        "digest": "b5471464e668bd57d6539a12228281b440511e21c7713ffaddd8da6e9cb1744f"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8473-529ecdb5-1600.webp",
+        "bytes": 134644,
+        "digest": "5ad19dc7e49bf035f0c9c54f83fe4b963ae585f1d68c5efc57c4c6f80e560978"
+      }
+    ]
+  },
+  {
+    "id": "dscf8476",
+    "source": "China/zhangjiajie/DSCF8476.JPG",
+    "sourceDigest": "aadbcff03424fae4e3b8eae47605142a7ccc4413a8853cbf37270d4ce00598ce",
+    "sourceBytes": 17504549,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8476-eca9ad8c-480.webp",
+        "bytes": 22612,
+        "digest": "4c92b28d35be29c8aa4fe5bce2d5b381af59c66e0e62ea3fc9b78d1870c89780"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8476-eca9ad8c-960.webp",
+        "bytes": 72816,
+        "digest": "4e9418a8243da1094c911896a94951f253a9ba686d0f757ddb9784f6aa030426"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8476-eca9ad8c-1600.webp",
+        "bytes": 171036,
+        "digest": "6666950ba0717fce317a22535712764b57e5f99497662da3c6514e7dd7b12b4f"
+      }
+    ]
+  },
+  {
+    "id": "dscf8631",
+    "source": "China/zhangjiajie/DSCF8631.JPG",
+    "sourceDigest": "acbaa966998cb97677eb6104b7ef4344ee86916c175368e8c6273d5f115feaf4",
+    "sourceBytes": 16500483,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8631-dbc3a017-480.webp",
+        "bytes": 23772,
+        "digest": "c3ed7d59cca744b31990f24dfcb4bc5637aabcd840eac4cfba7044cdb66386e3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8631-dbc3a017-960.webp",
+        "bytes": 93326,
+        "digest": "20833a0357029465e0485fb52e74332a05007ef3f0292f70ade1ded740a179f0"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8631-dbc3a017-1600.webp",
+        "bytes": 308858,
+        "digest": "4cfcbc76f09df70ac62c20d05560c67d275a8d046ec977f634833346b888e984"
+      }
+    ]
+  },
+  {
+    "id": "dscf8645",
+    "source": "China/zhangjiajie/DSCF8645.JPG",
+    "sourceDigest": "01b76fa7ed2520f7d4b9ca9b9e67ddf6cdf67bea38205520d662610264ff6f21",
+    "sourceBytes": 17003036,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8645-fab43a29-480.webp",
+        "bytes": 51086,
+        "digest": "d6a41a741d558549eae5191c8136434ea49ea0fbbe4027cde628a894fca905cd"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8645-fab43a29-960.webp",
+        "bytes": 202156,
+        "digest": "5692275a44d669fb29501acf0f3176e14efee583b97a94516a988f473d53917a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8645-fab43a29-1600.webp",
+        "bytes": 511994,
+        "digest": "614502eed111959bddf0c5b6142140ea8788d88357fb91b1dfbeea210e9a6dda"
+      }
+    ]
+  },
+  {
+    "id": "dscf8650",
+    "source": "China/zhangjiajie/DSCF8650.JPG",
+    "sourceDigest": "43125b2fa3ebccad480998114ebe63f6d940c944806f6b58e20dd25a1edc7715",
+    "sourceBytes": 14463556,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8650-85038c73-480.webp",
+        "bytes": 53136,
+        "digest": "7c2b627bb98b75ab79e6e47dcdcc263fdfb730802718482b522d795dfcc02764"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8650-85038c73-960.webp",
+        "bytes": 192844,
+        "digest": "4fb7ebe592966958fbd3d3ba8a6eb40e40035f1a6099949895c7077d2d28e437"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8650-85038c73-1600.webp",
+        "bytes": 574328,
+        "digest": "62733b23d94952b6c2c90f0e8d25f8c74467d260c2cf5ca75bf7288ae740a60a"
+      }
+    ]
+  },
+  {
+    "id": "dscf8652",
+    "source": "China/zhangjiajie/DSCF8652.JPG",
+    "sourceDigest": "b2d38dbfa19bcb832b3f84ef8eae1df430619d8931ba5b3afdeb0a30c59fbdf4",
+    "sourceBytes": 14555533,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8652-0d0282ed-480.webp",
+        "bytes": 61326,
+        "digest": "577fb17bef89c0f1921a0b00648d26ee6b368c52a0a377ef8e6e456e11fe9ffc"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8652-0d0282ed-960.webp",
+        "bytes": 244166,
+        "digest": "27892a51daabc696ae529f0600e4ee0c3a351fd8c7d36904acd26d3d79273f67"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8652-0d0282ed-1600.webp",
+        "bytes": 679966,
+        "digest": "9f8de0c37e201c36cdd5abe4065ba3b80de5e080082cfe44402326bb0f83456f"
+      }
+    ]
+  },
+  {
+    "id": "dscf8661",
+    "source": "China/zhangjiajie/DSCF8661.JPG",
+    "sourceDigest": "9e094d7c03a2498cce2176a0f585afeeab70029e321628fcfeb5615ec02ec234",
+    "sourceBytes": 17610804,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8661-557cf805-480.webp",
+        "bytes": 25052,
+        "digest": "e7df0369972e55a05e432cf1b7f95b95e8cb8c62049449da4de833a2234d85c9"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8661-557cf805-960.webp",
+        "bytes": 93028,
+        "digest": "80c76552ed11bc24a7354db1389126b8a04dfb9e604f5b1a1d613da3c4ca5452"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8661-557cf805-1600.webp",
+        "bytes": 228002,
+        "digest": "37b32d65293a2904ae46d8bfd6ec9c4e251cd2ed7697bb117e1e2ff85acd91fe"
+      }
+    ]
+  },
+  {
+    "id": "dscf8696",
+    "source": "China/zhangjiajie/DSCF8696.JPG",
+    "sourceDigest": "075a7073557248a0f477f1b95298f2fac02252ab78807caceb458ab0e02ce090",
+    "sourceBytes": 16724023,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8696-5e8d7b73-480.webp",
+        "bytes": 28152,
+        "digest": "b88052f6c5051f5ed3fafe664c47906681979e90b256767d5be8a70503e596f8"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8696-5e8d7b73-960.webp",
+        "bytes": 92138,
+        "digest": "534ea27c6386b0a062007445f67fafb5a92e14d77cfdcebe247fef29dd1ab288"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8696-5e8d7b73-1600.webp",
+        "bytes": 194970,
+        "digest": "724e74beea49e08c1d18f115bdcab6069f2d3e46635ca50186cc555a739ff4ae"
+      }
+    ]
+  },
+  {
+    "id": "dscf8736",
+    "source": "China/zhangjiajie/DSCF8736.JPG",
+    "sourceDigest": "891a00ae50c093d6e13d320329e58a816572e2d7bc8db8418888b834aaf994c6",
+    "sourceBytes": 15670322,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8736-69be4e52-480.webp",
+        "bytes": 18406,
+        "digest": "74de07708e1cf988a91d999ee71e0a6cfca7087bc9d72d7501a8d7283a00a2b3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8736-69be4e52-960.webp",
+        "bytes": 55924,
+        "digest": "02439ac3d222c9e2ea9d09cb58e751e09fd8c6d10bf0595cb8ecdb4108a56cfa"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8736-69be4e52-1600.webp",
+        "bytes": 128902,
+        "digest": "b3c515270d23d1df15812ac1e81e2af778afc62996a44bd5d7e0df10019259dd"
+      }
+    ]
+  },
+  {
+    "id": "dscf8778",
+    "source": "China/zhangjiajie/DSCF8778.JPG",
+    "sourceDigest": "dc3506d8394d6a104bf02b7024403d246b193682a7f5a260eb285a66574eba86",
+    "sourceBytes": 15800690,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8778-f54ff5f4-480.webp",
+        "bytes": 19498,
+        "digest": "b595b7baf446ff0cbc8936f620545865c8aec66e6c35138d1e88e78dd6613b8e"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8778-f54ff5f4-960.webp",
+        "bytes": 60242,
+        "digest": "0791b2393a9faa0651d10096d33f239d00d3e92f839a015b88934eae20520c99"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8778-f54ff5f4-1600.webp",
+        "bytes": 125108,
+        "digest": "a3c4a665ca9bdad2906845ad5d113b040abb809e5d614e9e35ac556595b706b8"
+      }
+    ]
+  },
+  {
+    "id": "dscf8779",
+    "source": "China/zhangjiajie/DSCF8779.JPG",
+    "sourceDigest": "24210b0ee35c06c8c943f37538da4f650f7118869200b90131af407db3fdc01f",
+    "sourceBytes": 15276229,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8779-2fd9291b-480.webp",
+        "bytes": 14490,
+        "digest": "5c73553e0fdf154ad51f23619a797d77f3c7a1f0b19b1c566e7f47e873b86ca6"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8779-2fd9291b-960.webp",
+        "bytes": 42590,
+        "digest": "b7e562d941f733741ae885cee100661043da8d81316641968dc3da598674990e"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8779-2fd9291b-1600.webp",
+        "bytes": 98378,
+        "digest": "9058928a0a8d20230e4da2309f76a908006c700264ae774ba834ba2229ebc3f0"
+      }
+    ]
+  },
+  {
+    "id": "dscf8861",
+    "source": "China/zhangjiajie/DSCF8861.JPG",
+    "sourceDigest": "8cd344a29ebb943746817069e4068f81c9a816aad930b2a2fbc9091f532a0f37",
+    "sourceBytes": 17516666,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8861-4836675e-480.webp",
+        "bytes": 62188,
+        "digest": "9963f97b06efc771e70181363511512928045a436212d8a142fb0330551bbf83"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8861-4836675e-960.webp",
+        "bytes": 215914,
+        "digest": "3ee58a6ac4521fb90e9f4ad3ea0c6cbc34681189556f10763ba5a153c5645f20"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8861-4836675e-1600.webp",
+        "bytes": 560380,
+        "digest": "02f85de5ccd87b574b10f712ae7e816692b37810080c61e282aca2bc9522ceff"
+      }
+    ]
+  },
+  {
+    "id": "dscf8865",
+    "source": "China/zhangjiajie/DSCF8865.JPG",
+    "sourceDigest": "486eef24867dea324a9606e6a9f395e0ad2f6483429c0d64e2c6223c6d8b6019",
+    "sourceBytes": 17345930,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8865-1964ad4e-480.webp",
+        "bytes": 64700,
+        "digest": "8ae6cec2d11a34078ed296f803632404547997f2eb747406637f5f99b5e8754d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8865-1964ad4e-960.webp",
+        "bytes": 221364,
+        "digest": "26d5600d49c582165d38da7f63440611140cbde2c3f0b4e6223536ca5dcdba4a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8865-1964ad4e-1600.webp",
+        "bytes": 564388,
+        "digest": "461471fb7259496f7de623e4a073fb345c7e0daeebd48dc0e2c2aca0f19823de"
+      }
+    ]
+  },
+  {
+    "id": "dscf8867",
+    "source": "China/zhangjiajie/DSCF8867.JPG",
+    "sourceDigest": "04ab203ca5fb4e8b6eee992dc0abb479443be29e25173df56744c77799cead16",
+    "sourceBytes": 17511038,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8867-19c4e37d-480.webp",
+        "bytes": 63156,
+        "digest": "6fe6b678ef060822cb255e171f29ca99a55d967fdbcc703981067e79433508d3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8867-19c4e37d-960.webp",
+        "bytes": 222474,
+        "digest": "df5a01cf12fe1688124af7f29ed46970ce33f868166e33cdafec3d84f5dff150"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8867-19c4e37d-1600.webp",
+        "bytes": 586126,
+        "digest": "06bd19cf11752b3be249aed9be5abed8a2c171b569d9e22482d2d12887904591"
+      }
+    ]
+  },
+  {
+    "id": "dscf8932",
+    "source": "China/zhangjiajie/DSCF8932.JPG",
+    "sourceDigest": "31676504ea6bc037d5254be770289523548ff55473e94dc8ed18f519183e8cee",
+    "sourceBytes": 16768609,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8932-fab1ef83-480.webp",
+        "bytes": 36490,
+        "digest": "94b488893a186a5466e3aac0d1e9252af0307399651bb5f26619fbe5eeabbac4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8932-fab1ef83-960.webp",
+        "bytes": 139462,
+        "digest": "7527dec97b44112726d334e8dd8a75bad4e9c48c9ae6799600ba1da2427b370c"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8932-fab1ef83-1600.webp",
+        "bytes": 348836,
+        "digest": "74169eaaccff005a283fd4646e3cb9097fa2edc80e266c879d5cb891e26be641"
+      }
+    ]
+  },
+  {
+    "id": "dscf8988",
+    "source": "China/zhangjiajie/DSCF8988.JPG",
+    "sourceDigest": "c91743f87f432dac7bd34444c43a156c3805e90e75f93c9c68b3677162c48a02",
+    "sourceBytes": 17154684,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8988-f41c12f1-480.webp",
+        "bytes": 69198,
+        "digest": "27ee35b45ba7f37f76d1f9852ee149bb63d09afb169af2d2784352089a53e88f"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8988-f41c12f1-960.webp",
+        "bytes": 268914,
+        "digest": "48583313a64ffc8727ee17d0772e09616da3f5e415698f23ad76b6364603537a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8988-f41c12f1-1600.webp",
+        "bytes": 659174,
+        "digest": "f739abf4c85b35d449a362e717e2af0846deef0da2d11e77708dcb18ad4e5427"
+      }
+    ]
+  },
+  {
+    "id": "dscf8993",
+    "source": "China/zhangjiajie/DSCF8993.JPG",
+    "sourceDigest": "25f74284e2252a18f87420bea7a9782b9581612b78de1a8a60ed7dbb8b688d56",
+    "sourceBytes": 17177140,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf8993-f4e966b1-480.webp",
+        "bytes": 54778,
+        "digest": "607eaafb05095a943f9de965eadccf58ef08c39b092fc184e3266cb60d988124"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf8993-f4e966b1-960.webp",
+        "bytes": 221534,
+        "digest": "9b4b248835494ff107b74bb7779edfb60470ba3a320817e7360e84c90c2da0a2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf8993-f4e966b1-1600.webp",
+        "bytes": 577150,
+        "digest": "44f889f94eafa56a3f8c1a1df2c74942085d5e03f208711f5fea46d1be048daa"
+      }
+    ]
+  },
+  {
+    "id": "dscf9033",
+    "source": "China/zhangjiajie/DSCF9033.JPG",
+    "sourceDigest": "07a13d0d93e0ce7abdd0c025a872344bdd742df7b96b19644a66b41615d7b493",
+    "sourceBytes": 15848455,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9033-ae049d0f-480.webp",
+        "bytes": 26388,
+        "digest": "490d317f1f09fe614ba33af8b4665fe199edd892b2c68e8caf0f43d4995b2e88"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9033-ae049d0f-960.webp",
+        "bytes": 84656,
+        "digest": "a275d076ff3f01e2441b75be9ebf191848c7f5ae35238fa8fcaca4dcc2800a3b"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9033-ae049d0f-1600.webp",
+        "bytes": 190194,
+        "digest": "13b3e28388a6add0aa729c914e10b507f849dcc7b7f34254b0535c725d9a4d6f"
+      }
+    ]
+  },
+  {
+    "id": "dscf9034",
+    "source": "China/zhangjiajie/DSCF9034.JPG",
+    "sourceDigest": "8fb2e6eb17454b14adb19792a8fdd1a2ce602499bcabba7fb8caa18bd28aa43e",
+    "sourceBytes": 16021954,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9034-168dc99a-480.webp",
+        "bytes": 33204,
+        "digest": "4209a56460c97826b811a6fae2d34d3f8e47668792c44360ec22aca054a175ed"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9034-168dc99a-960.webp",
+        "bytes": 107494,
+        "digest": "6852370d5eee17ff497a8c26fb1343cb9c76ce4eb2d624e2f81ff4e90c22c07b"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9034-168dc99a-1600.webp",
+        "bytes": 238934,
+        "digest": "9175c31966e9636c21f6b0237350760804a43527c1979e44dce723c0f13918c2"
+      }
+    ]
+  },
+  {
+    "id": "dscf9041",
+    "source": "China/zhangjiajie/DSCF9041.JPG",
+    "sourceDigest": "5e5f2f4793e2063b75193f8322c6f13a7f3b0ff690ac65f0970a51238fce809c",
+    "sourceBytes": 17196456,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9041-c98dadab-480.webp",
+        "bytes": 96328,
+        "digest": "47527fa0b923f02d14a7a22203b6eff2a47c812f2989cf7c359cf7e8a737f49f"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9041-c98dadab-960.webp",
+        "bytes": 358422,
+        "digest": "08782df52e449e7697eb92ca6b8f3aa818c7cbe334191b2746a6abb2ca51396d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9041-c98dadab-1600.webp",
+        "bytes": 847590,
+        "digest": "ac3f6a988f0e371f41e14ab5f28a616159a42917a6116fe6d8c7843537809fef"
+      }
+    ]
+  },
+  {
+    "id": "dscf9051",
+    "source": "China/zhangjiajie/DSCF9051.JPG",
+    "sourceDigest": "1c295e3ac39a95fd053fe88bc9212268cdfa00aa3f117d4744539a61fd3c58c4",
+    "sourceBytes": 17104017,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9051-96c001c9-480.webp",
+        "bytes": 68962,
+        "digest": "5a1dcfa048b7f67647316d2ca9f2fa32c28229ed62a9c06d0e2f91d06073568c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9051-96c001c9-960.webp",
+        "bytes": 227698,
+        "digest": "9699abc628f8d8a2e8d38ab0d8e66abfb04688e3d7afa4e4ff8c802b1428ef35"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9051-96c001c9-1600.webp",
+        "bytes": 521948,
+        "digest": "58157f6cf1cf41358c7074dc195dd81bb5dcebd79e5dbc5455d6744b090b8c1c"
+      }
+    ]
+  },
+  {
+    "id": "dscf9052",
+    "source": "China/zhangjiajie/DSCF9052.JPG",
+    "sourceDigest": "58f8f8695a1a988f027ccbd24a8ce7259de8fa3060b08811e61573c06c42350d",
+    "sourceBytes": 17109375,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9052-76bb0f87-480.webp",
+        "bytes": 66444,
+        "digest": "aa383e43c867dfe8b76487ab6141eddb75b9f0d27315e89686b14bf65976e23a"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9052-76bb0f87-960.webp",
+        "bytes": 233930,
+        "digest": "fc04bd121d09996f573d812e0fdd7e19c670b8724090410a3b0fc877709eda94"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9052-76bb0f87-1600.webp",
+        "bytes": 525212,
+        "digest": "cdd607952c9c90005566900a9eeb2c4871428bc12598d1c9675c3b310ed5ded5"
+      }
+    ]
+  },
+  {
+    "id": "dscf9053",
+    "source": "China/zhangjiajie/DSCF9053.JPG",
+    "sourceDigest": "cad7f96f29b81d63b40941474fe376052e6a090fde825a1390eb1a3e82559eec",
+    "sourceBytes": 16885509,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9053-9ad086b4-480.webp",
+        "bytes": 65348,
+        "digest": "341047264389e6a034397f5f66050234ea5904e48ca70ad42011055d76a7ec3c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9053-9ad086b4-960.webp",
+        "bytes": 225036,
+        "digest": "6b313033b32f115cc18f451b3a710d093d78398480a2a5b319ab73f152f61690"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9053-9ad086b4-1600.webp",
+        "bytes": 504016,
+        "digest": "e222183c0d5b610c3883c4f126f4b62f3af5b6d833864763a3f16e47071a3ced"
+      }
+    ]
+  },
+  {
+    "id": "dscf9065",
+    "source": "China/zhangjiajie/DSCF9065.JPG",
+    "sourceDigest": "8bd49417f1816a1daca56ccbeda53dfe93203fac94af802f2d3b867bc94ffe1d",
+    "sourceBytes": 16565262,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9065-73965470-480.webp",
+        "bytes": 38904,
+        "digest": "187178fec36504a3135d4204584c0694e465dfc6c2c8011a655e174a4af6b83d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9065-73965470-960.webp",
+        "bytes": 123118,
+        "digest": "b60ff3b9256dc340c7847b682f5e1df9771a14e16ecaa89eb9fedf1332e274b9"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9065-73965470-1600.webp",
+        "bytes": 279696,
+        "digest": "8e6f4545901f979b25dce56a6247d2b5a15315a8e9a61ada1aee58beec721c70"
+      }
+    ]
+  },
+  {
+    "id": "dscf9077",
+    "source": "China/zhangjiajie/DSCF9077.JPG",
+    "sourceDigest": "93a0ccf268115189eee10f761a44f351d1648210ff19b82ff865ce1a05f73144",
+    "sourceBytes": 15913699,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9077-81b42b0d-480.webp",
+        "bytes": 23852,
+        "digest": "75d1967e61a56359e4a45a5c38193903cd3f0144f45b05c9c5775e4040cba53c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9077-81b42b0d-960.webp",
+        "bytes": 83696,
+        "digest": "15eea99d777d52c7f188fb7208dca07c332dfcdf02eeefc6a2f2687d6ea6af80"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9077-81b42b0d-1600.webp",
+        "bytes": 196114,
+        "digest": "993f20c62ee878c6e110ff85423e9edd08dcd2c984127d5ce80c55e4e8f9f9f4"
+      }
+    ]
+  },
+  {
+    "id": "dscf9099",
+    "source": "China/zhangjiajie/DSCF9099.JPG",
+    "sourceDigest": "a0d376f27160c57fb97d54eae0936fdc943e6c144a7e5cf2c513d8ed8bd911cb",
+    "sourceBytes": 15655492,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9099-204c6c24-480.webp",
+        "bytes": 24176,
+        "digest": "6c4bda5d834642addc092c9849d54f629082d51f2cf431226f33855d741cd047"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9099-204c6c24-960.webp",
+        "bytes": 66798,
+        "digest": "8bcbecb424225a4ad128687806cc2a3499bad25dd6270aed80007148985b8fe9"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9099-204c6c24-1600.webp",
+        "bytes": 144680,
+        "digest": "5cc2bae73692a3244eae31b7bf06065025c09a683bfd2d26fb24e6786905b5a4"
+      }
+    ]
+  },
+  {
+    "id": "dscf9141",
+    "source": "China/zhangjiajie/DSCF9141.JPG",
+    "sourceDigest": "30cb8a138a70bc225d33fd7583a95b5685bb9db98d055cd7ae5fc32e254a8794",
+    "sourceBytes": 15696518,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/china/dscf9141-b3ff6e04-480.webp",
+        "bytes": 17482,
+        "digest": "2c514012b611f1be7b1d6d78fab792c87bec46b0e6e2d82896a95c2914598323"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/china/dscf9141-b3ff6e04-960.webp",
+        "bytes": 67626,
+        "digest": "2b555dbf0c1d71b686cbe51ecf6ac9f2e9ddf724c60e2037765fd1033c3d3278"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/china/dscf9141-b3ff6e04-1600.webp",
+        "bytes": 171854,
+        "digest": "0fba87d8519cbd014646589928ffd080d3c17f49f31cb18def25e613ef53d013"
+      }
+    ]
+  },
+  {
+    "id": "dscf6881",
+    "source": "Hong-Kong/hong-kong/DSCF6881.JPG",
+    "sourceDigest": "63f608781ae4d26039da82ebe18105a4c3f9ffe0eb61efc8116d5fc38e1205e7",
+    "sourceBytes": 17227960,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf6881-83ce1d66-480.webp",
+        "bytes": 20084,
+        "digest": "ba8f486321b9f843da1a46a287d66141c813f2866c755e91cfe8856582d82b76"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf6881-83ce1d66-960.webp",
+        "bytes": 78512,
+        "digest": "7a55c5975286bad3f6f309b86af49b1d37f41a50705f5acd56e416b9e7de222b"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf6881-83ce1d66-1600.webp",
+        "bytes": 241974,
+        "digest": "a37baf6ae712c670cf87a86059a457bedf62a5aa490ee20e60eba7cf0da5b139"
+      }
+    ]
+  },
+  {
+    "id": "dscf6967",
+    "source": "Hong-Kong/hong-kong/DSCF6967.JPG",
+    "sourceDigest": "237e136ad5523de96d62dfe1b89477097fbb544ed93a3e560568426f9e6e4c2e",
+    "sourceBytes": 17350273,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf6967-20438a85-480.webp",
+        "bytes": 60820,
+        "digest": "4701013056bd789092d463ee502eee3aab6387d4b55ff13201fe557e34b2ef61"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf6967-20438a85-960.webp",
+        "bytes": 193786,
+        "digest": "12857e3058733d94d1d0744b4fdf7d09c9d0f7357a7456acd2b45aff5921268c"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf6967-20438a85-1600.webp",
+        "bytes": 421850,
+        "digest": "2510640270c5b0d3588a78725b1268451312d5568b48d9a28b2e6c107e2f3ed6"
+      }
+    ]
+  },
+  {
+    "id": "dscf7009",
+    "source": "Hong-Kong/hong-kong/DSCF7009.JPG",
+    "sourceDigest": "2bface48878f5c82a9e55f26a3f9e0d1c8a0265e60cbfc18e5e2f7a5777c7cb1",
+    "sourceBytes": 16718929,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7009-13fe7a73-480.webp",
+        "bytes": 47910,
+        "digest": "da734d7f1dc7444702fc72d1b8df10df39f8b865ba3aa1c99e3e70f813c408f8"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7009-13fe7a73-960.webp",
+        "bytes": 115128,
+        "digest": "31b7f0817290fd5b70ed43c41c0d5a5ef0e86171686b0dfe8154216ea8375713"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7009-13fe7a73-1600.webp",
+        "bytes": 247780,
+        "digest": "55b49acecdc22d1c8138e42d00c93f5e40d9cde5aeb58ab66f29cfbf919ef004"
+      }
+    ]
+  },
+  {
+    "id": "dscf7127",
+    "source": "Hong-Kong/hong-kong/DSCF7127.JPG",
+    "sourceDigest": "fb2b6e93be8d2d2d888090a14e367f3b6a18fcabb27bcbc3d125ac3268cde759",
+    "sourceBytes": 17137330,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7127-8ea90044-480.webp",
+        "bytes": 58876,
+        "digest": "e8cc33b69f6185f9213683b22b6763e2879f3cc2b8ae638ed317aaf4f1cee81a"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7127-8ea90044-960.webp",
+        "bytes": 194300,
+        "digest": "63de5b6137004c1ca789791106e1529483e68659c9cd0d37fc9f7f3c5fba5432"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7127-8ea90044-1600.webp",
+        "bytes": 457382,
+        "digest": "2564f0ee6858b5b1dd24d9674409d72e705d4766f350a8097835e173621f1841"
+      }
+    ]
+  },
+  {
+    "id": "dscf7156",
+    "source": "Hong-Kong/hong-kong/DSCF7156.JPG",
+    "sourceDigest": "92027ab88b08e6e84233e1227a3ef29096f26d3620fa0b006fba5c7b65831fe3",
+    "sourceBytes": 17616853,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7156-e12e3730-480.webp",
+        "bytes": 38188,
+        "digest": "6f9c3a139bc7b101a9e1770a9f4819ca120026bebaefe93be9acd5e36d247839"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7156-e12e3730-960.webp",
+        "bytes": 149234,
+        "digest": "879f24e12773422574d4e16a8074fdc1c44649f48d34c5775e6f2f1b96b6b927"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7156-e12e3730-1600.webp",
+        "bytes": 388362,
+        "digest": "e84ea21fa0a68f3aeb7e75c4d9ebce42e6a1cc317a0d117be12c32455d423b0c"
+      }
+    ]
+  },
+  {
+    "id": "dscf7163",
+    "source": "Hong-Kong/hong-kong/DSCF7163.JPG",
+    "sourceDigest": "128b411fe1a4a9101d628acd621adfcfc8a34810ccd4a79c1352117e270e2681",
+    "sourceBytes": 16217915,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7163-fbd05ecc-480.webp",
+        "bytes": 10822,
+        "digest": "a43614d573146d61ee3cbf838911c25c8dc05f93bed130a1e975fdd5cf8c6e07"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7163-fbd05ecc-960.webp",
+        "bytes": 39604,
+        "digest": "be84fa3247cb2fad46fcbe04edc32c3f2fa1567210a099be69efa8e2ef474830"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7163-fbd05ecc-1600.webp",
+        "bytes": 104164,
+        "digest": "1e8f779eca119751fac86ce6fa4107a19f67f373aaca0dcb1768d615d9b41d38"
+      }
+    ]
+  },
+  {
+    "id": "dscf7196",
+    "source": "Hong-Kong/hong-kong/DSCF7196.JPG",
+    "sourceDigest": "8a208f94d9a83b432df2dd9c122f01bfdcc7bdd37fe6900aa49826f58c9eff5c",
+    "sourceBytes": 16768271,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7196-1f8b5199-480.webp",
+        "bytes": 42394,
+        "digest": "2f51b767ca17f4ceabc727bb6714c42426d4ca9b4fe0da26d614b480f6efc092"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7196-1f8b5199-960.webp",
+        "bytes": 146060,
+        "digest": "296f2cd2f876deed492f5d446ec1db367d568f1e712194315dc2dcf908cadd98"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7196-1f8b5199-1600.webp",
+        "bytes": 425294,
+        "digest": "e0fc5ed033af3f68565ca44018aa788b083b79a240b2f86d0453b663c62e372b"
+      }
+    ]
+  },
+  {
+    "id": "dscf7219",
+    "source": "Hong-Kong/hong-kong/DSCF7219.JPG",
+    "sourceDigest": "86a9eaceba7e947cf250d5ae51a850a55e55b7a56e52dc0e91529e38ed47532d",
+    "sourceBytes": 17275231,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7219-b061beae-480.webp",
+        "bytes": 85258,
+        "digest": "cff58124e9dd6d2139a704a533be12b53832b887408a13ea1aa17015343e3a96"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7219-b061beae-960.webp",
+        "bytes": 296168,
+        "digest": "ffa8a14763596c421ec3f48443d139cf28772dcf6f4cc14e06c71b0cdee7a6cf"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7219-b061beae-1600.webp",
+        "bytes": 714902,
+        "digest": "18f5f7a234707f2534e3164d0f8f7f139a01a8a1eb08950e08b9aa5dc54faaa6"
+      }
+    ]
+  },
+  {
+    "id": "dscf7320",
+    "source": "Hong-Kong/hong-kong/DSCF7320.JPG",
+    "sourceDigest": "f3acb917d9c7b82ed770678d313f2308470b04388dfc6d1ec0b670353a02568d",
+    "sourceBytes": 14468990,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7320-16f55023-480.webp",
+        "bytes": 44098,
+        "digest": "f5f3af0b861e72ec0259c226d416560d00faf56a741f394f1b48dbf6879bfefa"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7320-16f55023-960.webp",
+        "bytes": 117700,
+        "digest": "1e4cf787b034f3f335902cfb0cf605bbdbe080da8c847cc3dae04befbb1ca818"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7320-16f55023-1600.webp",
+        "bytes": 220300,
+        "digest": "2d99077f7dae2faeac3400142848ce4f47adc6aa2921266998dcff6ba3fe765e"
+      }
+    ]
+  },
+  {
+    "id": "dscf7345",
+    "source": "Hong-Kong/hong-kong/DSCF7345.JPG",
+    "sourceDigest": "3ee53699fe8fee60450fe955f9b4c2cd67c774dae67c6fec5c9770eb114e04bc",
+    "sourceBytes": 16533857,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7345-ccae3d53-480.webp",
+        "bytes": 49348,
+        "digest": "469941ac2e03d1cc12935882a881b77305f1655d155436b03d70d8e4dd279208"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7345-ccae3d53-960.webp",
+        "bytes": 157010,
+        "digest": "4633a0ab2eacf8edb086ed227bceca1b71a6b64b9d4f23eff3864bff72eec1d6"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7345-ccae3d53-1600.webp",
+        "bytes": 395766,
+        "digest": "98ab84b7b49d6108c46c65e5ecd8ea117a783f8a050c79e679ef272b7dba60d2"
+      }
+    ]
+  },
+  {
+    "id": "dscf7372",
+    "source": "Hong-Kong/hong-kong/DSCF7372.JPG",
+    "sourceDigest": "d8833e6c88c10a4850f2479dc127a5bd3cbba6788a53d8d61ff7dff221e671cd",
+    "sourceBytes": 15977905,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7372-cc968a2a-480.webp",
+        "bytes": 46514,
+        "digest": "18f179f1878d56750a61f4c2d02fb49c6924d810eb19926981f131ca696fc196"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7372-cc968a2a-960.webp",
+        "bytes": 143626,
+        "digest": "06c2aa3021df08fc96db72922d8c5478fcb8fea07a057e7c3de15fb9bc6b6f65"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7372-cc968a2a-1600.webp",
+        "bytes": 331962,
+        "digest": "9f3a7dad5430eb2cff4cbeeb2c934e3f3f9fd51949769712d2ab5a4be38dd6ad"
+      }
+    ]
+  },
+  {
+    "id": "dscf7405",
+    "source": "Hong-Kong/hong-kong/DSCF7405.JPG",
+    "sourceDigest": "4ae0d671a5f965d99aa17da830a7677e76fb215eed71fbf17e5dfaeb7b84cce7",
+    "sourceBytes": 17607232,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7405-82f74594-480.webp",
+        "bytes": 63778,
+        "digest": "f46ae815bed5d47342224e89d82aa445beb57e53cf2841e29d0a359c8a6c7f1c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7405-82f74594-960.webp",
+        "bytes": 236316,
+        "digest": "85960968bab9e29c7a0f9058a542ea7da22783febbaf27c983b1506d86e17e0d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7405-82f74594-1600.webp",
+        "bytes": 568082,
+        "digest": "6d30adb4005955b43f93ebe8a7baa1377cee36c10e9dbbd9d70cd6883c39af4e"
+      }
+    ]
+  },
+  {
+    "id": "dscf7545",
+    "source": "Hong-Kong/hong-kong/DSCF7545.JPG",
+    "sourceDigest": "55a4706685e3f2b40b7e5ce86bb7f0fbdfec800b32efab3c11b8b296524a346f",
+    "sourceBytes": 14070351,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7545-6505f4f4-480.webp",
+        "bytes": 12980,
+        "digest": "236ec926717b6f6f5eb9682c5033828a8caff0f2e2291693a45a1e42e57ce061"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7545-6505f4f4-960.webp",
+        "bytes": 41934,
+        "digest": "be0000a0e4b3c00522a10f4221abb0c2d88950369244e4130bdae7358f203e00"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7545-6505f4f4-1600.webp",
+        "bytes": 94122,
+        "digest": "b584b1aeae6c7c296b3ae0d8db1659d28b8712835bdca9b3078cdb988cf6445e"
+      }
+    ]
+  },
+  {
+    "id": "dscf7547",
+    "source": "Hong-Kong/hong-kong/DSCF7547.JPG",
+    "sourceDigest": "91782f726c84150137605b907d59c08d9e145440167c71ccd926f1ac9f5eb7c6",
+    "sourceBytes": 14063898,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7547-056eb971-480.webp",
+        "bytes": 13796,
+        "digest": "f34de20ecf6bacbb0d4b566bdaca3e2d1f18f5e406afb931f117096ea2fa61ee"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7547-056eb971-960.webp",
+        "bytes": 43958,
+        "digest": "8f8faf2e9c539233e07674c482873823b86b15cac16e68fa57b721340141eb07"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7547-056eb971-1600.webp",
+        "bytes": 96756,
+        "digest": "e017518799234fb76ca94b99483e776b080d4b56e61971c20f37237d17c27288"
+      }
+    ]
+  },
+  {
+    "id": "dscf7563",
+    "source": "Hong-Kong/hong-kong/DSCF7563.JPG",
+    "sourceDigest": "24a8afd728d5d26bfbf13e5b6fe78751fad2531069e8746f0e75f50756e11f02",
+    "sourceBytes": 14400018,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7563-61c4fd80-480.webp",
+        "bytes": 22982,
+        "digest": "ac4a39b5555b6188065e93dc20ac266c3b05700f2639a7537fcb782d6f116bca"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7563-61c4fd80-960.webp",
+        "bytes": 83276,
+        "digest": "a2cf4e4e458f2b9cadc9dd798fdcea35122e8f1e8010dc847a328faf4c8e36e9"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7563-61c4fd80-1600.webp",
+        "bytes": 204110,
+        "digest": "f462c964b64c6dd5aed5e826af5f3b131301fd1b4c07c13a7a3f07e7e18e76e2"
+      }
+    ]
+  },
+  {
+    "id": "dscf7620",
+    "source": "Hong-Kong/hong-kong/DSCF7620.JPG",
+    "sourceDigest": "ea72c1076f75943ddc691e376e31223b93b79f40ecac235f6af86bd86577cfdb",
+    "sourceBytes": 17041890,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7620-5878d815-480.webp",
+        "bytes": 54342,
+        "digest": "094e92b7e7bda62d6bb5bfbebdbebba8b1bcf30e6fb0a2436726955cac6e4ca6"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7620-5878d815-960.webp",
+        "bytes": 174236,
+        "digest": "78ebc6de27d499579b76ea046c9ec7c0597e81b14fd54a4371245061976d848a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7620-5878d815-1600.webp",
+        "bytes": 417012,
+        "digest": "80fc2d2236d36c10ddffa7d388e533384b6916bb196a3833d0a367ea998a1d23"
+      }
+    ]
+  },
+  {
+    "id": "dscf7624",
+    "source": "Hong-Kong/hong-kong/DSCF7624.JPG",
+    "sourceDigest": "51738370e3be9c069e13557dfb1b5c4b397c997f1035e872b9c9e08d8111343e",
+    "sourceBytes": 17088666,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7624-f8070f0c-480.webp",
+        "bytes": 59200,
+        "digest": "b835005f25433a9ad6d45473999f4979268a4e88b9f61c8d3bb54aa2edaba084"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7624-f8070f0c-960.webp",
+        "bytes": 190884,
+        "digest": "1fbcf14f43082ae581960a7b68ee1872100f7feb3f276d5b74dfb3d74496d55b"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7624-f8070f0c-1600.webp",
+        "bytes": 451522,
+        "digest": "a262561c3ece4c392d3d350d9c9e1b7ef957c55a5591ed548ec5cbd95cc01682"
+      }
+    ]
+  },
+  {
+    "id": "dscf7661",
+    "source": "Hong-Kong/hong-kong/DSCF7661.JPG",
+    "sourceDigest": "300bcf7a459b6c683a6a7e4a602ef6c1a37f534659efa7646395dbbe75dd0579",
+    "sourceBytes": 16729725,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7661-2c5e5da1-480.webp",
+        "bytes": 38744,
+        "digest": "20782d4768e8a3639ab0e417d1340b40a41386fc9bcd59204327add34c5c0dbe"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7661-2c5e5da1-960.webp",
+        "bytes": 118594,
+        "digest": "8948f27de0758bfb9967b6e56f261ccf06639cf3b57d5a1a897cded4c5656a8d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7661-2c5e5da1-1600.webp",
+        "bytes": 309394,
+        "digest": "0bdda2d49608324787146b3e2a6c0b29dd829b0e174b58a9157d0a9625d5df05"
+      }
+    ]
+  },
+  {
+    "id": "dscf7678",
+    "source": "Hong-Kong/hong-kong/DSCF7678.JPG",
+    "sourceDigest": "720463104780625a141d1f1a44254faa43be315051be4254a5d8ba210276a57b",
+    "sourceBytes": 16815862,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7678-d7031466-480.webp",
+        "bytes": 35132,
+        "digest": "eec12eba82dcbfdd34008a196c14ab40be790c5427955bd55e2c2e6100545afb"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7678-d7031466-960.webp",
+        "bytes": 103210,
+        "digest": "9f562bad83b30fec3ba1f2c4823c220297de18a862cf2ec6d733770f5c0cfcf6"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7678-d7031466-1600.webp",
+        "bytes": 242368,
+        "digest": "9a3f76227a7acde56621966ed98718353448fc278b99bd5893a2ceaeb20b0648"
+      }
+    ]
+  },
+  {
+    "id": "dscf7706",
+    "source": "Hong-Kong/hong-kong/DSCF7706.JPEG",
+    "sourceDigest": "8c52b526cea694899dc2b6517254df50fd58c2d1c00fc455353a9ead65cff0f0",
+    "sourceBytes": 8359787,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/dscf7706-c326a96f-480.webp",
+        "bytes": 21044,
+        "digest": "9573f5505cd31a1c82375bdfec072d44f7fc62625ad8d1799bee342b03a0cf7d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/dscf7706-c326a96f-960.webp",
+        "bytes": 75758,
+        "digest": "09088464156b48aecea1f100bf0b8eca2e5dac3cfe9c68daa1fc0d1b4ea6026d"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/dscf7706-c326a96f-1600.webp",
+        "bytes": 222764,
+        "digest": "49a7d519f75f31a69a16c95b7e332e68417c6e64ff9a096c731e599fe504e0d7"
+      }
+    ]
+  },
+  {
+    "id": "img-2784",
+    "source": "Hong-Kong/hong-kong/IMG_2784.JPEG",
+    "sourceDigest": "d850c9e262e6c4597710f4859912f2967fe7ec3189cb59c93d9c60c8f954158c",
+    "sourceBytes": 1323322,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2784-1228c189-480.webp",
+        "bytes": 82332,
+        "digest": "966b0881436c0a1f8fdf9ea2bb8ff6ca50a0581c625a42ea6aee332fc9618aa4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2784-1228c189-960.webp",
+        "bytes": 272130,
+        "digest": "9e9ca27dd0069841be03e4cd32841b998f50681841b4892ec1a1dd03a9c52b8b"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-2784-1228c189-1536.webp",
+        "bytes": 491550,
+        "digest": "1cd29da8dd23dc83616b8f6a9698c46395a3ca127f97966c0c33afe9ff9c522e"
+      }
+    ]
+  },
+  {
+    "id": "img-2788",
+    "source": "Hong-Kong/hong-kong/IMG_2788.JPEG",
+    "sourceDigest": "74f014fe8a690eac192b2218fc46d97b93d5ced8b1e5ee31beb1f4e9a4540003",
+    "sourceBytes": 1052115,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2788-a947182b-480.webp",
+        "bytes": 63384,
+        "digest": "cd137e90057995bc5fec81e3d51b7e55086328e0d21a35af39d04123e7ecf5af"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2788-a947182b-960.webp",
+        "bytes": 187094,
+        "digest": "b0497c6c68d35c2cc6fece70d75c578e94038b50cc4dcb203a03175450309220"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-2788-a947182b-1536.webp",
+        "bytes": 326192,
+        "digest": "059e5c1c8e749395727471cc5c6fecd563671542812653504ed4e8ac70271747"
+      }
+    ]
+  },
+  {
+    "id": "img-2820",
+    "source": "Hong-Kong/hong-kong/IMG_2820.JPEG",
+    "sourceDigest": "1069732eb3d5810f2ea23423b92150e76ece43fbebb3d38157ec67e1b795ba84",
+    "sourceBytes": 1457688,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2820-f49feac8-480.webp",
+        "bytes": 85026,
+        "digest": "1782d8cc0f36c196d71e3c9087e4ab0d10e2e868e5a56f629a1ae6cdf73433af"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2820-f49feac8-960.webp",
+        "bytes": 295732,
+        "digest": "9f2107807a2bba997df49045ac0077ea40fee2060cce1ee877cab1712c7e2a00"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-2820-f49feac8-1536.webp",
+        "bytes": 587672,
+        "digest": "bfbec9ea456d301fb65e8d56d4ca3ed3c1841f52aca0e6aec7e84b67dfc06d3f"
+      }
+    ]
+  },
+  {
+    "id": "img-2869",
+    "source": "Hong-Kong/hong-kong/IMG_2869.JPEG",
+    "sourceDigest": "25cc93f26e284ac4f3b7fab4d3280f610391744a0abbd9f68d56da35129654ca",
+    "sourceBytes": 3547042,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2869-e1892999-480.webp",
+        "bytes": 122048,
+        "digest": "89196e2c4bbb37bb861c1bf75f5ede8b4727a07c40d7d9fa2b28ca52b990342c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2869-e1892999-960.webp",
+        "bytes": 449822,
+        "digest": "4b320c3ce34c77ab2061e35ae0e86291d72bd540a8fbcf61d20478a68b46838a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/img-2869-e1892999-1600.webp",
+        "bytes": 963674,
+        "digest": "f4136e046904b41b5c2d2f5f272c2888bcb660c25aedb452499ab6a6680d9d0e"
+      }
+    ]
+  },
+  {
+    "id": "img-2941",
+    "source": "Hong-Kong/hong-kong/IMG_2941.JPEG",
+    "sourceDigest": "49029360c9f671fefbacd9e2f4e2b37737fde4b21d0a1996e7bb674ba8fe9e8b",
+    "sourceBytes": 1261611,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2941-751a64c8-480.webp",
+        "bytes": 66814,
+        "digest": "f9f5d0282e3e81741f8048119524ecc51b5bf76ae27c7243e5fd590b1b041cff"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2941-751a64c8-960.webp",
+        "bytes": 240774,
+        "digest": "de83bfab2e77ac13ba85500850703c089fb3a327e257dbb1d35b49872ad3a73e"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-2941-751a64c8-1536.webp",
+        "bytes": 471750,
+        "digest": "ac3e988cae4e961e057049721a0427b9711246cbb3e5c0aa1acae88a3816e6b7"
+      }
+    ]
+  },
+  {
+    "id": "img-2968",
+    "source": "Hong-Kong/hong-kong/IMG_2968.JPEG",
+    "sourceDigest": "5f4857da217744aafa9c1083711c66af72072a2043bb9c630b913b9346515913",
+    "sourceBytes": 1412591,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-2968-394ae8e2-480.webp",
+        "bytes": 77616,
+        "digest": "d28326e7626d608862b45518798c9074c0dcc1f55ee3ad8d28e50c59b20c7098"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-2968-394ae8e2-960.webp",
+        "bytes": 284114,
+        "digest": "d5c38d56909b9d99ef0ade4fadb7dc7e4e098cb83db86b96d760e767d442b509"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-2968-394ae8e2-1536.webp",
+        "bytes": 543778,
+        "digest": "a54fc57751dc49c5c8ace7bc5bd243f8508e9b3138f022425f87fa2537ce4f81"
+      }
+    ]
+  },
+  {
+    "id": "img-3046",
+    "source": "Hong-Kong/hong-kong/IMG_3046.JPEG",
+    "sourceDigest": "116c84b6a0e27434c30ade95a3a3eaae3118fade979d3a0146ba2fdf2276ef43",
+    "sourceBytes": 3225234,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-3046-9ad1a5c1-480.webp",
+        "bytes": 12260,
+        "digest": "521c290d587b2b5daf037ee0c033141521afa31d959dc8d27747e592572f6431"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-3046-9ad1a5c1-960.webp",
+        "bytes": 36864,
+        "digest": "15ac8f5d23885e6bcc8c244ec4875658fde141c7e101855fb3b882e46f3eff3a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/hong-kong/img-3046-9ad1a5c1-1600.webp",
+        "bytes": 77848,
+        "digest": "827c78fcbcdb23064b5d6cec75be25d75a669f38bb9a255dbd587c3b755517e4"
+      }
+    ]
+  },
+  {
+    "id": "img-4124",
+    "source": "Hong-Kong/hong-kong/IMG_4124.JPEG",
+    "sourceDigest": "40cc74c413ed30dda94a25b75eed9e39e5ef921c1eca00681beeb498541796ed",
+    "sourceBytes": 1411950,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/hong-kong/img-4124-58a07f97-480.webp",
+        "bytes": 81428,
+        "digest": "272867fbfa11633842ac4564dcaabc46fd255f47fc6bcf83d9d000b07584c7c3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/hong-kong/img-4124-58a07f97-960.webp",
+        "bytes": 310272,
+        "digest": "1187283692780ecbef035e2554eb91d96bb18040e960821d91ec81fd0740b2bd"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/hong-kong/img-4124-58a07f97-1536.webp",
+        "bytes": 623558,
+        "digest": "f5ecb90ff28c598e4156463a8d2b97a57a6dd5fdb37f1e19dd357bf1b36b4760"
+      }
+    ]
+  },
+  {
+    "id": "img-1192",
+    "source": "Taiwan/taipei-north-coast/IMG_1192.JPEG",
+    "sourceDigest": "6567f83db1a7e51841a257a451fe02214141f9d2acc996c4e6101b46464e7ee4",
+    "sourceBytes": 558726,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-1192-480e4e06-480.webp",
+        "bytes": 23678,
+        "digest": "48daed270a891515474c3cd3d6ab24b7b75d1968dbdf106ae077c68a48ae97a4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-1192-480e4e06-960.webp",
+        "bytes": 83194,
+        "digest": "13889ed607f89d0d60e0053024aeabadbe6d1e13ff56463d287f5efd465639a6"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-1192-480e4e06-1536.webp",
+        "bytes": 156938,
+        "digest": "f994b2073e7d80e993a116896229abcb89b6d9c78ec0505b104f641976a91854"
+      }
+    ]
+  },
+  {
+    "id": "img-5077",
+    "source": "Taiwan/taipei-north-coast/IMG_5077.JPEG",
+    "sourceDigest": "b03c291725347c723feab98cd21f95110d6c51a6c60e10cce0c1e2375dfb8798",
+    "sourceBytes": 1195999,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5077-91155c14-480.webp",
+        "bytes": 37870,
+        "digest": "5eb15897f69f33718704ce262b7b78c6e44f4026a6e763d3d4886b7f87c617f2"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5077-91155c14-960.webp",
+        "bytes": 145536,
+        "digest": "a2fcde6a7df2e049ff6983a00163d4f2c10fa5d807495567b5e1abeb4848343a"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5077-91155c14-1536.webp",
+        "bytes": 314122,
+        "digest": "7df470f37b942779e86689b0b63bb7a0fe61a14316ddbb20c7389027cc504d3e"
+      }
+    ]
+  },
+  {
+    "id": "img-5151",
+    "source": "Taiwan/taipei-north-coast/IMG_5151.JPEG",
+    "sourceDigest": "d4b619febabd44fccfb1afe7577f11b2059e42f37478ad85eb527a15be43434a",
+    "sourceBytes": 1199726,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5151-6ca8e9e6-480.webp",
+        "bytes": 60152,
+        "digest": "ac9b458ff28403f5e7417100761501c0a73ae7f8dd24c796cc30c4a173fa8b1c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5151-6ca8e9e6-960.webp",
+        "bytes": 233218,
+        "digest": "4c7cfec071bb1f76fc3dad801ed13ab2ab0fa6270a45b6aaa1b3c87209a35e42"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5151-6ca8e9e6-1536.webp",
+        "bytes": 466140,
+        "digest": "4d20fb3b8d6263219e458b3084d2bb738f96edb7defe95dda1a5f3ddd8ece175"
+      }
+    ]
+  },
+  {
+    "id": "img-5165",
+    "source": "Taiwan/taipei-north-coast/IMG_5165.JPEG",
+    "sourceDigest": "162c36e88e92c50e6cfb64ac579da03b2867fa4c3d0852e5441cba379367bb88",
+    "sourceBytes": 976164,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5165-ddf247a3-480.webp",
+        "bytes": 35742,
+        "digest": "50643ca80c1566baf5730964a5e0cd800a9583dcb136195e4fdd2d3cac1a0a4b"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5165-ddf247a3-960.webp",
+        "bytes": 110800,
+        "digest": "24f4b39726ea32b0bb051632f52c4e15c55aa0bf0699884d667b14643830d6aa"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5165-ddf247a3-1536.webp",
+        "bytes": 204404,
+        "digest": "069193c171eba10be77506e9799abccec97a5dcc56d158e0c1622ac6e10a9ba3"
+      }
+    ]
+  },
+  {
+    "id": "img-5201",
+    "source": "Taiwan/taipei-north-coast/IMG_5201.JPEG",
+    "sourceDigest": "827ebecde9407ae1ee82c88a34e7ed8daf512ed007418eb19329a49f6f409a77",
+    "sourceBytes": 1541059,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5201-70981aee-480.webp",
+        "bytes": 84704,
+        "digest": "05300cde7796f01b36f86de1e5ebd9f8f5ac49940f19743257f1cf209b40e755"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5201-70981aee-960.webp",
+        "bytes": 337456,
+        "digest": "cb4d5feef49dd760fa4a685359cb82dd1255715fe1bc04b576f8204d2d854667"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5201-70981aee-1536.webp",
+        "bytes": 698582,
+        "digest": "c86faa0aa9c9672b85579d6b1dcdd29644208b55daf75d3c5e3454e081439fe2"
+      }
+    ]
+  },
+  {
+    "id": "img-5441",
+    "source": "Taiwan/taipei-north-coast/IMG_5441.JPEG",
+    "sourceDigest": "ba06216aada65d9da7d0822725f6dd6a77e528b22dc465c5af34057eeb4c564d",
+    "sourceBytes": 1613581,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5441-a8b2a640-480.webp",
+        "bytes": 86378,
+        "digest": "283fea761efaa782f05f7cc3431ac40731073e342ff592ae9c905d7931f1b795"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5441-a8b2a640-960.webp",
+        "bytes": 358342,
+        "digest": "165c090015864d78cadaa63fac2d50ebb368b6bc4315fb86da915dd50726e4d9"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5441-a8b2a640-1536.webp",
+        "bytes": 755418,
+        "digest": "726f51e917295a5ed162baeb085599edd37f303d8359f5a08a9d66c002e3af6a"
+      }
+    ]
+  },
+  {
+    "id": "img-5478",
+    "source": "Taiwan/taipei-north-coast/IMG_5478.JPEG",
+    "sourceDigest": "1b7725abaf3285031947262ce2f5bdbc24901f837dd5bea6fec4a748a5d0a40a",
+    "sourceBytes": 1110297,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5478-b783494d-480.webp",
+        "bytes": 34670,
+        "digest": "b2f0dc7dacf061a850f28d3cb400f437030d2de4bf8506f005fab5b2a79d997c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5478-b783494d-960.webp",
+        "bytes": 126032,
+        "digest": "8113a1cc59155137dbbc534d0111f2574653383d9bd7a49fa067b6f9097dd438"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/taiwan/img-5478-b783494d-1600.webp",
+        "bytes": 273206,
+        "digest": "bb621a70e2c3930705de526317c8f5c38af5e8230d60d682a060be164f684bcf"
+      }
+    ]
+  },
+  {
+    "id": "img-5495",
+    "source": "Taiwan/taipei-north-coast/IMG_5495.JPEG",
+    "sourceDigest": "239d1f015887f80c886dd37018a52e906a99fe7a98587bbbcb75c29477f30653",
+    "sourceBytes": 1164028,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5495-0bd9c622-480.webp",
+        "bytes": 55376,
+        "digest": "a5b5ff8db6ac3216943ac5c904bad352e6eded85d78776045c5e7d5e04416e7d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5495-0bd9c622-960.webp",
+        "bytes": 203870,
+        "digest": "95094721e1e9b842540e4b20fe44235c061ca0feeca07c7099adf672434bf8be"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5495-0bd9c622-1536.webp",
+        "bytes": 428326,
+        "digest": "8efe8e1c4ad596769d1cbcf7266509e70a78f3fe9bde7330c9d3c8a030b644bd"
+      }
+    ]
+  },
+  {
+    "id": "img-5508",
+    "source": "Taiwan/taipei-north-coast/IMG_5508.JPEG",
+    "sourceDigest": "6224e1cf82b60d4a92b6a41afee5e66c8c22d985f9ba2166a83945488d9991e2",
+    "sourceBytes": 1297807,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5508-f90c0480-480.webp",
+        "bytes": 67318,
+        "digest": "24f55d65792053343537591ee8d0d90aac410a43c46e5098c10389b53bb5dee3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5508-f90c0480-960.webp",
+        "bytes": 239206,
+        "digest": "bf6ed3b7c1d2bf334e99d283abb4259f339babaa878b12db48f8d287dc791244"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5508-f90c0480-1536.webp",
+        "bytes": 466086,
+        "digest": "4d4c62813e696ae4521d22aa6e7e0b5e83b677b43dc0352e705bb0d295d7a17d"
+      }
+    ]
+  },
+  {
+    "id": "img-5590",
+    "source": "Taiwan/taipei-north-coast/IMG_5590.JPEG",
+    "sourceDigest": "32bd5749a59d8ba37e5ad65cb37cc77db57ff5a2fcceab1d99d4a2fa40c4d4bf",
+    "sourceBytes": 410006,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5590-919ed6f2-480.webp",
+        "bytes": 4652,
+        "digest": "7559e817116c85d6c798ff28b42cedb6c672478f5f7d84bc558a48c3e4873ecd"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5590-919ed6f2-960.webp",
+        "bytes": 12582,
+        "digest": "a3255adbf77508e415a429633c42ff51de416672fb840802889c78c769e6edc0"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/taiwan/img-5590-919ed6f2-1600.webp",
+        "bytes": 24068,
+        "digest": "81c07219c392d5e60cd056c5c11236c57170319b31fe8742a112b2d1fda6addd"
+      }
+    ]
+  },
+  {
+    "id": "img-5607",
+    "source": "Taiwan/taipei-north-coast/IMG_5607.JPEG",
+    "sourceDigest": "b71eec85678848810083f72b236171aff79359c8d0272c64363283fe9ae1338c",
+    "sourceBytes": 262752,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5607-7c57065e-480.webp",
+        "bytes": 6214,
+        "digest": "902622a7ce45d117d82b6132e74119056d1483c21361dd363fbca1bbb752756d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5607-7c57065e-960.webp",
+        "bytes": 18246,
+        "digest": "44a28a35a43415978da20e277b5dbc265e97c1eb3c6f4371e3754e3452130a96"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5607-7c57065e-1536.webp",
+        "bytes": 36520,
+        "digest": "45499874ff616eeb57e1bf1713ef9d603a6698406f09615766bef1542b2118ac"
+      }
+    ]
+  },
+  {
+    "id": "img-5718",
+    "source": "Taiwan/taipei-north-coast/IMG_5718.JPEG",
+    "sourceDigest": "0eb568cae3820732a36e5ad2d1196e83aaa4eaf4ce2dfaf1a339ba9ea42b3aee",
+    "sourceBytes": 987789,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5718-0cb9de1a-480.webp",
+        "bytes": 40914,
+        "digest": "6c3bd46280aa6a23b643518ef7f9c766a0bb52ca7a36cce02f991cb0ee7a3ee2"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5718-0cb9de1a-960.webp",
+        "bytes": 124076,
+        "digest": "1b17dfa25205a3f8509d161839d39d1147f6ba646719a995c4de98e7484a4f13"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5718-0cb9de1a-1536.webp",
+        "bytes": 249244,
+        "digest": "63577af0dce31da03ee6a0b1e2191b985ccdf5ce197026be34324d3b5eddb9c9"
+      }
+    ]
+  },
+  {
+    "id": "img-5772",
+    "source": "Taiwan/taipei-north-coast/IMG_5772.JPEG",
+    "sourceDigest": "5bbabc1597ef0417f59331515d8a701143cf48fecec0ed63b1448ef31075501f",
+    "sourceBytes": 872092,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5772-7f0416aa-480.webp",
+        "bytes": 41436,
+        "digest": "3b6586a16e0aea2639d4fc48892e90dcf5192ddcbbfafa7010127df53a2f0766"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5772-7f0416aa-960.webp",
+        "bytes": 154434,
+        "digest": "fdf4286ee6c999e2b9b6ac3f529017cc16e4ecf97db942af0d96cf4d58e6c950"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5772-7f0416aa-1536.webp",
+        "bytes": 298224,
+        "digest": "59a6727f464578b7f335dc9ce35ecdccbeda5bffc0616a3bea61a584c26fe14f"
+      }
+    ]
+  },
+  {
+    "id": "img-5829",
+    "source": "Taiwan/taipei-north-coast/IMG_5829.JPEG",
+    "sourceDigest": "22f5f2ed957c8d34c92e950c81fe57ba13b1af09664bd65759d8be2257c91176",
+    "sourceBytes": 609219,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/taiwan/img-5829-02b39712-480.webp",
+        "bytes": 18570,
+        "digest": "87ab610a20843dbcf5b382b66f0e29f4240964339a2bec49b21e63f3c4efe25d"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/taiwan/img-5829-02b39712-960.webp",
+        "bytes": 83622,
+        "digest": "bfb4ce11fb76214137771131877bec9328df0163f7703adcc58c4dcb9fbaff6d"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/taiwan/img-5829-02b39712-1536.webp",
+        "bytes": 169270,
+        "digest": "cf5ac90022bbd4768b0209e654be56915b99ac1b31373d010e424a7c3a53ff93"
+      }
+    ]
+  },
+  {
+    "id": "img-6028",
+    "source": "Thailand/bangkok/IMG_6028.JPEG",
+    "sourceDigest": "9be325b21f8df834280f5b9c985482ed928b76a41d7fef32a4d7a47e5263d826",
+    "sourceBytes": 1547793,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6028-39a925c0-480.webp",
+        "bytes": 50168,
+        "digest": "60294523b0884742e1f6689a8709d47e1e30fd319a2fa6355a3190126c937df3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6028-39a925c0-960.webp",
+        "bytes": 185288,
+        "digest": "f5a0258bc92e226ddde0cceb1ed73a0907e69586aad5a33480dcf4dab5f7d64a"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6028-39a925c0-1600.webp",
+        "bytes": 418230,
+        "digest": "e34f7c3da647cc0a1bed509f35faea6ab6d59a1500f9d414379647e5c31a9df1"
+      }
+    ]
+  },
+  {
+    "id": "img-6088",
+    "source": "Thailand/bangkok/IMG_6088.JPEG",
+    "sourceDigest": "1b66eb57d64b5e787a6c22a457f4f83448005d7c9fd3b940709e897c765907d0",
+    "sourceBytes": 1107200,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6088-f646ac29-480.webp",
+        "bytes": 62782,
+        "digest": "e638689f836d657752d40d041bc99bc2001fd0af3427697886f781e3b97c0031"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6088-f646ac29-960.webp",
+        "bytes": 200874,
+        "digest": "c010299b14641210397b38120b618e81ec35c83be117a219a9ad055e6bfcb25b"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6088-f646ac29-1536.webp",
+        "bytes": 383034,
+        "digest": "3863deb10768555ab5e7e91f61cfe0c79ba36c600982a981924611d1381674ba"
+      }
+    ]
+  },
+  {
+    "id": "img-6850",
+    "source": "Thailand/bangkok/IMG_6850.JPEG",
+    "sourceDigest": "37c9ef015a43840b78e4da7867ca751b806b0feb3c9a71da1f2eda6ed48572ff",
+    "sourceBytes": 867639,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6850-7da3dc2f-480.webp",
+        "bytes": 44352,
+        "digest": "3a7110d5a4a0a4795778c811aaabc56d4591ac1925fe5252d43b3fbde799b2fa"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6850-7da3dc2f-960.webp",
+        "bytes": 142100,
+        "digest": "9c044dc3b7eb8d57214303e19574ca66e9356d134f9c081ab9a9153a16e8e74b"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6850-7da3dc2f-1536.webp",
+        "bytes": 269300,
+        "digest": "d12e23b48df7996d9aa3d4b5120a7935d5d91469928a3055f974713fa2b6f5dd"
+      }
+    ]
+  },
+  {
+    "id": "img-6956",
+    "source": "Thailand/bangkok/IMG_6956.JPEG",
+    "sourceDigest": "2d4f1b2d832158fba9962aa64e7883acfb21bdf6abf313aa81706cbb8b2215f0",
+    "sourceBytes": 1003800,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6956-03b54a33-480.webp",
+        "bytes": 55076,
+        "digest": "9c72da53aed98a6b291567886c1496ba725eaebd9eef7756a998f2a1ffab0165"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6956-03b54a33-960.webp",
+        "bytes": 162442,
+        "digest": "6368443d9ec063fff270f28ff7cd88721d16f38e3d24a3b5a3b7885998de334f"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6956-03b54a33-1536.webp",
+        "bytes": 290340,
+        "digest": "cb66c75e302cd9ba6da2746cf4afdaa40521ff77d15cfb025894b403b897c819"
+      }
+    ]
+  },
+  {
+    "id": "img-6957",
+    "source": "Thailand/bangkok/IMG_6957.JPEG",
+    "sourceDigest": "d6ef85e87335fc142e6fd56fbce742953c723b3373773f9d0e7e799f97d8fdf9",
+    "sourceBytes": 1401919,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6957-f53a4c87-480.webp",
+        "bytes": 76600,
+        "digest": "cefb7791219e00169ff47a864810f959d648b0a24d58589b142419522d38bcff"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6957-f53a4c87-960.webp",
+        "bytes": 263484,
+        "digest": "b2842ed5f9365a76b9d15952de1433b12e1a33f8f15784c0b0d0a3f718e5e15b"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6957-f53a4c87-1536.webp",
+        "bytes": 519238,
+        "digest": "3d7c85b240e4e21e5fd02f5cc5fdb763b44b6013170e22c65576fba6a2dff111"
+      }
+    ]
+  },
+  {
+    "id": "img-6998",
+    "source": "Thailand/bangkok/IMG_6998.JPEG",
+    "sourceDigest": "62934ac7f3eebab50e6a603bcad396770d472273bd42bab9c670863dc8e2f1ca",
+    "sourceBytes": 1190930,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6998-6a82d34e-480.webp",
+        "bytes": 63618,
+        "digest": "5315e74f2dc06d3fb0d10f408d7efaf77fc0b12843047680557e1e18a4eec347"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6998-6a82d34e-960.webp",
+        "bytes": 231394,
+        "digest": "aad4f0f3a618ef8e84811f3461c75438f20c4190667e002379bdd0935080eb4f"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6998-6a82d34e-1536.webp",
+        "bytes": 481900,
+        "digest": "4bb02c65a9ccc46a5b0ae165607b994366eb6d0d0ad5d91a1e826675ab6763e5"
+      }
+    ]
+  },
+  {
+    "id": "img-7129",
+    "source": "Thailand/bangkok/IMG_7129.JPEG",
+    "sourceDigest": "c8dc672faf5de2afbde31166432a543aa264ddb1acf1297b36cd4e513fa1ffd9",
+    "sourceBytes": 1085280,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-7129-0b8f46a8-480.webp",
+        "bytes": 53608,
+        "digest": "66a83488a4fa05c1f074f2a3659663cbbe8694d377473cd2b26d7375c12a9e8c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-7129-0b8f46a8-960.webp",
+        "bytes": 188524,
+        "digest": "f1c186b3427d66e0c32f37eee58f08f7083efd8fa36f85aa7ae5d8aa259d623d"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-7129-0b8f46a8-1536.webp",
+        "bytes": 368724,
+        "digest": "fae2b0bbd0fa81a48b54c990f7943aa4847144b16befec2fd70db8b0991221d8"
+      }
+    ]
+  },
+  {
+    "id": "img-7150",
+    "source": "Thailand/bangkok/IMG_7150.JPEG",
+    "sourceDigest": "394646d83ae749b43c499d06429192436a234370d738726c2868f4081af6c309",
+    "sourceBytes": 877783,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-7150-2810fd20-480.webp",
+        "bytes": 48200,
+        "digest": "2b8092bb3924866e2134b738525d7ec4491aa1142ca976643f0a95ba1d72bc55"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-7150-2810fd20-960.webp",
+        "bytes": 136592,
+        "digest": "603f8c0357090eb2545ac4dc9a6d5c9c30c91b5ecf454accbcd5d64a1a8a8709"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-7150-2810fd20-1536.webp",
+        "bytes": 258124,
+        "digest": "84a6766c23f067fea3717db12de6b98a7b69b9e6087ecf1050ac7151d8cdd127"
+      }
+    ]
+  },
+  {
+    "id": "img-6226",
+    "source": "Thailand/chiang-mai/IMG_6226.JPEG",
+    "sourceDigest": "748410e1c721a2eae03a0af0775282b00f1cae54d001863e1b7250646faea7c0",
+    "sourceBytes": 774354,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6226-926b1bfe-480.webp",
+        "bytes": 14370,
+        "digest": "a16f1f242af3e86bcd46df1d18e35e6cba0222c3315101b358b74f343abff01a"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6226-926b1bfe-960.webp",
+        "bytes": 50778,
+        "digest": "1e017cbf22afe2d3f3ec31b83b968481d82846633484faa9441f0a300e1d49c2"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6226-926b1bfe-1600.webp",
+        "bytes": 112632,
+        "digest": "b5484e3257fa413556e48c17e7864b31ac2c8232b4c0640aed524346ed704f7c"
+      }
+    ]
+  },
+  {
+    "id": "img-6252",
+    "source": "Thailand/chiang-mai/IMG_6252.JPEG",
+    "sourceDigest": "d3b0a276a9f2e6933855a5089903061b031e38fe3d85f273ae69bed54a22cdce",
+    "sourceBytes": 1408034,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6252-c7bf8669-480.webp",
+        "bytes": 84296,
+        "digest": "da68bdbf4cb762d286642068ed3e2e1dba708215372f18a2b4a0f736c138f798"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6252-c7bf8669-960.webp",
+        "bytes": 293078,
+        "digest": "044bb13ba40a0252e0a0e92d6b6e3941a0ac80e8d114a517ec6ff3142a18aece"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6252-c7bf8669-1536.webp",
+        "bytes": 570282,
+        "digest": "aff481a3b19d725864e8828c9ba8d8d0dd5e7c9d1b385f4f06dc9b1f4322bf6b"
+      }
+    ]
+  },
+  {
+    "id": "img-6322",
+    "source": "Thailand/chiang-mai/IMG_6322.JPEG",
+    "sourceDigest": "1dbf1315fb1044b0609a3310cf03caf8ddec0f0382b4dcb32d4dcf71fc574918",
+    "sourceBytes": 1087627,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6322-6d6b1b30-480.webp",
+        "bytes": 37288,
+        "digest": "8782830bc44b8fc877f88ce7889b0eaded2c4f42e5ff5735a59536e9f04f4037"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6322-6d6b1b30-960.webp",
+        "bytes": 120930,
+        "digest": "e276864888f6a2397d0628e0e68f5746c84dfb47f0662a279980672f5b75a7cf"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6322-6d6b1b30-1600.webp",
+        "bytes": 237770,
+        "digest": "8f0bbb96a4b142c867c30a2c98488b034e8805482dea8677c102f18426e1e484"
+      }
+    ]
+  },
+  {
+    "id": "img-6332",
+    "source": "Thailand/chiang-mai/IMG_6332.JPEG",
+    "sourceDigest": "a54d50a8b824315611d9aeef826c3dac41166194b2d2c96c01988f6ade20c2fa",
+    "sourceBytes": 1407304,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6332-b5508991-480.webp",
+        "bytes": 86670,
+        "digest": "ee40a5c4315dee1979644d6934db0ad5564e90564f942e1977a968082d2ade64"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6332-b5508991-960.webp",
+        "bytes": 277838,
+        "digest": "614d2fe4e3d73213334e715a62a0de4393d05d394f20f0174bce97ab2f1004ef"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6332-b5508991-1536.webp",
+        "bytes": 523646,
+        "digest": "dd3a35f79f8da93ff8c71ad822c6e6f514001d9688461fb725eb6cdc3d2de670"
+      }
+    ]
+  },
+  {
+    "id": "img-6403",
+    "source": "Thailand/chiang-mai/IMG_6403.JPEG",
+    "sourceDigest": "d6ef62d38926c6b5e261111fbdb0c4e2bef7f517c2e75507844ce6071392ce0b",
+    "sourceBytes": 1311755,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6403-ea2a04c7-480.webp",
+        "bytes": 35808,
+        "digest": "ea85d098c89c9f2a68aa072d0dbb566504aa676150cc898a663ea63a4e4ba69c"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6403-ea2a04c7-960.webp",
+        "bytes": 137340,
+        "digest": "8dc8377cebaac8179ffc824e8a6b6fc23e06c1b5c7b427b0a8dfba8f0af11ace"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6403-ea2a04c7-1600.webp",
+        "bytes": 328302,
+        "digest": "65c39b12e0e71e7b0dec6cf38e725066c12324ec66b7f66a6f52bbfab2a8068f"
+      }
+    ]
+  },
+  {
+    "id": "img-6578",
+    "source": "Thailand/chiang-mai/IMG_6578.JPEG",
+    "sourceDigest": "8400c4886b4cf30e5d542b9fcef15d0712825713ef8ee5f283f5bbe08f69a88b",
+    "sourceBytes": 896854,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6578-b4d3a271-480.webp",
+        "bytes": 38034,
+        "digest": "198499794697237bebe70f6fa8adea8c6c98fbdcf4f1a1a9019373d7cfd48a31"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6578-b4d3a271-960.webp",
+        "bytes": 113794,
+        "digest": "666ab742ca49dd9f88f2f397fee0f2bfdbf12f9a29a20fe0a5030525655fe513"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/thailand/img-6578-b4d3a271-1536.webp",
+        "bytes": 216116,
+        "digest": "368728d1f3b05faf4bc60a58b12706a08efeb40b3e69fc61c2627d911f0d2829"
+      }
+    ]
+  },
+  {
+    "id": "img-6592",
+    "source": "Thailand/chiang-mai/IMG_6592.JPEG",
+    "sourceDigest": "b55f25ba99f900e38a8bffc4a1c0201c4db92a34867d776dd345dda2bb8fda52",
+    "sourceBytes": 676034,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6592-267a0980-480.webp",
+        "bytes": 8000,
+        "digest": "97f6f07494a8c9641ca1d3920362759b709409507b1591f493cee2d680940ee4"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6592-267a0980-960.webp",
+        "bytes": 20792,
+        "digest": "e2640079c0ada8e47b7c2640573846b8b7cef1b66be3d3371bfbb042ca3759f1"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6592-267a0980-1600.webp",
+        "bytes": 41426,
+        "digest": "0ebd6bb6c10540874276c06acfbbb315e2a1bd4dab8b79cc238e7d1cfc3515b3"
+      }
+    ]
+  },
+  {
+    "id": "img-6610",
+    "source": "Thailand/chiang-mai/IMG_6610.JPEG",
+    "sourceDigest": "054c595b418bb165a6c40789720537bdd95719ed5e15c13575443754c69553aa",
+    "sourceBytes": 762651,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/thailand/img-6610-77a4a505-480.webp",
+        "bytes": 17480,
+        "digest": "000f62ad55cc430f6c80267f717d468997497f11cce24efc9d72cf1f6d913dd3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/thailand/img-6610-77a4a505-960.webp",
+        "bytes": 53778,
+        "digest": "c4a7c646251b77dd09e26a556b12a575a6d235fb417cb6e266de4a6870583ba8"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/thailand/img-6610-77a4a505-1600.webp",
+        "bytes": 101804,
+        "digest": "4105e24eec1989dde1a005d023d8674158ffa879fe7bfd153c8a55fd60d4f201"
+      }
+    ]
+  },
+  {
+    "id": "img-7492",
+    "source": "United-States/san-francisco/IMG_7492.JPEG",
+    "sourceDigest": "f8162f01ba696eb6102f938e110b2e7f3c69b6f4c16c23426cbcaf7a8a97381b",
+    "sourceBytes": 965653,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7492-dc9548e6-480.webp",
+        "bytes": 22448,
+        "digest": "742072edcf768d5fd95adb2918f614a1b25c0f1ef62ce2bb3ee2af1b7ce0a596"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7492-dc9548e6-960.webp",
+        "bytes": 68060,
+        "digest": "a330b01654f036d4adaddf871ed6f1fbec711d0e6b9a2eb69425bd3b285f370f"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/united-states/img-7492-dc9548e6-1600.webp",
+        "bytes": 134808,
+        "digest": "e476119b73f60924f43546efd9bbdee16ce7ded7f0084ffd0e111737e8b5f644"
+      }
+    ]
+  },
+  {
+    "id": "img-7498",
+    "source": "United-States/san-francisco/IMG_7498.JPEG",
+    "sourceDigest": "3c6300f939abf5690528d0ff8bab9b03f8a7e84cbcb67550fdf3b2da3bc53084",
+    "sourceBytes": 762109,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7498-ac038202-480.webp",
+        "bytes": 31620,
+        "digest": "5e20658265fc3565ca77bfb87f4b318ecfb439a832356f2ea4f0b6bfd54a6edb"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7498-ac038202-960.webp",
+        "bytes": 107478,
+        "digest": "0dafb102491a32fd43ca6d94d9d1cddd04e56510a4fa83dec01c49a72cc03018"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7498-ac038202-1536.webp",
+        "bytes": 200688,
+        "digest": "b97c7ae670a1c0bd151b3025821e82e439540fe5218a781d112d347977b535c4"
+      }
+    ]
+  },
+  {
+    "id": "img-7526",
+    "source": "United-States/san-francisco/IMG_7526.JPEG",
+    "sourceDigest": "df30c19b308dbaf8ff90d3b2473314ca2dad8901df4468819424b117de696c9c",
+    "sourceBytes": 838888,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7526-d6e46ec8-480.webp",
+        "bytes": 40390,
+        "digest": "13e9114a54df027e75db9a4c2f198f8f3a5529445c14e3543a6f7a695fde77a9"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7526-d6e46ec8-960.webp",
+        "bytes": 123878,
+        "digest": "23117245feacd7715b6a3aa411383f31b52f21fde1c8ad3d620d3d80aa1b8108"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7526-d6e46ec8-1536.webp",
+        "bytes": 231030,
+        "digest": "b16592e5f844f37d2cd3ac5ea008d76edee3614078ea0b7f3ae3f7419ca9420f"
+      }
+    ]
+  },
+  {
+    "id": "img-7532",
+    "source": "United-States/san-francisco/IMG_7532.JPEG",
+    "sourceDigest": "7cf221bf9c0804c4b3c839960ef5672f560fd83eefc7843af6d6645e201f8221",
+    "sourceBytes": 632410,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7532-b7aec858-480.webp",
+        "bytes": 24652,
+        "digest": "166e369b11b3272e60c7e9869b918dcce7a6e5a39492a95c067a1f551d0093e3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7532-b7aec858-960.webp",
+        "bytes": 78110,
+        "digest": "15eb60a28fbf9a212ddde4a34fc8eb864431a863a59325eaefd4fd590f751dee"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7532-b7aec858-1536.webp",
+        "bytes": 143664,
+        "digest": "9c6f8f92559a1d9cb251257d9c6d415a3d35da387da847e3c5b222e7425e0687"
+      }
+    ]
+  },
+  {
+    "id": "img-7536",
+    "source": "United-States/san-francisco/IMG_7536.JPEG",
+    "sourceDigest": "a82899442c44a56353a9157a84506cdb1058fe517c71f5b597d55453d36c2682",
+    "sourceBytes": 757200,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7536-2f2f1e79-480.webp",
+        "bytes": 30430,
+        "digest": "2595acbf0dc1292aeda000adcae4ca8f29b354227ecfbec640a36645e057e986"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7536-2f2f1e79-960.webp",
+        "bytes": 114722,
+        "digest": "0f35d0b0bb119cf7a89736ffaea52d7200504c188a66f8e1d749b135e3cffe81"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7536-2f2f1e79-1536.webp",
+        "bytes": 238506,
+        "digest": "1f7df5dc62a326d7e8171c4c0b0e4dc6386a478918528e6a12ec1977c03e0817"
+      }
+    ]
+  },
+  {
+    "id": "img-7540",
+    "source": "United-States/san-francisco/IMG_7540.JPEG",
+    "sourceDigest": "b17783f5b421712f0e61795ebaea824a283feb596c7c2d015cd2044f58329134",
+    "sourceBytes": 878146,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7540-4ef665ae-480.webp",
+        "bytes": 42960,
+        "digest": "a2508283b5987230323cfc163910b1b5d00ac89f1b929725dc384ca660c40fb3"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7540-4ef665ae-960.webp",
+        "bytes": 143636,
+        "digest": "fe92844215f639f6e235516241ea686392fe28615b7b27295ea7b24dd53299ba"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7540-4ef665ae-1536.webp",
+        "bytes": 286200,
+        "digest": "08c6948abe06d10f38c3d0727a76160a344dec14677a528286028553a3ce5777"
+      }
+    ]
+  },
+  {
+    "id": "img-7542",
+    "source": "United-States/san-francisco/IMG_7542.JPEG",
+    "sourceDigest": "b025466a51f3e20effce92eba1eeacb9099ee01bcbc219a476f142ce6bae35cf",
+    "sourceBytes": 1019248,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7542-3b6f6c2f-480.webp",
+        "bytes": 32962,
+        "digest": "cdd11869c0db965d16f30d763dbdd1b345c1b30f801f255d686d091401ce29f5"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7542-3b6f6c2f-960.webp",
+        "bytes": 106352,
+        "digest": "4842a27b36b3f2abd9f78379c4eb5fe83061748ed1e8cadb1cafeba0be951aa6"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/united-states/img-7542-3b6f6c2f-1600.webp",
+        "bytes": 223128,
+        "digest": "6d2ca0fb28496784990da716a909598946c7fa564d38bef2a2c78109c3088889"
+      }
+    ]
+  },
+  {
+    "id": "img-7544",
+    "source": "United-States/san-francisco/IMG_7544.JPEG",
+    "sourceDigest": "bfc5a9bc361cbaeac5c5e0d7021d01976844493669e6c33bc372f19d526c9ef3",
+    "sourceBytes": 908698,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7544-188ce883-480.webp",
+        "bytes": 23592,
+        "digest": "f637b5473dd23cb45c0932c9c157e383632af93ec719cfbc4c3051f3f97974ce"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7544-188ce883-960.webp",
+        "bytes": 83580,
+        "digest": "f2c57acdac5cde0eda3ad283ff08d45233441726f67e897ff344a663fe008669"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/united-states/img-7544-188ce883-1600.webp",
+        "bytes": 185960,
+        "digest": "ba1c5a4fe559a3fc7143591b67074f55606447ed6bba36d3956d020a218c51c7"
+      }
+    ]
+  },
+  {
+    "id": "img-7561",
+    "source": "United-States/san-francisco/IMG_7561.JPEG",
+    "sourceDigest": "a910e10aacafb01eee1e59531a785bd31ad797bce1a913bf7faf69acd86e35c5",
+    "sourceBytes": 1001219,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7561-e6cc46d9-480.webp",
+        "bytes": 41822,
+        "digest": "20a04951af3ff94a35490eb9da49699b4988dede90f90f21fc1aefb846582064"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7561-e6cc46d9-960.webp",
+        "bytes": 177542,
+        "digest": "4a53d961ae75b5a1754b69a9cf6813577750cfae939ed32db6f390b09a2f40cd"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7561-e6cc46d9-1536.webp",
+        "bytes": 372158,
+        "digest": "76231f69d42f9788435ddd414c7a837b805f3a63d86dad03bf51faaab75766ee"
+      }
+    ]
+  },
+  {
+    "id": "img-7563",
+    "source": "United-States/san-francisco/IMG_7563.JPEG",
+    "sourceDigest": "b96401ddc11db909a796179c78b47a86ea0a633b4c17bdf1f45cdf4c26e263d7",
+    "sourceBytes": 967545,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7563-39777a4b-480.webp",
+        "bytes": 24980,
+        "digest": "e421f4c0bfd9d55bfa23c9039f75455ad419717eb1379a1255164e59c11ee333"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7563-39777a4b-960.webp",
+        "bytes": 94154,
+        "digest": "4ef0b4463ebd8598eb430de555dd8bf8e30ec854bd806dd5cd628207d8a4cb00"
+      },
+      {
+        "width": 1600,
+        "src": "/media/photography/united-states/img-7563-39777a4b-1600.webp",
+        "bytes": 222670,
+        "digest": "343a44c1382e798d2f454d3ca14bbb3707288fbe9c9dba991cb7458257c302d5"
+      }
+    ]
+  },
+  {
+    "id": "img-7574",
+    "source": "United-States/san-francisco/IMG_7574.JPEG",
+    "sourceDigest": "9fe96d85704396429aa52a42fbd507163eeb4210a0b7695cc99ebbce30d9dc27",
+    "sourceBytes": 706902,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7574-bd9db958-480.webp",
+        "bytes": 32930,
+        "digest": "2058b48740299dd09fbb63a8c799682a7ac1e2d71a3aa3ea47ffca9815dbc2f1"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7574-bd9db958-960.webp",
+        "bytes": 104364,
+        "digest": "ca0263c302b9f8c7e8faa6f60041f4269194e6d94596df09694a9d42abcd5c4e"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7574-bd9db958-1536.webp",
+        "bytes": 186146,
+        "digest": "b7ed412f53d36d3e1d58634e4b6f4fa0b3599972e17d33d95f9bb5402d16c792"
+      }
+    ]
+  },
+  {
+    "id": "img-7577",
+    "source": "United-States/san-francisco/IMG_7577.JPEG",
+    "sourceDigest": "365332f2a86a6d6c51c49e3932e747c60ed3b92ac01f9e4abcfd36fe60f729cd",
+    "sourceBytes": 885272,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7577-6d7d2494-480.webp",
+        "bytes": 37880,
+        "digest": "1345cbcbe5a976d8544dc00171142b37fdf9540f2744622dff39a306dfecfe0a"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7577-6d7d2494-960.webp",
+        "bytes": 151134,
+        "digest": "28da1eaed19f0c0500f6b953f21d65aabdcece8e1c6afd8e0919423717bdd21d"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7577-6d7d2494-1536.webp",
+        "bytes": 312596,
+        "digest": "c1c8417afd4720020e91db491d4e6598e3fb044b3382b20744f26e9346063057"
+      }
+    ]
+  },
+  {
+    "id": "img-7578",
+    "source": "United-States/san-francisco/IMG_7578.JPEG",
+    "sourceDigest": "7f38d149340ae9fa21cfef923f64d843caa1f3f3d1ac0e54aaaa7d5bbd95f27a",
+    "sourceBytes": 865408,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7578-0ded7866-480.webp",
+        "bytes": 33454,
+        "digest": "140aae7270c9efeb486690e6a71db27a5fa49da558250ca7667c6874bdc6fd8f"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7578-0ded7866-960.webp",
+        "bytes": 138730,
+        "digest": "851cd3dd3fa246c48cae197fffb3773888f05908870e8d25118d03f9700ffaa7"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7578-0ded7866-1536.webp",
+        "bytes": 306438,
+        "digest": "46f8a99eedc0de09d7ae081f5004bc99f1c1e71b770d88b5df2084a394882f1d"
+      }
+    ]
+  },
+  {
+    "id": "img-7600",
+    "source": "United-States/san-francisco/IMG_7600.JPEG",
+    "sourceDigest": "458a1d1c341dd23c73e66d64b48281589680abcb8969cf49ad8983d117ac01b0",
+    "sourceBytes": 902634,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7600-2dbcc7fd-480.webp",
+        "bytes": 37240,
+        "digest": "eea60f21f6d96ae03199eae792cfe6a645f8bde1b372d9c37ac4fa03343abf7e"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7600-2dbcc7fd-960.webp",
+        "bytes": 154574,
+        "digest": "b1e587b0f3e59012cc8d67a4b4fa6816878b7834e6a326a597987966647ada5e"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7600-2dbcc7fd-1536.webp",
+        "bytes": 338496,
+        "digest": "a10a2caa33e0e7eff5897ab30c972a0acf416a3078c83b1b7aa3232038658302"
+      }
+    ]
+  },
+  {
+    "id": "img-7608",
+    "source": "United-States/san-francisco/IMG_7608.JPEG",
+    "sourceDigest": "3305476b625194d881ccb0b3e94ff07b5685b6573dca534d122e84124d5ad354",
+    "sourceBytes": 1049142,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/media/photography/united-states/img-7608-da35a8bc-480.webp",
+        "bytes": 49680,
+        "digest": "c56cf77d6299e5e93a56cc1bf8ce68175f6f8bbf569774955ce854606f6bb7cf"
+      },
+      {
+        "width": 960,
+        "src": "/media/photography/united-states/img-7608-da35a8bc-960.webp",
+        "bytes": 175504,
+        "digest": "1a8e9294aa87caa160e18d2fe5e434842f9cbc10003ea80f14ee4dbc829def1a"
+      },
+      {
+        "width": 1536,
+        "src": "/media/photography/united-states/img-7608-da35a8bc-1536.webp",
+        "bytes": 352862,
+        "digest": "c34174bc5c677d60eb3642fee2965adf458530d33d44983f942f4d0e2714e93c"
+      }
+    ]
+  }
+]
