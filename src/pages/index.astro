@@ -11,7 +11,7 @@ const cover = scenes[0]?.sample?.variants.at(-1)?.src;
 
 <SightlineLayout
   title="Sightline — Photographs & places"
-  description="Explore San Francisco, Toronto, and Taiwan through photographs and 3D maps."
+  description="Explore San Francisco and Toronto through photographs and 3D maps."
   image={cover}
 >
   <div class="sightline-shell">
@@ -25,12 +25,11 @@ const cover = scenes[0]?.sample?.variants.at(-1)?.src;
           const preview =
             sample?.variants.find((v) => v.width >= 960) ??
             sample?.variants.at(-1);
-          const name = city.id === "taipei-north-coast" ? "Taiwan" : city.name;
           return (
             <a
               class="scene-card"
               href={`/explore/${city.id}?view=3d`}
-              aria-label={`${name} — Open 3D view`}
+              aria-label={`${city.name} — Open 3D view`}
             >
               {preview && sample && (
                 <div class="scene-image">
@@ -39,7 +38,7 @@ const cover = scenes[0]?.sample?.variants.at(-1)?.src;
                     srcset={sample.variants
                       .map((v) => `${v.src} ${v.width}w`)
                       .join(", ")}
-                    sizes="(min-width: 1000px) 31vw, (min-width: 600px) 47vw, 92vw"
+                    sizes="(min-width: 600px) 48vw, 92vw"
                     width={sample.width}
                     height={sample.height}
                     alt={sample.alt}
@@ -51,7 +50,7 @@ const cover = scenes[0]?.sample?.variants.at(-1)?.src;
               )}
               <div class="scene-card-title">
                 <>
-                  <h2>{name}</h2>
+                  <h2>{city.name}</h2>
                   <span aria-hidden="true">↗</span>
                 </>
               </div>

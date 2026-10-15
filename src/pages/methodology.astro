@@ -4,36 +4,79 @@ import SightlineLayout from "@/layouts/SightlineLayout.astro";
 
 <SightlineLayout
   title="About — Sightline"
-  description="How Sightline connects photographs to places, and what its reconstructions can tell us."
+  description="How Sightline estimates camera positions, checks the results, and shows them in a 3D map."
 >
   <article class="about-page sightline-shell">
     <header class="sightline-page-head">
-      <h1>Behind the view.</h1>
-      <p>Sightline brings photographs back to the places they were taken.</p>
+      <h1>About Sightline</h1>
+      <p>
+        Sightline shows photographs from San Francisco and Toronto alongside
+        estimates of where the camera was and what it could see. Reconstruction
+        runs offline before reviewed results are added to the site. Opening a
+        city loads those existing results; the browser does not solve a new
+        camera position.
+      </p>
     </header>
     <section class="method-copy">
-      <h2>From a photograph to a viewpoint</h2>
+      <h2>Starting with camera data</h2>
       <p>
-        Location data and visual matches help estimate the camera’s position and
-        direction. In supported cities, you can explore that viewpoint in 3D and
-        compare it with the photograph.
+        The default method starts with the photograph’s GPS, compass direction,
+        and focal length where available. These are imperfect clues. The next
+        step is to find nearby Street View images and match visual features
+        between them and the photograph. It then connects matched pixels to
+        positions in the provider’s 3D scene. A camera solver uses those
+        matching points to estimate position, direction, and field of view—the
+        angle covered by the image.
       </p>
     </section>
     <section class="method-copy">
-      <h2>A result is not a guarantee</h2>
+      <h2>Trying it without metadata</h2>
       <p>
-        Accepted, rejected, approximate, and missing results stay distinct. A
-        solved camera still needs verification and publication approval. GPS
-        uncertainty, changed scenery, and incomplete 3D coverage can affect
-        alignment.
+        San Francisco also has an image-only experiment for a fixed set of
+        photographs within a small, predefined area. It does not use embedded
+        GPS, heading, or lens data to locate the image. Models rank possible
+        places and reference views, then feature matching and the camera solver
+        test the geometry. The result is fixed before device metadata is opened
+        for comparison. Those differences are measurements against the device’s
+        estimate, not surveyed ground truth.
       </p>
     </section>
     <section class="method-copy">
-      <h2>Only reviewed records are public</h2>
+      <h2>Checking the result</h2>
       <p>
-        This collection uses reviewed photographs and location records. Original
-        files and private metadata stay offline. Map imagery comes directly from
-        its provider, with attribution.
+        Finding a camera solution is only one step. The verification process
+        renders the proposed viewpoint and compares it with the original
+        photograph. It checks the alignment, the spread of useful matches, and
+        whether the scene depth supports the camera geometry. A repaired camera
+        must be rendered and checked again.
+      </p>
+      <p>
+        A solved pose still needs verification and publication approval. The
+        labels tell you whether a result was accepted, rejected, approximate, or
+        still missing information. Rejection can mean weak matches or missing
+        verification evidence. GPS error, changed buildings, and gaps in the 3D
+        model can all prevent a reliable alignment.
+      </p>
+    </section>
+    <section class="method-copy">
+      <h2>Using the viewer</h2>
+      <p>
+        <strong>Show frustum</strong> draws the camera’s estimated field of view.
+        <strong>Align camera</strong> moves the map to that viewpoint.
+        <strong>Compare photo</strong> overlays the photograph so you can check how
+        well it lines up. The available controls depend on the data approved for each
+        photo. An overlay can look convincing even when the estimated position or
+        angle is wrong.
+      </p>
+    </section>
+    <section class="method-copy">
+      <h2>What is public</h2>
+      <p>
+        The public site contains resized photos and camera data approved for
+        display. Original files, full EXIF metadata, and detailed run evidence
+        stay private. The viewer requests map imagery directly from its
+        provider, keeps attribution visible, and does not store that imagery as
+        site content.
       </p>
     </section>
     <a class="sightline-text-link" href="/"

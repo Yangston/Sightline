@@ -997,3 +997,137 @@
     font-size: 2.4rem;
   }
 }
+
+.city-viewer-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 17rem;
+  gap: 1.25rem;
+  align-items: start;
+}
+.city-viewer-workspace > .city-atlas-stage {
+  min-width: 0;
+  margin: 0;
+  min-height: 32rem;
+}
+.city-camera-tools {
+  min-width: 0;
+  border: 1px solid var(--sl-line-strong);
+  border-radius: var(--sl-radius-md);
+  padding: 1.2rem;
+  background: var(--sl-panel);
+}
+.city-camera-tools > h2 {
+  margin: 0 0 1.25rem;
+  font: 500 1.05rem/1.3 var(--font-sans);
+  letter-spacing: -0.02em;
+}
+.city-camera-tools .city-photo-view-controls {
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.city-camera-tools .city-selected-photo {
+  align-items: start;
+  margin-bottom: 1.25rem;
+}
+.city-camera-tools .city-selected-photo img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 3px;
+}
+.city-camera-tools .city-selected-photo span {
+  padding-top: 0.35rem;
+  min-width: 0;
+  font: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.city-camera-tools .city-selected-photo small {
+  white-space: normal;
+  overflow: visible;
+  line-height: 1.5;
+  margin-top: 0.2rem;
+}
+.city-camera-tools .city-photo-action-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+.city-camera-tools .city-photo-action-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--sl-signal);
+  border-radius: 4px;
+  background: var(--sl-signal);
+  color: #192019;
+  font: 600 0.9rem/1.3 var(--font-sans);
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  cursor: pointer;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease;
+}
+.city-camera-tools .city-photo-action-buttons button svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  flex-shrink: 0;
+}
+.city-camera-tools .city-photo-action-buttons button:hover:enabled {
+  background: #e3ebd8;
+  border-color: #e3ebd8;
+}
+.city-camera-tools .city-photo-action-buttons button[aria-pressed="true"] {
+  color: #f3f3ec;
+  background: #42583b;
+  border-color: #b7cd9f;
+  box-shadow: inset 3px 0 #d0debe;
+}
+.city-camera-tools .city-photo-action-buttons button:disabled {
+  opacity: 1;
+  color: #a2ad9b;
+  background: #293127;
+  border-color: #4c5845;
+  cursor: not-allowed;
+}
+.city-camera-tools .city-view-notice {
+  margin: 1.15rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.city-camera-tools .city-comparison-controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.8rem;
+  margin: 1.25rem 0 0;
+  padding: 1.1rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--sl-line);
+  background: transparent;
+}
+.city-camera-tools .city-comparison-controls label,
+.city-camera-tools .city-comparison-controls > span {
+  grid-column: 1 / -1;
+}
+.city-camera-tools .city-comparison-controls input {
+  min-width: 0;
+  width: 100%;
+}
+@media (max-width: 999px) {
+  .city-viewer-workspace {
+    grid-template-columns: 1fr;
+  }
+  .city-viewer-workspace > .city-atlas-stage {
+    min-height: 25rem;
+  }
+  .city-camera-tools {
+    padding: 1rem;
+  }
+}

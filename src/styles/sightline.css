@@ -132,7 +132,7 @@ p {
 }
 .scene-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 3.4rem 1.6rem;
   padding-bottom: 5.5rem;
 }
@@ -144,7 +144,7 @@ p {
 .scene-image {
   overflow: hidden;
   background: #e9e7e2;
-  aspect-ratio: 4/5;
+  aspect-ratio: 5/4;
 }
 .scene-image img {
   width: 100%;
@@ -225,6 +225,9 @@ p {
   line-height: 1.85;
   color: var(--sl-muted);
   margin-bottom: 0;
+}
+.method-copy p + p {
+  margin-top: 1rem;
 }
 .sightline-text-link {
   display: inline-block;

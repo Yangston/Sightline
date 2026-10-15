@@ -11,7 +11,7 @@ npm run dev
 npm run release:check
 ```
 
-The home page offers San Francisco, Toronto, and Taiwan. Each city opens its
+The home page offers San Francisco and Toronto. Each city opens its
 3D map directly. `/explore` redirects home; `/methodology` explains the project.
 The site has no separate galleries, AR pages, or upload demos.
 

@@ -12,7 +12,6 @@ const alignmentPhoto = mapRecords.find(
 const startingPhotos = [
   ["san-francisco", "img-7561"],
   ["toronto", "img-7449"],
-  ["taipei-north-coast", "img-5590"],
 ] as const;
 const emptyTileset = {
   asset: { version: "1.1", copyright: "Synthetic test scene" },
@@ -87,7 +86,7 @@ test.beforeEach(async ({ context }) => {
   await installMapFixture(context);
 });
 
-test("the home collection shows only three places and their starting photographs", async ({
+test("the home collection shows only San Francisco and Toronto with their starting photographs", async ({
   page,
 }) => {
   await page.goto("/");
@@ -95,7 +94,7 @@ test("the home collection shows only three places and their starting photographs
     page.getByRole("heading", { name: /A place\.\s*A point of view\./ }),
   ).toBeVisible();
   const cards = page.locator(".scene-card");
-  await expect(cards).toHaveCount(3);
+  await expect(cards).toHaveCount(2);
   for (const [index, [city, photo]] of startingPhotos.entries()) {
     await expect(cards.nth(index)).toHaveAttribute(
       "href",
@@ -116,7 +115,7 @@ test("the former explore page redirects to the collection", async ({
 }) => {
   await page.goto("/explore");
   await expect(page).toHaveURL(/\/$/);
-  await expect(page.locator(".scene-card")).toHaveCount(3);
+  await expect(page.locator(".scene-card")).toHaveCount(2);
 });
 
 test("removed demonstrations and repository links are absent from public navigation", async ({
@@ -173,6 +172,19 @@ for (const [city, photo] of startingPhotos) {
       "data-pose-status",
       record.calibration,
     );
+    const cameraTools = page.getByRole("complementary", {
+      name: "Camera tools",
+    });
+    for (const [name, available] of [
+      ["Show frustum", record.capabilities.frustum],
+      ["Align camera", record.capabilities.comparison],
+      ["Compare photo", record.capabilities.comparison],
+    ] as const) {
+      const control = cameraTools.getByRole("button", { name, exact: true });
+      await expect(control).toBeVisible();
+      if (available) await expect(control).toBeEnabled();
+      else await expect(control).toBeDisabled();
+    }
     await page
       .getByRole("button", { name: "2D satellite", exact: true })
       .click();
@@ -219,7 +231,34 @@ test("camera controls render a frustum and retain comparison through resizing", 
   page.on("pageerror", (error) => errors.push(error.message));
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto(`/explore/san-francisco?photo=${alignmentPhoto.id}`);
-  await page.getByRole("button", { name: "View camera frustum" }).click();
+  const cameraTools = page.getByRole("complementary", { name: "Camera tools" });
+  const stage = page.locator(".city-atlas-stage");
+  await expect(cameraTools).toBeVisible();
+  const initialToolsBounds = await cameraTools.boundingBox();
+  const initialStageBounds = await stage.boundingBox();
+  expect(initialToolsBounds).not.toBeNull();
+  expect(initialStageBounds).not.toBeNull();
+  if ((page.viewportSize()?.width ?? 0) >= 1000) {
+    expect(initialToolsBounds!.x).toBeGreaterThanOrEqual(
+      initialStageBounds!.x + initialStageBounds!.width - 1,
+    );
+  }
+  for (const name of ["Show frustum", "Align camera", "Compare photo"]) {
+    const control = cameraTools.getByRole("button", { name, exact: true });
+    await expect(control).toBeVisible();
+    const bounds = await control.boundingBox();
+    expect(bounds).not.toBeNull();
+    expect(
+      bounds!.height,
+      `${name} touch target height`,
+    ).toBeGreaterThanOrEqual(48);
+    expect(bounds!.width, `${name} touch target width`).toBeGreaterThanOrEqual(
+      48,
+    );
+  }
+  await cameraTools
+    .getByRole("button", { name: "Show frustum", exact: true })
+    .click();
   await expect(
     page.getByRole("button", { name: "Hide frustum" }),
   ).toHaveAttribute("aria-pressed", "true", { timeout: viewerStartupTimeout });
@@ -233,6 +272,27 @@ test("camera controls render a frustum and retain comparison through resizing", 
   await page.setViewportSize({ width: 320, height: 720 });
   await expect(comparison).toBeVisible();
   await expectResponsiveViewport(page);
+  const mobileToolsBounds = await cameraTools.boundingBox();
+  const mobileStageBounds = await stage.boundingBox();
+  expect(mobileToolsBounds).not.toBeNull();
+  expect(mobileStageBounds).not.toBeNull();
+  expect(mobileToolsBounds!.y).toBeGreaterThanOrEqual(
+    mobileStageBounds!.y + mobileStageBounds!.height - 1,
+  );
+  for (const name of ["Show frustum", "Align camera", "Hide comparison"]) {
+    const control = cameraTools.getByRole("button", { name, exact: true });
+    await expect(control).toBeVisible();
+    const bounds = await control.boundingBox();
+    expect(bounds).not.toBeNull();
+    expect(
+      bounds!.height,
+      `${name} mobile touch target height`,
+    ).toBeGreaterThanOrEqual(48);
+    expect(
+      bounds!.width,
+      `${name} mobile touch target width`,
+    ).toBeGreaterThanOrEqual(48);
+  }
   await page.getByRole("button", { name: "2D satellite", exact: true }).click();
   await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
   await expect(comparison).toHaveCount(0);
@@ -268,6 +328,12 @@ test("a canceled 3D load disposes its late scene and can be opened again", async
   await page.goto(`/explore/san-francisco?photo=${alignmentPhoto.id}`);
   await page.locator("[data-open-3d]").click();
   await rootRequested;
+  const cameraTools = page.getByRole("complementary", { name: "Camera tools" });
+  for (const name of ["Show frustum", "Align camera", "Compare photo"]) {
+    await expect(
+      cameraTools.getByRole("button", { name, exact: true }),
+    ).toBeDisabled();
+  }
   await page.getByRole("button", { name: "2D satellite", exact: true }).click();
   releaseRoot?.();
   await expect(page.locator("[data-city-map-experience]")).toHaveAttribute(
@@ -275,7 +341,7 @@ test("a canceled 3D load disposes its late scene and can be opened again", async
     "2d",
   );
   await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
-  await page.getByRole("button", { name: "View camera frustum" }).click();
+  await page.getByRole("button", { name: "Show frustum", exact: true }).click();
   await expect(page.getByRole("button", { name: "Hide frustum" })).toBeVisible({
     timeout: viewerStartupTimeout,
   });
@@ -311,7 +377,7 @@ test("provider failure restores 2D and allows a clean retry", async ({
   );
   await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
   failing = false;
-  await page.getByRole("button", { name: "View camera frustum" }).click();
+  await page.getByRole("button", { name: "Show frustum", exact: true }).click();
   await expect(page.getByRole("button", { name: "Hide frustum" })).toBeVisible({
     timeout: viewerStartupTimeout,
   });
@@ -343,7 +409,6 @@ test("all public sections fit a 320 pixel screen", async ({ page }) => {
     "/explore",
     "/explore/san-francisco",
     "/explore/toronto",
-    "/explore/taipei-north-coast",
     "/methodology",
   ]) {
     await page.goto(route);
@@ -377,11 +442,27 @@ test("starting photographs and page navigation remain available without JavaScri
   );
   await expect(page.getByText(/Maps and 3D require JavaScript/)).toBeVisible();
   await expect(page.locator(".city-gallery")).toHaveCount(0);
+  await page.goto(
+    "http://127.0.0.1:" +
+      (process.env.PLAYWRIGHT_PORT ?? "4333") +
+      "/explore/toronto",
+  );
+  await page.setViewportSize({ width: 320, height: 720 });
+  await expect(page.locator(".city-selected-photo strong")).toHaveText(
+    "img-7449",
+  );
+  const cameraTools = page.getByRole("complementary", { name: "Camera tools" });
+  for (const name of ["Show frustum", "Align camera", "Compare photo"]) {
+    const control = cameraTools.getByRole("button", { name, exact: true });
+    await expect(control).toBeVisible();
+    await expect(control).toBeDisabled();
+  }
+  await expectResponsiveViewport(page);
   await page
     .getByRole("link", { name: "Collection", exact: true })
     .first()
     .click();
-  await expect(page.locator(".scene-card")).toHaveCount(3);
+  await expect(page.locator(".scene-card")).toHaveCount(2);
   await expect(
     page.getByRole("heading", { name: /A place\.\s*A point of view\./ }),
   ).toBeVisible();
@@ -407,12 +488,18 @@ test("San Francisco restores the image-only method without eager Cesium", async 
   await expect(page.locator('[data-photo-id="img-7540"]')).toContainText(
     "Outside image-only pilot area",
   );
+  const cameraTools = page.getByRole("complementary", { name: "Camera tools" });
+  for (const name of ["Show frustum", "Align camera", "Compare photo"]) {
+    await expect(
+      cameraTools.getByRole("button", { name, exact: true }),
+    ).toBeDisabled();
+  }
   expect(requests.some((url) => /scene\.json|\/cesium\//i.test(url))).toBe(
     false,
   );
 });
 
-test("places outside the three city views are no longer public routes", async ({
+test("places outside San Francisco and Toronto have no public pages or scene data", async ({
   request,
 }) => {
   const publicCities = new Set<string>(startingPhotos.map(([city]) => city));
@@ -422,6 +509,8 @@ test("places outside the three city views are no longer public routes", async ({
   for (const city of removedCities) {
     const response = await request.get(`/explore/${city}`);
     expect(response.status(), city).toBe(404);
+    const scene = await request.get(`/explore/${city}/scene.json`);
+    expect(scene.status(), `${city} scene`).toBe(404);
   }
 });
 

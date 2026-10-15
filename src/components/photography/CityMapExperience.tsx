@@ -788,280 +788,320 @@ export default function CityMapExperience({
         <span aria-hidden="true"></span>
         {status}
       </p>
-      <div className="city-atlas-stage">
-        <div
-          ref={staticMapRef}
-          className="city-satellite-map"
-          data-map-available={
-            googleKey && !staticImageFailed ? "true" : "false"
-          }
-          hidden={mode !== "2d"}
-          tabIndex={mode === "2d" ? 0 : -1}
-          aria-label={`Interactive satellite map of ${city.name}. Drag to pan, scroll or use plus and minus to zoom.`}
-          onPointerDown={startStaticPan}
-          onPointerMove={moveStaticMap}
-          onPointerUp={stopStaticPan}
-          onPointerCancel={stopStaticPan}
-          onWheel={zoomStaticMapAtPointer}
-          onKeyDown={navigateStaticMap}
-        >
-          {googleKey && !staticImageFailed ? (
-            <div ref={staticSurfaceRef} className="city-static-map-surface">
-              <div className="city-satellite-tiles" aria-hidden="true">
-                {staticTiles.map((tile) => (
-                  <img
-                    key={tile.id}
-                    src={tile.url}
-                    width={tile.width}
-                    height={tile.height}
-                    alt=""
-                    loading="eager"
-                    decoding="async"
-                    draggable={false}
-                    style={{
-                      left: `${(tile.left / viewport.width) * 100}%`,
-                      top: `${(tile.top / viewport.height) * 100}%`,
-                      width: `${(tile.width / viewport.width) * 100}%`,
-                      height: `${(tile.height / viewport.height) * 100}%`,
-                    }}
-                    onLoad={() => markStaticTileReady(tile.id)}
-                    onError={() => {
-                      setStaticImageFailed(true);
-                      setStatus(
-                        "Map imagery unavailable. Photographs remain available.",
-                      );
-                    }}
-                  />
-                ))}
-              </div>
-              <div className="city-satellite-markers">
-                {groups.map((group) => {
-                  const point = projectStaticMapPosition(
-                    group.position,
-                    viewport,
-                  );
-                  const selectedGroup = group.photos.some(
-                    (photo) => photo.id === selectedId,
-                  );
-                  return (
-                    <button
-                      type="button"
-                      key={group.id}
-                      className="city-coordinate-marker"
-                      style={{ left: `${point.x}%`, top: `${point.y}%` }}
-                      aria-label={`${group.photos.length} ${group.placementKind} photograph${group.photos.length === 1 ? "" : "s"}`}
-                      aria-pressed={selectedGroup}
-                      data-marker-count={group.photos.length}
-                      data-photo-id={group.photos[0].id}
-                      onClick={() => selectPhoto(group.photos[0].id)}
-                    >
-                      <span>{group.photos.length}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ) : (
-            <div className="city-map-unavailable">
-              {selected && (
-                <img
-                  className="city-map-placeholder-photo"
-                  src={selected.image.thumbnailUrl}
-                  alt=""
-                  aria-hidden="true"
-                />
-              )}
-              <div>
-                <p>Map imagery unavailable.</p>
-                <button
-                  type="button"
-                  className="sightline-button primary"
-                  disabled={!hydrated || loading3d}
-                  onClick={() => void openThreeD()}
-                >
-                  Open 3D camera view
-                </button>
-              </div>
-            </div>
-          )}
-          {googleKey && !staticImageReady && !staticImageFailed && (
-            <div className="city-map-loading" aria-hidden="true">
-              <span></span>
-              Loading satellite view
-            </div>
-          )}
-          {googleKey && !staticImageFailed && (
-            <>
-              <div
-                className="city-static-map-controls"
-                aria-label="Map zoom controls"
-              >
-                <button
-                  type="button"
-                  aria-label="Zoom in"
-                  onClick={() =>
-                    changeStaticZoom(staticTransformRef.current.scale * 1.25)
-                  }
-                >
-                  +
-                </button>
-                <button
-                  type="button"
-                  aria-label="Zoom out"
-                  onClick={() =>
-                    changeStaticZoom(staticTransformRef.current.scale / 1.25)
-                  }
-                >
-                  -
-                </button>
-                <button type="button" onClick={resetStaticMap}>
-                  Reset
-                </button>
-              </div>
-              <p className="city-static-map-hint">
-                Drag to move / scroll to zoom
-              </p>
-              <p className="city-map-attribution">
-                <span>Google Maps</span> {mapAttribution}
-              </p>
-            </>
-          )}
-        </div>
-        <div
-          ref={mapRef}
-          className="city-map-canvas"
-          aria-label={`Interactive 3D view of ${city.name}`}
-          hidden={mode !== "3d"}
-        />
-        {mode === "3d" && !loading3d && (
-          <div className="city-three-d-controls">
-            <span>
-              {comparison
-                ? "Camera locked for comparison"
-                : "Drag to explore · scroll to zoom · Ctrl + drag to orbit"}
-            </span>
-            <button
-              type="button"
-              onClick={() => {
-                controllerRef.current?.resetView();
-                setFrustumVisible(false);
-                setComparison(false);
-              }}
-            >
-              City overview
-            </button>
-          </div>
-        )}
-        {loading3d && (
-          <div className="city-map-loading city-map-loading-3d" role="status">
-            <span></span>
-            Preparing the 3D city
-          </div>
-        )}
-        {comparison && selectedScene && (
-          <img
-            className="city-map-camera-comparison"
-            src={selectedScene.image.url}
-            alt=""
-            aria-hidden="true"
-            style={{ opacity: comparisonOpacity / 100 }}
-            onError={() => {
-              setComparison(false);
-              controllerRef.current?.setComparisonLocked(false);
-              setStatus(
-                "This photograph could not load. The 3D scene remains available.",
-              );
-            }}
-          />
-        )}
-      </div>
-      {selected && (
-        <div
-          className="city-photo-view-controls"
-          aria-label={`3D view controls for ${selected.id}`}
-        >
-          <div className="city-selected-photo">
-            <img
-              src={selected.image.thumbnailUrl}
-              width="64"
-              height="48"
-              alt=""
-              loading="lazy"
-              decoding="async"
-            />
-            <span>
-              <strong>{selected.id}</strong>
-              <small>{placementLabel(selected)}</small>
-            </span>
-          </div>
-          <div className="city-photo-action-buttons">
-            <button
-              type="button"
-              aria-pressed={frustumVisible}
-              disabled={
-                !hydrated || !selected.capabilities.frustum || loading3d
-              }
-              onClick={() => runThreeDAction("frustum")}
-            >
-              {frustumVisible ? "Hide frustum" : "View camera frustum"}
-            </button>
-            <button
-              type="button"
-              disabled={
-                !hydrated || !selected.capabilities.comparison || loading3d
-              }
-              onClick={() => runThreeDAction("camera")}
-            >
-              Align to photo
-            </button>
-            <button
-              type="button"
-              aria-pressed={comparison}
-              disabled={
-                !hydrated || !selected.capabilities.comparison || loading3d
-              }
-              onClick={() => runThreeDAction("comparison")}
-            >
-              {comparison ? "Hide comparison" : "Compare photo"}
-            </button>
-          </div>
-        </div>
-      )}
-      {comparison && (
-        <div className="city-comparison-controls">
-          <label htmlFor="photo-comparison-opacity">Photo opacity</label>
-          <input
-            id="photo-comparison-opacity"
-            type="range"
-            min="0"
-            max="100"
-            step="1"
-            value={comparisonOpacity}
-            onChange={(event) =>
-              setComparisonOpacity(Number(event.target.value))
+      <div className="city-viewer-workspace">
+        <div className="city-atlas-stage">
+          <div
+            ref={staticMapRef}
+            className="city-satellite-map"
+            data-map-available={
+              googleKey && !staticImageFailed ? "true" : "false"
             }
-            aria-valuetext={`${comparisonOpacity} percent photograph`}
+            hidden={mode !== "2d"}
+            tabIndex={mode === "2d" ? 0 : -1}
+            aria-label={`Interactive satellite map of ${city.name}. Drag to pan, scroll or use plus and minus to zoom.`}
+            onPointerDown={startStaticPan}
+            onPointerMove={moveStaticMap}
+            onPointerUp={stopStaticPan}
+            onPointerCancel={stopStaticPan}
+            onWheel={zoomStaticMapAtPointer}
+            onKeyDown={navigateStaticMap}
+          >
+            {googleKey && !staticImageFailed ? (
+              <div ref={staticSurfaceRef} className="city-static-map-surface">
+                <div className="city-satellite-tiles" aria-hidden="true">
+                  {staticTiles.map((tile) => (
+                    <img
+                      key={tile.id}
+                      src={tile.url}
+                      width={tile.width}
+                      height={tile.height}
+                      alt=""
+                      loading="eager"
+                      decoding="async"
+                      draggable={false}
+                      style={{
+                        left: `${(tile.left / viewport.width) * 100}%`,
+                        top: `${(tile.top / viewport.height) * 100}%`,
+                        width: `${(tile.width / viewport.width) * 100}%`,
+                        height: `${(tile.height / viewport.height) * 100}%`,
+                      }}
+                      onLoad={() => markStaticTileReady(tile.id)}
+                      onError={() => {
+                        setStaticImageFailed(true);
+                        setStatus(
+                          "Map imagery unavailable. Photographs remain available.",
+                        );
+                      }}
+                    />
+                  ))}
+                </div>
+                <div className="city-satellite-markers">
+                  {groups.map((group) => {
+                    const point = projectStaticMapPosition(
+                      group.position,
+                      viewport,
+                    );
+                    const selectedGroup = group.photos.some(
+                      (photo) => photo.id === selectedId,
+                    );
+                    return (
+                      <button
+                        type="button"
+                        key={group.id}
+                        className="city-coordinate-marker"
+                        style={{ left: `${point.x}%`, top: `${point.y}%` }}
+                        aria-label={`${group.photos.length} ${group.placementKind} photograph${group.photos.length === 1 ? "" : "s"}`}
+                        aria-pressed={selectedGroup}
+                        data-marker-count={group.photos.length}
+                        data-photo-id={group.photos[0].id}
+                        onClick={() => selectPhoto(group.photos[0].id)}
+                      >
+                        <span>{group.photos.length}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : (
+              <div className="city-map-unavailable">
+                {selected && (
+                  <img
+                    className="city-map-placeholder-photo"
+                    src={selected.image.thumbnailUrl}
+                    alt=""
+                    aria-hidden="true"
+                  />
+                )}
+                <div>
+                  <p>Map imagery unavailable.</p>
+                  <button
+                    type="button"
+                    className="sightline-button primary"
+                    disabled={!hydrated || loading3d}
+                    onClick={() => void openThreeD()}
+                  >
+                    Open 3D camera view
+                  </button>
+                </div>
+              </div>
+            )}
+            {googleKey && !staticImageReady && !staticImageFailed && (
+              <div className="city-map-loading" aria-hidden="true">
+                <span></span>
+                Loading satellite view
+              </div>
+            )}
+            {googleKey && !staticImageFailed && (
+              <>
+                <div
+                  className="city-static-map-controls"
+                  aria-label="Map zoom controls"
+                >
+                  <button
+                    type="button"
+                    aria-label="Zoom in"
+                    onClick={() =>
+                      changeStaticZoom(staticTransformRef.current.scale * 1.25)
+                    }
+                  >
+                    +
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Zoom out"
+                    onClick={() =>
+                      changeStaticZoom(staticTransformRef.current.scale / 1.25)
+                    }
+                  >
+                    -
+                  </button>
+                  <button type="button" onClick={resetStaticMap}>
+                    Reset
+                  </button>
+                </div>
+                <p className="city-static-map-hint">
+                  Drag to move / scroll to zoom
+                </p>
+                <p className="city-map-attribution">
+                  <span>Google Maps</span> {mapAttribution}
+                </p>
+              </>
+            )}
+          </div>
+          <div
+            ref={mapRef}
+            className="city-map-canvas"
+            aria-label={`Interactive 3D view of ${city.name}`}
+            hidden={mode !== "3d"}
           />
-          <output htmlFor="photo-comparison-opacity">
-            {comparisonOpacity}%
-          </output>
-          <span>0% city · 100% photograph. Press Esc to leave comparison.</span>
+          {mode === "3d" && !loading3d && (
+            <div className="city-three-d-controls">
+              <span>
+                {comparison
+                  ? "Camera locked for comparison"
+                  : "Drag to explore · scroll to zoom · Ctrl + drag to orbit"}
+              </span>
+              <button
+                type="button"
+                onClick={() => {
+                  controllerRef.current?.resetView();
+                  setFrustumVisible(false);
+                  setComparison(false);
+                }}
+              >
+                City overview
+              </button>
+            </div>
+          )}
+          {loading3d && (
+            <div className="city-map-loading city-map-loading-3d" role="status">
+              <span></span>
+              Preparing the 3D city
+            </div>
+          )}
+          {comparison && selectedScene && (
+            <img
+              className="city-map-camera-comparison"
+              src={selectedScene.image.url}
+              alt=""
+              aria-hidden="true"
+              style={{ opacity: comparisonOpacity / 100 }}
+              onError={() => {
+                setComparison(false);
+                controllerRef.current?.setComparisonLocked(false);
+                setStatus(
+                  "This photograph could not load. The 3D scene remains available.",
+                );
+              }}
+            />
+          )}
         </div>
-      )}
-      {selected && (
-        <p
-          className="city-view-notice"
-          data-pose-status={selected.pose.calibration}
+        <aside
+          className="city-camera-tools"
+          aria-labelledby="camera-tools-title"
         >
-          {selected.pose.calibration === "rejected"
-            ? "Rejected pose. Not verified."
-            : selected.pose.calibration === "calibrated"
-              ? "Solved pose."
-              : selected.capabilities.frustum
-                ? "Approximate pose. Position and alignment are unverified."
-                : "No publishable camera alignment."}
-        </p>
-      )}
+          <h2 id="camera-tools-title">Camera tools</h2>
+          {selected && (
+            <div
+              className="city-photo-view-controls"
+              aria-label={`3D view controls for ${selected.id}`}
+            >
+              <div className="city-selected-photo">
+                <img
+                  src={selected.image.thumbnailUrl}
+                  width="64"
+                  height="48"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span>
+                  <strong>{selected.id}</strong>
+                  <small>{placementLabel(selected)}</small>
+                </span>
+              </div>
+              <div className="city-photo-action-buttons">
+                <button
+                  type="button"
+                  aria-pressed={frustumVisible}
+                  disabled={
+                    !hydrated || !selected.capabilities.frustum || loading3d
+                  }
+                  onClick={() => runThreeDAction("frustum")}
+                >
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <path d="m4 12 15-8v16L4 12Z" />
+                    <path d="M19 4 9 6v12l10 2M4 12h15" />
+                  </svg>
+                  {frustumVisible ? "Hide frustum" : "Show frustum"}
+                </button>
+                <button
+                  type="button"
+                  disabled={
+                    !hydrated || !selected.capabilities.comparison || loading3d
+                  }
+                  onClick={() => runThreeDAction("camera")}
+                >
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <circle cx="12" cy="12" r="6" />
+                    <path d="M12 2v6m0 8v6M2 12h6m8 0h6" />
+                  </svg>
+                  Align camera
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={comparison}
+                  disabled={
+                    !hydrated || !selected.capabilities.comparison || loading3d
+                  }
+                  onClick={() => runThreeDAction("comparison")}
+                >
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="1" />
+                    <path d="M12 3v18M3 16l4-5 5 6m0-3 4-4 5 6" />
+                  </svg>
+                  {comparison ? "Hide comparison" : "Compare photo"}
+                </button>
+              </div>
+            </div>
+          )}
+          {comparison && (
+            <div className="city-comparison-controls">
+              <label htmlFor="photo-comparison-opacity">Photo opacity</label>
+              <input
+                id="photo-comparison-opacity"
+                type="range"
+                min="0"
+                max="100"
+                step="1"
+                value={comparisonOpacity}
+                onChange={(event) =>
+                  setComparisonOpacity(Number(event.target.value))
+                }
+                aria-valuetext={`${comparisonOpacity} percent photograph`}
+              />
+              <output htmlFor="photo-comparison-opacity">
+                {comparisonOpacity}%
+              </output>
+              <span>
+                0% city · 100% photograph. Press Esc to leave comparison.
+              </span>
+            </div>
+          )}
+          {selected && (
+            <p
+              className="city-view-notice"
+              data-pose-status={selected.pose.calibration}
+            >
+              {selected.pose.calibration === "rejected"
+                ? "Rejected pose. Not verified."
+                : selected.pose.calibration === "calibrated"
+                  ? "Solved pose."
+                  : selected.capabilities.frustum
+                    ? "Approximate pose. Position and alignment are unverified."
+                    : "No publishable camera alignment."}
+            </p>
+          )}
+        </aside>
+      </div>
       <aside
         id="city-photo-drawer"
         className="city-photo-drawer"

@@ -20,8 +20,7 @@ export function getStaticPaths() {
     .map((city) => ({
       params: { city: city.id },
       props: {
-        city:
-          city.id === "taipei-north-coast" ? { ...city, name: "Taiwan" } : city,
+        city,
         media: imagesForCity(city.id),
         photos: getPublicMapPhotoSummariesForCity(city.id),
         imageOnlyPhotos:
