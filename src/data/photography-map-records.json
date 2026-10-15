@@ -1,0 +1,3952 @@
+[
+  {
+    "id": "img-2309",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.635517,
+        "longitude": -79.394364,
+        "altitudeM": 43.82844650331322
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2604",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.647094,
+        "longitude": -79.376908,
+        "altitudeM": 64.74800988311208
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2689",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.649403,
+        "longitude": -79.420167,
+        "altitudeM": 59.47464338285004
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2713",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.647094,
+        "longitude": -79.376908,
+        "altitudeM": 64.74800988311208
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "coarse-position-needs-registered-reference"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf6881",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf6967",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.331225,
+        "longitude": 114.166642,
+        "altitudeM": 39.167147005228884
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7009",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.33123174464902,
+        "longitude": 114.1666101498157,
+        "altitudeM": 4.67238176861225
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2784",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.283075,
+        "longitude": 114.155517,
+        "altitudeM": 29.294549224097665
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2788",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.283089,
+        "longitude": 114.154397,
+        "altitudeM": 33.848587758095604
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7127",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7156",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7163",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7196",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7219",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2820",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": 114.166642,
+        "latitude": 22.331225,
+        "altitudeM": 39.167147005228884
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2869",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.299978,
+        "longitude": 114.170197,
+        "altitudeM": 17.794693596015165
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-4124",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.318258,
+        "longitude": 114.1708,
+        "altitudeM": 17.6717518708416
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7320",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7345",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7372",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7405",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7545",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7547",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7563",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2941",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.284614,
+        "longitude": 114.153656,
+        "altitudeM": 25.878011153965733
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-2968",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 22.285128,
+        "longitude": 114.149414,
+        "altitudeM": 30.21408031654918
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:large-median-screen-residual"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-3046",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 22.278,
+        "longitude": 114.147,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7620",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7624",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7661",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7678",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7706",
+    "country": "hong-kong",
+    "region": "hong-kong",
+    "sceneId": "hong-kong",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7860",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7869",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7898",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf7904",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8015",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8046",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8064",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-3163",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8109",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8186",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8202",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8219",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8252",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8261",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8299",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8345",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8356",
+    "country": "china",
+    "region": "guilin-yangshuo",
+    "sceneId": "guilin-yangshuo",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8469",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8472",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8473",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8476",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8631",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8645",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8650",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8652",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8661",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8696",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8736",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8778",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8779",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8861",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8865",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8867",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8932",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8988",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf8993",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9033",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9034",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9041",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9051",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9052",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9053",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9065",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9077",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9099",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9141",
+    "country": "china",
+    "region": "zhangjiajie",
+    "sceneId": "zhangjiajie",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9270",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9280",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9401",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9425",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9450",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9495",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9552",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9562",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9637",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9665",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9690",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9856",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9984",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf9987",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0186",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0197",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0207",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0297",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0394",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0411",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0439",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0449",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "dscf0450",
+    "country": "china",
+    "region": "chongqing",
+    "sceneId": "chongqing",
+    "placement": {
+      "kind": "region",
+      "position": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      }
+    },
+    "privacy": {
+      "location": "city",
+      "timestamp": "date"
+    },
+    "calibration": "needs-manual",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5077",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.056,
+        "longitude": 121.512,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5151",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.062,
+        "longitude": 121.509,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5165",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.053,
+        "longitude": 121.52,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5201",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.108,
+        "longitude": 121.843,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-1192",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.042,
+        "longitude": 121.566,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5441",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.211,
+        "longitude": 121.695,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5478",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.205,
+        "longitude": 121.69,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5495",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.034,
+        "longitude": 121.568,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5508",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.027,
+        "longitude": 121.571,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:large-median-screen-residual"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5590",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.027,
+        "longitude": 121.576,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5607",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.027,
+        "longitude": 121.576,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5718",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.051,
+        "longitude": 121.525,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5772",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.162,
+        "longitude": 121.574,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-5829",
+    "country": "taiwan",
+    "region": "taipei-north-coast",
+    "sceneId": "taipei-north-coast",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 25.167,
+        "longitude": 121.575,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6028",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.734,
+        "longitude": 100.512,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6088",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.749,
+        "longitude": 100.541,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6226",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.776,
+        "longitude": 98.995,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6252",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.783,
+        "longitude": 98.993,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6322",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.777,
+        "longitude": 98.948,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6332",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.776,
+        "longitude": 98.949,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6403",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 19.194,
+        "longitude": 98.895,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6578",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.788,
+        "longitude": 98.996,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6592",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.788,
+        "longitude": 98.995,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6610",
+    "country": "thailand",
+    "region": "chiang-mai",
+    "sceneId": "chiang-mai",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 18.785,
+        "longitude": 98.993,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6850",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.752,
+        "longitude": 100.502,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6956",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.741,
+        "longitude": 100.509,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6957",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.741,
+        "longitude": 100.509,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-6998",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.744,
+        "longitude": 100.489,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7129",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.789,
+        "longitude": 100.471,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7150",
+    "country": "thailand",
+    "region": "bangkok",
+    "sceneId": "bangkok",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 13.759,
+        "longitude": 100.496,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7283",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.64896723726877,
+        "longitude": -79.39350788105025,
+        "altitudeM": 52.88854843657464
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7348",
+    "country": "canada",
+    "region": "elora",
+    "sceneId": "elora",
+    "placement": {
+      "kind": "rounded-gps",
+      "position": {
+        "latitude": 43.194,
+        "longitude": -80.383,
+        "altitudeM": 0
+      }
+    },
+    "privacy": {
+      "location": "rounded",
+      "timestamp": "date"
+    },
+    "calibration": "unreviewed",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": false,
+      "comparison": false,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7449",
+    "country": "canada",
+    "region": "toronto",
+    "sceneId": "toronto",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 43.67122127812336,
+        "longitude": -79.38784208520121,
+        "altitudeM": 213.4493450783193
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7492",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.7991220570829,
+        "longitude": -122.41906718324844,
+        "altitudeM": 48.91627189703286
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7498",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.79707161617615,
+        "longitude": -122.41347327191008,
+        "altitudeM": 39.998687711544335
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7526",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": -122.439933,
+        "latitude": 37.788233,
+        "altitudeM": 22.42679594619773
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7532",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.794596460783076,
+        "longitude": -122.43332927337102,
+        "altitudeM": 46.38898426480591
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7536",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": -122.421792,
+        "latitude": 37.796956,
+        "altitudeM": 18.01177811261993
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7540",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.772225,
+        "longitude": -122.437539,
+        "altitudeM": 22.095555076784777
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7542",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.771328,
+        "longitude": -122.437256,
+        "altitudeM": 30.002241277278344
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7544",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.776164240577636,
+        "longitude": -122.43358083362432,
+        "altitudeM": 41.54578296188265
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7561",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": -122.43087028739133,
+        "latitude": 37.79856414277553,
+        "altitudeM": -14.975483104586601
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7563",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.806478,
+        "longitude": -122.429808,
+        "altitudeM": -13.88599347501233
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7574",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.80422326924775,
+        "longitude": -122.42538341018853,
+        "altitudeM": -5.965765370056033
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "pending-exact-render-overlay-audit"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7577",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": -122.42818712260947,
+        "latitude": 37.80275410505418,
+        "altitudeM": -11.114633173681796
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7578",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "longitude": -122.42778380805048,
+        "latitude": 37.80104914058004,
+        "altitudeM": -15.069746896624565
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "calibrated",
+    "rejectionReasons": [],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7600",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.789344,
+        "longitude": -122.423478,
+        "altitudeM": 48.587947603070475
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  },
+  {
+    "id": "img-7608",
+    "country": "united-states",
+    "region": "san-francisco",
+    "sceneId": "san-francisco",
+    "placement": {
+      "kind": "exact",
+      "position": {
+        "latitude": 37.776578,
+        "longitude": -122.424317,
+        "altitudeM": -10.938453707853252
+      }
+    },
+    "privacy": {
+      "location": "exact",
+      "timestamp": "date"
+    },
+    "calibration": "rejected",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "capabilities": {
+      "marker": true,
+      "frustum": true,
+      "comparison": true,
+      "projection": false
+    }
+  }
+]

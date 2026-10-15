@@ -1,0 +1,120 @@
+---
+import SightlineLayout from "@/layouts/SightlineLayout.astro";
+import { cityDatasetSummaries } from "@/lib/dataset";
+
+const summaries = cityDatasetSummaries().sort(
+  (a, b) =>
+    Number(b.city.publicMap === "google-2d-3d") -
+    Number(a.city.publicMap === "google-2d-3d"),
+);
+---
+
+<SightlineLayout
+  title="Explore reconstructions — Sightline"
+  description="Review Sightline's complete public dataset by city, including verified, rejected, and incomplete camera reconstructions."
+>
+  <div class="sightline-shell">
+    <header class="sightline-page-head">
+      <p class="sightline-kicker">The collection / 10 city scenes</p>
+      <h1>A world of<br /><em>perspectives.</em></h1>
+      <p class="sightline-lede">
+        Walk through the photographs. Step into a city. Three interactive scenes
+        let you explore camera positions in 3D; the full collection spans ten
+        places.
+      </p>
+      <div
+        class="scene-filter"
+        role="group"
+        aria-label="Filter city scenes"
+        hidden
+      >
+        <button type="button" data-scene-filter="all" aria-pressed="true"
+          >All scenes <span>10</span></button
+        >
+        <button
+          type="button"
+          data-scene-filter="interactive"
+          aria-pressed="false">Interactive 3D <span>3</span></button
+        >
+        <button
+          type="button"
+          data-scene-filter="photography"
+          aria-pressed="false">Photography <span>7</span></button
+        >
+      </div>
+      <p class="sr-only" data-filter-status role="status"></p>
+    </header>
+    <section class="scene-grid" aria-label="Sightline city datasets">
+      {
+        summaries.map(({ city, images, sample }) => {
+          const preview =
+            sample?.variants.find((variant) => variant.width >= 960) ??
+            sample?.variants.at(-1);
+          return (
+            <a
+              class="scene-card"
+              data-scene-kind={
+                city.publicMap === "google-2d-3d"
+                  ? "interactive"
+                  : "photography"
+              }
+              href={`/explore/${city.id}`}
+            >
+              {preview && sample && (
+                <div class="scene-image">
+                  <img
+                    src={preview.src}
+                    width={sample.width}
+                    height={sample.height}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+              <p class="sightline-mono">
+                {city.publicMap === "google-2d-3d"
+                  ? "Interactive scene / 2D + 3D"
+                  : "Photography collection"}
+              </p>
+              <div class="scene-card-title">
+                <>
+                  <strong>{city.name}</strong>
+                  <span aria-hidden="true">↗</span>
+                </>
+              </div>
+              <p>
+                {images.length} photographs · {city.description}
+              </p>
+            </a>
+          );
+        })
+      }
+    </section>
+  </div>
+</SightlineLayout>
+
+<script>
+  const filters = document.querySelector<HTMLElement>(".scene-filter");
+  const buttons = [
+    ...document.querySelectorAll<HTMLButtonElement>("[data-scene-filter]"),
+  ];
+  const scenes = [
+    ...document.querySelectorAll<HTMLElement>("[data-scene-kind]"),
+  ];
+  const status = document.querySelector<HTMLElement>("[data-filter-status]");
+  if (filters) filters.hidden = false;
+  buttons.forEach((button) =>
+    button.addEventListener("click", () => {
+      const filter = button.dataset.sceneFilter;
+      buttons.forEach((item) =>
+        item.setAttribute("aria-pressed", String(item === button)),
+      );
+      scenes.forEach((scene) => {
+        scene.hidden = filter !== "all" && scene.dataset.sceneKind !== filter;
+      });
+      if (status)
+        status.textContent = `${scenes.filter((scene) => !scene.hidden).length} scenes shown.`;
+    }),
+  );
+</script>

@@ -1,0 +1,206 @@
+---
+import SightlineLayout from "@/layouts/SightlineLayout.astro";
+import { cityScenes } from "@/lib/photography-map";
+import { cityDatasetSummaries } from "@/lib/dataset";
+import manifest from "@/data/photography-manifest.json";
+
+const featuredScenes = cityDatasetSummaries()
+  .filter(({ city, sample }) => city.publicMap === "google-2d-3d" && sample)
+  .sort((a, b) =>
+    a.city.id === "san-francisco" ? -1 : b.city.id === "san-francisco" ? 1 : 0,
+  )
+  .map(({ city, sample, images }) => ({
+    city,
+    sample: sample!,
+    images,
+    preview:
+      sample!.variants.find((v) => v.width >= 960) ?? sample!.variants.at(-1)!,
+  }));
+const hero = manifest.find((photo) => photo.id === "img-7449")!;
+const heroPreview = hero.variants.at(-1)!;
+---
+
+<SightlineLayout
+  title="Sightline — A photograph, placed in the world"
+  description="Explore the space behind a photograph. Sightline reconstructs camera viewpoints in 3D and lets you return to the original line of sight."
+  image={heroPreview.src}
+>
+  <div class="sightline-shell">
+    <section class="sightline-hero">
+      <div class="sightline-hero-copy">
+        <p class="sightline-kicker">
+          <span class="status-dot" aria-hidden="true"></span> A study in photographs
+          &amp; place
+        </p>
+        <h1>Return to the<br />original <em>sightline.</em></h1>
+        <p class="sightline-lede">
+          Every photograph holds a point of view.<br class="desktop-break" /> Find
+          it in the city. See the space beyond the frame.
+        </p>
+        <div class="sightline-actions">
+          <a class="sightline-button primary" href="/explore"
+            >Explore reconstructions <span aria-hidden="true">↗</span></a
+          >
+          <a class="sightline-text-link" href="/upload"
+            >Try your photo <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </div>
+      <figure class="sightline-hero-scene">
+        <img
+          src={heroPreview.src}
+          srcset={hero.variants.map((v) => `${v.src} ${v.width}w`).join(", ")}
+          sizes="(min-width: 980px) 55vw, 100vw"
+          width={hero.width}
+          height={hero.height}
+          alt={hero.alt}
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-viewfinder" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><span>43° N &nbsp; 79° W</span><b>+</b>
+        </div>
+        <figcaption>
+          <span>01 / Toronto at dusk</span><a
+            href="/explore/toronto?photo=img-7449"
+            >Explore this frame <span aria-hidden="true">↗</span></a
+          >
+        </figcaption>
+      </figure>
+    </section>
+    <div class="sightline-project-strip" aria-label="Project overview">
+      <p>Photography meets<br /><strong>spatial reconstruction.</strong></p>
+      <dl>
+        <div><dt>Photographs</dt><dd>{manifest.length}</dd></div><div>
+          <dt>City scenes</dt><dd>
+            {cityScenes.length.toString().padStart(2, "0")}
+          </dd>
+        </div><div>
+          <dt>Interactive cities</dt><dd>
+            {featuredScenes.length.toString().padStart(2, "0")}
+          </dd>
+        </div>
+      </dl>
+      <a class="sightline-text-link" href="/methodology"
+        >Behind the project <span aria-hidden="true">↗</span></a
+      >
+    </div>
+    <section class="sightline-section" aria-labelledby="selected-scenes">
+      <div class="section-heading">
+        <div>
+          <p class="sightline-kicker">The collection</p><h2
+            id="selected-scenes"
+          >
+            Different cities.<br /><em>A new perspective.</em>
+          </h2>
+        </div><div>
+          <p>
+            Start with a photograph. Move through the city.<br />Return to the
+            camera that captured it.
+          </p><a class="sightline-text-link" href="/explore"
+            >View all {cityScenes.length} scenes <span aria-hidden="true"
+              >↗</span
+            ></a
+          >
+        </div>
+      </div>
+      <div class="featured-scenes">
+        {
+          featuredScenes.map(({ city, sample, preview, images }, index) => (
+            <a class="featured-scene" href={`/explore/${city.id}`}>
+              <>
+                <div class="featured-scene-image">
+                  <>
+                    <img
+                      src={preview.src}
+                      width={sample.width}
+                      height={sample.height}
+                      alt={sample.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <span class="scene-badge">
+                      Interactive scene <span aria-hidden="true">↗</span>
+                    </span>
+                  </>
+                </div>
+                <div class="featured-scene-caption">
+                  <>
+                    <span class="sightline-mono">0{index + 1}</span>
+                    <div>
+                      <>
+                        <h3>{city.name}</h3>
+                        <p>{images.length} photographs · 2D &amp; 3D</p>
+                      </>
+                    </div>
+                    <span aria-hidden="true">↗</span>
+                  </>
+                </div>
+              </>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+    <section
+      class="sightline-section method-preview"
+      aria-labelledby="how-it-works"
+    >
+      <div class="section-heading">
+        <div>
+          <p class="sightline-kicker">From image to space</p><h2
+            id="how-it-works"
+          >
+            Beyond the frame.
+          </h2>
+        </div><p>
+          A camera has a position, a direction, and a field of view.<br
+          />Sightline brings those pieces back together.
+        </p>
+      </div>
+      <ol class="method-steps">
+        <li>
+          <span>01</span><h3>Find the place.</h3><p>
+            Location metadata or visual matches narrow a photograph down to a
+            scene.
+          </p>
+        </li><li>
+          <span>02</span><h3>Recover the view.</h3><p>
+            Reconstruct the camera and its viewing frustum: the volume of space
+            inside the frame.
+          </p>
+        </li><li>
+          <span>03</span><h3>Check the alignment.</h3><p>
+            Compare the photograph with the 3D view. Solved, rejected, and
+            incomplete results stay distinct.
+          </p>
+        </li>
+      </ol>
+      <a class="sightline-text-link" href="/methodology"
+        >Read the method &amp; its limits <span aria-hidden="true">↗</span></a
+      >
+    </section>
+    <section class="sightline-upload-invite" aria-labelledby="your-perspective">
+      <div>
+        <p class="sightline-kicker">Your perspective</p><h2
+          id="your-perspective"
+        >
+          Start with<br /><em>your own photograph.</em>
+        </h2><p>
+          Choose a photo. Find its city from location metadata.<br />Explore an
+          approximate camera view in a private workspace.
+        </p><a class="sightline-button primary" href="/upload"
+          >Try your photo <span aria-hidden="true">↗</span></a
+        ><small
+          >Your original stays in your browser. Nothing is published.</small
+        >
+      </div><div class="upload-invite-art" aria-hidden="true">
+        <span class="art-camera">+</span><span class="art-frame"></span><span
+          class="art-ray one"></span><span class="art-ray two"></span><span
+          class="art-ray three"></span><span class="art-ray four"></span><span
+          class="art-label">A point of view, in three dimensions.</span
+        >
+      </div>
+    </section>
+  </div>
+</SightlineLayout>

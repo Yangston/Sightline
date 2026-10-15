@@ -1,0 +1,652 @@
+[
+  {
+    "id": "dscf6967",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.331225,
+        "longitude": 114.166642,
+        "altitudeM": 39.167147005228884
+      },
+      "headingDeg": 225.5664709125619,
+      "pitchDeg": 4.186495324683692,
+      "rollDeg": 2.1575459663810244,
+      "horizontalFovDeg": 17.103660467640115,
+      "verticalFovDeg": 25.422265131058982,
+      "nearM": 10.237648329551746,
+      "farM": 1194.1625705486679,
+      "confidence": 0.9626003284035246,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "dscf7009",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.33123174464902,
+        "longitude": 114.1666101498157,
+        "altitudeM": 4.67238176861225
+      },
+      "headingDeg": 223.77507670359182,
+      "pitchDeg": 2.858570113694799,
+      "rollDeg": 1.7244794190355153,
+      "horizontalFovDeg": 4.639303696093832,
+      "verticalFovDeg": 6.954210310381161,
+      "nearM": 15.161078676223449,
+      "farM": 1110.8108455565914,
+      "confidence": 0.7778048600106775,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-1192",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-2309",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.635517,
+        "longitude": -79.394364,
+        "altitudeM": 43.82844650331322
+      },
+      "headingDeg": 53.461374872653955,
+      "pitchDeg": 0.2702991766527093,
+      "rollDeg": 5.789059511975354,
+      "horizontalFovDeg": 56.81194376019048,
+      "verticalFovDeg": 71.59151982941417,
+      "nearM": 1,
+      "farM": 2000,
+      "confidence": 0.722075021652953,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2604",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.647094,
+        "longitude": -79.376908,
+        "altitudeM": 64.74800988311208
+      },
+      "headingDeg": 45.073785525661584,
+      "pitchDeg": -6.678222689182521,
+      "rollDeg": 2.0356508728284552,
+      "horizontalFovDeg": 9.660619841213839,
+      "verticalFovDeg": 12.857203673233286,
+      "nearM": 1.8373013016661648,
+      "farM": 30,
+      "confidence": 0.8180222915127005,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2689",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.649403,
+        "longitude": -79.420167,
+        "altitudeM": 59.47464338285004
+      },
+      "headingDeg": 258.68258360559724,
+      "pitchDeg": 1.1567459822231008,
+      "rollDeg": 0.5381608523465502,
+      "horizontalFovDeg": 12.857203673233286,
+      "verticalFovDeg": 17.087452479665796,
+      "nearM": 12.71499520963933,
+      "farM": 544.0609312340289,
+      "confidence": 0.7887797819812497,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2713",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "coarse-position-needs-registered-reference"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.647094,
+        "longitude": -79.376908,
+        "altitudeM": 64.74800988311208
+      },
+      "headingDeg": 182.1429557059744,
+      "pitchDeg": 7.737749400601979,
+      "rollDeg": 3.8499250417621624,
+      "horizontalFovDeg": 31.11663300365795,
+      "verticalFovDeg": 40.73266473224026,
+      "nearM": 45.374707672880156,
+      "farM": 621.0947609864783,
+      "confidence": 0.7912229047804201,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2784",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.283075,
+        "longitude": 114.155517,
+        "altitudeM": 29.294549224097665
+      },
+      "headingDeg": 222.69829161253008,
+      "pitchDeg": 14.97016160496437,
+      "rollDeg": 0.6502725456309864,
+      "horizontalFovDeg": 46.461144238149025,
+      "verticalFovDeg": 59.56585173830131,
+      "nearM": 1,
+      "farM": 2000,
+      "confidence": 0.7605983718090618,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2788",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.283089,
+        "longitude": 114.154397,
+        "altitudeM": 33.848587758095604
+      },
+      "headingDeg": 202.74402841242605,
+      "pitchDeg": 2.3607092943134633,
+      "rollDeg": 1.2371949088278598,
+      "horizontalFovDeg": 27.698309419166158,
+      "verticalFovDeg": 36.39254960400194,
+      "nearM": 2.9962853761654333,
+      "farM": 94.51456802122856,
+      "confidence": 0.7592203352962763,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2869",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.299978,
+        "longitude": 114.170197,
+        "altitudeM": 17.794693596015165
+      },
+      "headingDeg": 118.54519840319426,
+      "pitchDeg": -5.557393396839297,
+      "rollDeg": 1.5898837502722927,
+      "horizontalFovDeg": 10.926714948309325,
+      "verticalFovDeg": 19.302145521742105,
+      "nearM": 24.60880699774619,
+      "farM": 371.73884844611945,
+      "confidence": 0.8199182437631422,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2941",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.284614,
+        "longitude": 114.153656,
+        "altitudeM": 25.878011153965733
+      },
+      "headingDeg": 229.81023745482312,
+      "pitchDeg": 11.887297264540901,
+      "rollDeg": -0.14232379054215016,
+      "horizontalFovDeg": 30.26361356613297,
+      "verticalFovDeg": 39.65405730681634,
+      "nearM": 2.570751989863415,
+      "farM": 46.15747715966002,
+      "confidence": 0.8384650022398433,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-2968",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:rejected:large-median-screen-residual"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.285128,
+        "longitude": 114.149414,
+        "altitudeM": 30.21408031654918
+      },
+      "headingDeg": 130.43246383702098,
+      "pitchDeg": 13.1289836734244,
+      "rollDeg": 0.8642314002512148,
+      "horizontalFovDeg": 30.26361356613297,
+      "verticalFovDeg": 39.65405730681634,
+      "nearM": 7.503341018868104,
+      "farM": 342.7563048893272,
+      "confidence": 0.6475948558416796,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-4124",
+    "cityId": "hong-kong",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 22.318258,
+        "longitude": 114.1708,
+        "altitudeM": 17.6717518708416
+      },
+      "headingDeg": 354.10448906557076,
+      "pitchDeg": -23.93383112180044,
+      "rollDeg": -2.0237891365813994,
+      "horizontalFovDeg": 102.59423896328816,
+      "verticalFovDeg": 117.99456173225204,
+      "nearM": 1,
+      "farM": 2000,
+      "confidence": 0.784872471518605,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-5077",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-5151",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-5165",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-5201",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-5441",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-5478",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-5495",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-5508",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:large-median-screen-residual"
+    ]
+  },
+  {
+    "id": "img-5590",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ]
+  },
+  {
+    "id": "img-5607",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ]
+  },
+  {
+    "id": "img-5718",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-5772",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-5829",
+    "cityId": "taipei-north-coast",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ]
+  },
+  {
+    "id": "img-7283",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "overlay-audit:inconclusive:too-few-geometric-inliers"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.64896723726877,
+        "longitude": -79.39350788105025,
+        "altitudeM": 52.88854843657464
+      },
+      "headingDeg": 352.50326954186625,
+      "pitchDeg": 3.2903914984655662,
+      "rollDeg": 1.6051761777184632,
+      "horizontalFovDeg": 25.39860648536148,
+      "verticalFovDeg": 33.447116012968046,
+      "nearM": 14.362041780939354,
+      "farM": 82.43352703985714,
+      "confidence": 0.6735599242468889,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7449",
+    "cityId": "toronto",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 43.67122127812336,
+        "longitude": -79.38784208520121,
+        "altitudeM": 213.4493450783193
+      },
+      "headingDeg": 248.06334374442787,
+      "pitchDeg": -1.3941121991808794,
+      "rollDeg": 0.05146166891156012,
+      "horizontalFovDeg": 71.59151982941417,
+      "verticalFovDeg": 56.811943760190495,
+      "nearM": 59.85655991457529,
+      "farM": 1969.553046715651,
+      "confidence": 0.73755015625,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7492",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.7991220570829,
+        "longitude": -122.41906718324844,
+        "altitudeM": 48.91627189703286
+      },
+      "headingDeg": 249.85385425681216,
+      "pitchDeg": -0.38740864189203617,
+      "rollDeg": -0.19742878245500525,
+      "horizontalFovDeg": 53.20076158803865,
+      "verticalFovDeg": 41.170173392828715,
+      "nearM": 1.2087628724100885,
+      "farM": 71.54206949263902,
+      "confidence": 0.7369427097943745,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7498",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.79707161617615,
+        "longitude": -122.41347327191008,
+        "altitudeM": 39.998687711544335
+      },
+      "headingDeg": 76.50030078006903,
+      "pitchDeg": -0.4685915407502334,
+      "rollDeg": 0.4059341262413344,
+      "horizontalFovDeg": 30.26361356613297,
+      "verticalFovDeg": 39.65405730681634,
+      "nearM": 9.487121180549352,
+      "farM": 1182.7757126770534,
+      "confidence": 0.7310887995589752,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7532",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.794596460783076,
+        "longitude": -122.43332927337102,
+        "altitudeM": 46.38898426480591
+      },
+      "headingDeg": 344.309080714955,
+      "pitchDeg": -3.7147211602688786,
+      "rollDeg": 0.1799924693786902,
+      "horizontalFovDeg": 30.26361356613297,
+      "verticalFovDeg": 39.65405730681634,
+      "nearM": 13.659609420280448,
+      "farM": 1342.1613365737478,
+      "confidence": 0.7220950867288252,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7540",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.772225,
+        "longitude": -122.437539,
+        "altitudeM": 22.095555076784777
+      },
+      "headingDeg": 94.20098354198595,
+      "pitchDeg": 3.9444299914869645,
+      "rollDeg": -1.008950185641993,
+      "horizontalFovDeg": 53.20076158803864,
+      "verticalFovDeg": 67.4616514010486,
+      "nearM": 9.67927080034658,
+      "farM": 20000,
+      "confidence": 0.8179523428168763,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7542",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.771328,
+        "longitude": -122.437256,
+        "altitudeM": 30.002241277278344
+      },
+      "headingDeg": 201.8836179791541,
+      "pitchDeg": 24.123229455729472,
+      "rollDeg": -5.8004576634854965,
+      "horizontalFovDeg": 58.79098406293225,
+      "verticalFovDeg": 45.8105989647672,
+      "nearM": 7.96580048613271,
+      "farM": 47.66650557396516,
+      "confidence": 0.6463377512925791,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7544",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "missing-exact-render-verification"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.776164240577636,
+        "longitude": -122.43358083362432,
+        "altitudeM": 41.54578296188265
+      },
+      "headingDeg": 82.18314238848332,
+      "pitchDeg": 1.0877771799687863,
+      "rollDeg": -0.2055169114471606,
+      "horizontalFovDeg": 69.47296256251593,
+      "verticalFovDeg": 54.951698595964636,
+      "nearM": 16.231626670478022,
+      "farM": 113.64506429430524,
+      "confidence": 0.7959948768665704,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7563",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "reference-or-provider-unavailable"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.806478,
+        "longitude": -122.429808,
+        "altitudeM": -13.88599347501233
+      },
+      "headingDeg": 284.9246367,
+      "pitchDeg": -3.5385653901563203,
+      "rollDeg": 2.4821538330778594,
+      "horizontalFovDeg": 71.59151982941417,
+      "verticalFovDeg": 56.81194376019049,
+      "nearM": 1,
+      "farM": 500,
+      "confidence": 0.35,
+      "source": "exif"
+    }
+  },
+  {
+    "id": "img-7574",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "pending-exact-render-overlay-audit"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.80422326924775,
+        "longitude": -122.42538341018853,
+        "altitudeM": -5.965765370056033
+      },
+      "headingDeg": 248.84257354519826,
+      "pitchDeg": 10.087011577393875,
+      "rollDeg": -0.6718101164099711,
+      "horizontalFovDeg": 30.26361356613297,
+      "verticalFovDeg": 39.65405730681634,
+      "nearM": 1.1960956344730596,
+      "farM": 118.32275911859084,
+      "confidence": 0.6786216031342054,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7600",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.789344,
+        "longitude": -122.423478,
+        "altitudeM": 48.587947603070475
+      },
+      "headingDeg": 237.22364324487864,
+      "pitchDeg": 5.936978815926846,
+      "rollDeg": -0.41329433009343575,
+      "horizontalFovDeg": 46.72627402577941,
+      "verticalFovDeg": 59.88101608479308,
+      "nearM": 1.3772940828161029,
+      "farM": 150.36844767332607,
+      "confidence": 0.7648471134430809,
+      "source": "computer-vision"
+    }
+  },
+  {
+    "id": "img-7608",
+    "cityId": "san-francisco",
+    "rejectionReasons": [
+      "overlay-audit:rejected:gross-screen-misalignment"
+    ],
+    "cameraCandidate": {
+      "position": {
+        "latitude": 37.776578,
+        "longitude": -122.424317,
+        "altitudeM": -10.938453707853252
+      },
+      "headingDeg": 253.83859932562598,
+      "pitchDeg": -3.0803320092290782,
+      "rollDeg": -0.9631528472419859,
+      "horizontalFovDeg": 79.00707440012536,
+      "verticalFovDeg": 95.41389730783698,
+      "nearM": 0.25,
+      "farM": 68.83612893185861,
+      "confidence": 0.6820365808631966,
+      "source": "computer-vision"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+---
+import SightlineLayout from "@/layouts/SightlineLayout.astro";
+import PhotoCalibration from "@/components/photography/PhotoCalibration";
+import { cityScenes, pilotPhotos } from "@/lib/photography-map";
+---
+
+<SightlineLayout
+  title="Pose calibration — Development"
+  description="Development-only camera pose calibration."
+>
+  <PhotoCalibration
+    client:only="react"
+    cities={cityScenes}
+    photos={pilotPhotos}
+    googleKey={import.meta.env.PUBLIC_GOOGLE_MAP_TILES_API_KEY}
+    ionToken={import.meta.env.PUBLIC_CESIUM_ION_TOKEN}
+  />
+</SightlineLayout>

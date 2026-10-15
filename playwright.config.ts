@@ -1,0 +1,56 @@
+import { defineConfig, devices } from "@playwright/test";
+
+const useProductionPreview = process.env.PLAYWRIGHT_USE_PREVIEW === "1";
+const useExternalServer = process.env.PLAYWRIGHT_EXTERNAL_SERVER === "1";
+const port = Number(process.env.PLAYWRIGHT_PORT ?? 4333);
+
+export default defineConfig({
+  testDir: "./tests",
+  testMatch: "**/*.spec.ts",
+  fullyParallel: true,
+  // First-time compilation of the globe and Cesium graphs is memory-heavy on Windows CI.
+  workers: 1,
+  timeout: 60_000,
+  expect: { timeout: 20_000 },
+  use: {
+    baseURL: `http://127.0.0.1:${port}`,
+    trace: "retain-on-failure",
+    launchOptions: {
+      args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"],
+    },
+  },
+  webServer: useExternalServer
+    ? undefined
+    : {
+        command: useProductionPreview
+          ? `node node_modules/astro/bin/astro.mjs preview --host 127.0.0.1 --port ${port}`
+          : `node node_modules/astro/bin/astro.mjs dev --host 127.0.0.1 --port ${port}`,
+        env: {
+          ...process.env,
+          ASTRO_DEV_BACKGROUND: "1",
+          NODE_ENV: useProductionPreview ? "production" : "development",
+          PUBLIC_GOOGLE_MAP_TILES_API_KEY: "sightline-browser-test-key",
+          PUBLIC_CESIUM_ION_TOKEN: "",
+        },
+        url: `http://127.0.0.1:${port}`,
+        reuseExistingServer: false,
+        timeout: 120_000,
+      },
+  projects: [
+    {
+      name: "mobile",
+      use: {
+        ...devices["iPhone 13"],
+        browserName: "chromium",
+        viewport: { width: 390, height: 844 },
+      },
+    },
+    {
+      name: "desktop",
+      use: {
+        ...devices["Desktop Chrome"],
+        viewport: { width: 1440, height: 900 },
+      },
+    },
+  ],
+});

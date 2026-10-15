@@ -1,0 +1,82 @@
+---
+import "@/styles/global.css";
+import "@/styles/sightline.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const {
+  title,
+  description,
+  image = "/media/projects/sightline.svg",
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL(image, Astro.site);
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#101411" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <title>{title}</title>
+  </head>
+  <body class="sightline-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="sightline-nav">
+      <a class="sightline-wordmark" href="/" aria-label="Sightline home">
+        <span aria-hidden="true"></span>Sightline
+      </a>
+      <nav aria-label="Primary navigation">
+        <a
+          href="/explore"
+          aria-current={currentPath.startsWith("/explore") ? "page" : undefined}
+          >Explore</a
+        >
+        <a
+          href="/methodology"
+          aria-current={currentPath.startsWith("/methodology")
+            ? "page"
+            : undefined}>The method</a
+        >
+        <a
+          class="nav-upload"
+          href="/upload"
+          aria-current={currentPath.startsWith("/upload") ? "page" : undefined}
+          >Try your photo <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="sightline-footer">
+      <div>
+        <a class="sightline-wordmark" href="/"
+          >Sightline<span aria-hidden="true"></span></a
+        ><p>A photograph is a place to begin.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/methodology">Method &amp; limitations</a><a
+          href="https://github.com/Yangston/Sightline"
+          >View source <span aria-hidden="true">↗</span></a
+        ><p>&copy; 2026 Stone Yang</p>
+      </div>
+    </footer>
+  </body>
+</html>

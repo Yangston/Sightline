@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "portfolio-2026-08-10",
+  "sourceRepository": "Yangston/Personal-Website",
+  "records": 149,
+  "mediaFiles": 447,
+  "mediaBytes": 75782364,
+  "datasetDigest": "25ab20f1f0f72dc7bfb68171a045b7025238d8e5691b86498b0ac6403da092db",
+  "fileDigests": {
+    "photography-manifest.json": "217f74ee2869399babd4684d0d80af8e5438f5db8939ec5f95241341ac11a77a",
+    "photography-audit.json": "038ba8ba55506f5991be43050237712bf982d9028e4b71e584f4511e7db716d0",
+    "photography-integrity.json": "20ec84a76cffe24c1683f6993cc74e7490d617d543da909b09283e6b58f17093",
+    "photography-map-records.json": "185d7bf8719ddbf669d79abc7c2aa2cf729ed3e6e6cdbf989e15b6523e182795",
+    "photography-auto-pilots.json": "d08267a4f7716ea975c36d4e873fb3d172a05743dc8843ea6332c01c396c67d4",
+    "photography-auto-rejections.json": "4c8e1b74e108fdd6acdaddbccf0727918bd90e59bd2a95c89152d0b26ef8e261",
+    "photography-image-only-pilots.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "photography-image-only-rejections.json": "e2b6808e8eb5cf4a13978bd1f73d6c4b59098f161c1a180be16f8023f8e8fbad",
+    "photography-image-only-evaluations.json": "53824330f38fa0e8c5f15663a269058c00dff932bb4b8cec82dad856017fa77d",
+    "config/photography.json": "988d8b6d71d5a643b82e405052a919bda15d31cd7edd584eec7bffe1405623fb",
+    "config/photography-publication.json": "7b2bb19f44df5f6d9e17d2aeeac6348b688af47f15cbaa5040099c07f1e6d511"
+  }
+}

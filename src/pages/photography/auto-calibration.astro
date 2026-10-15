@@ -1,0 +1,20 @@
+---
+if (import.meta.env.PROD) return Astro.redirect("/404");
+import AutomaticCalibrationHarness from "@/components/photography/AutomaticCalibrationHarness";
+import { cityScenes } from "@/lib/photography-map";
+---
+
+<html lang="en">
+  <head
+    ><meta charset="utf-8" /><meta name="robots" content="noindex" /><title>
+      Automatic Sightline calibration harness
+    </title></head
+  ><body style="margin:0;overflow:hidden"
+    ><AutomaticCalibrationHarness
+      client:only="react"
+      cities={cityScenes}
+      googleKey={import.meta.env.PUBLIC_GOOGLE_MAP_TILES_API_KEY}
+      ionToken={import.meta.env.PUBLIC_CESIUM_ION_TOKEN}
+    /></body
+  >
+</html>

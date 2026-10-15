@@ -1,0 +1,7 @@
+---
+if (import.meta.env.PROD) return Astro.redirect("/404");
+const { default: PhotoCalibrationPage } =
+  await import("@/components/photography/PhotoCalibrationPage.astro");
+---
+
+<PhotoCalibrationPage />

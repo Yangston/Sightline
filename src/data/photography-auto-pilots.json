@@ -1,0 +1,422 @@
+[
+  {
+    "id": "img-2820",
+    "cityId": "hong-kong",
+    "country": "hong-kong",
+    "location": {
+      "latitude": 22.331225,
+      "longitude": 114.166642,
+      "altitudeM": 41.39342235
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -2.2262753447711177,
+    "horizontalAccuracyM": 3.706242745,
+    "corrected": {
+      "longitude": 114.166642,
+      "latitude": 22.331225,
+      "altitudeM": 39.167147005228884
+    },
+    "headingDeg": 220.12701129901185,
+    "pitchDeg": -0.15740967839554035,
+    "rollDeg": -0.8025723869545537,
+    "focalLengthMm": 15.7,
+    "focalLength35Mm": 120,
+    "horizontalFovDeg": 12.607151043346235,
+    "verticalFovDeg": 16.757207014044965,
+    "source": "computer-vision",
+    "confidence": 0.774985193191114,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 10.281581060533014,
+    "farM": 1187.7676656229555,
+    "automaticEvidence": {
+      "matcher": "lightglue-aliked",
+      "matches": 119,
+      "inliers": 119,
+      "inlierRatio": 1,
+      "rmsErrorPx": null,
+      "imageCoverage": 0.09683217601254175,
+      "positionDeltaM": 0,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "bearing-rotation-with-gps-prior",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 106,
+        "validDepthRatio": 0.905982905982906,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 51.40790530266507,
+          "p05": 51.479160322731936,
+          "p50": 77.3802899673883,
+          "p95": 1012.2171467482758,
+          "p98": 1032.8414483677875
+        },
+        "frustum": {
+          "nearM": 10.281581060533014,
+          "farM": 1187.7676656229555
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 380,
+        "imageCoverage": 0.15179688439394048,
+        "medianResidual": 0.033928344278737976,
+        "p90Residual": 0.037936712741646984
+      }
+    }
+  },
+  {
+    "id": "img-7526",
+    "cityId": "san-francisco",
+    "country": "united-states",
+    "location": {
+      "latitude": 37.788233,
+      "longitude": -122.439933,
+      "altitudeM": 54.68392917
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -32.25713322380227,
+    "horizontalAccuracyM": 14.24595464,
+    "corrected": {
+      "longitude": -122.439933,
+      "latitude": 37.788233,
+      "altitudeM": 22.42679594619773
+    },
+    "headingDeg": 174.21211481062784,
+    "pitchDeg": 10.509040206747153,
+    "rollDeg": 3.012040164092914,
+    "focalLengthMm": 6.8,
+    "focalLength35Mm": 24,
+    "horizontalFovDeg": 57.82558179798908,
+    "verticalFovDeg": 72.73793934836144,
+    "source": "computer-vision",
+    "confidence": 0.6356786183721356,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 1.3774843024881316,
+    "farM": 36.500383425388534,
+    "automaticEvidence": {
+      "matcher": "lightglue-superpoint",
+      "matches": 22,
+      "inliers": 15,
+      "inlierRatio": 0.6818181818181818,
+      "rmsErrorPx": null,
+      "imageCoverage": 0.011844017206131005,
+      "positionDeltaM": 0,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "bearing-rotation-with-gps-prior",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 78,
+        "validDepthRatio": 0.6666666666666666,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 6.887421512440658,
+          "p05": 6.95471934659499,
+          "p50": 20.26542452511547,
+          "p95": 30.63786088228187,
+          "p98": 31.739463848163947
+        },
+        "frustum": {
+          "nearM": 1.3774843024881316,
+          "farM": 36.500383425388534
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 124,
+        "imageCoverage": 0.17810414534807253,
+        "medianResidual": 0.02372224264097212,
+        "p90Residual": 0.03339456218051362
+      }
+    }
+  },
+  {
+    "id": "img-7536",
+    "cityId": "san-francisco",
+    "country": "united-states",
+    "location": {
+      "latitude": 37.796956,
+      "longitude": -122.421792,
+      "altitudeM": 50.24106759
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -32.22928947738007,
+    "horizontalAccuracyM": 14.65322953,
+    "corrected": {
+      "longitude": -122.421792,
+      "latitude": 37.796956,
+      "altitudeM": 18.01177811261993
+    },
+    "headingDeg": 304.3408710632863,
+    "pitchDeg": 4.504960069087314,
+    "rollDeg": -1.3000435427953168,
+    "focalLengthMm": 6.8,
+    "focalLength35Mm": 24,
+    "horizontalFovDeg": 72.38183496614116,
+    "verticalFovDeg": 88.58055776745137,
+    "source": "computer-vision",
+    "confidence": 0.7371131470453886,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 1.5287977023389823,
+    "farM": 57.53445151118783,
+    "automaticEvidence": {
+      "matcher": "lightglue-superpoint",
+      "matches": 113,
+      "inliers": 64,
+      "inlierRatio": 0.5663716814159292,
+      "rmsErrorPx": 3.6710714511822755,
+      "imageCoverage": 0.018277597766121662,
+      "positionDeltaM": 6.895824161114363,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "orientation-with-gps-prior",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 82,
+        "validDepthRatio": 0.7008547008547008,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 7.643988511694911,
+          "p05": 7.769441788736525,
+          "p50": 9.84687213250652,
+          "p95": 34.94132076965952,
+          "p98": 50.02995783581551
+        },
+        "frustum": {
+          "nearM": 1.5287977023389823,
+          "farM": 57.53445151118783
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 82,
+        "imageCoverage": 0.07474323689434674,
+        "medianResidual": 0.03546612720540116,
+        "p90Residual": 0.05067837832142473
+      }
+    }
+  },
+  {
+    "id": "img-7561",
+    "cityId": "san-francisco",
+    "country": "united-states",
+    "location": {
+      "latitude": 37.798594,
+      "longitude": -122.430886,
+      "altitudeM": 17.88360955
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -32.23837936334322,
+    "horizontalAccuracyM": 14.24595457,
+    "corrected": {
+      "longitude": -122.43087028739133,
+      "latitude": 37.79856414277553,
+      "altitudeM": -14.975483104586601
+    },
+    "headingDeg": 40.37278524009985,
+    "pitchDeg": 5.723253862955775,
+    "rollDeg": -0.8523729627817749,
+    "focalLengthMm": 6.8,
+    "focalLength35Mm": 24,
+    "horizontalFovDeg": 57.120347581415736,
+    "verticalFovDeg": 71.94091895111899,
+    "source": "computer-vision",
+    "confidence": 0.7778946682735823,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 0.5024968347032674,
+    "farM": 76.1859905006766,
+    "automaticEvidence": {
+      "matcher": "lightglue-superpoint",
+      "matches": 119,
+      "inliers": 58,
+      "inlierRatio": 0.48739495798319327,
+      "rmsErrorPx": 3.474797885066768,
+      "imageCoverage": 0.08559244578704088,
+      "positionDeltaM": 3.6445026617682137,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "absolute-pose",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 70,
+        "validDepthRatio": 0.5982905982905983,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 2.512484173516337,
+          "p05": 2.5339435819046328,
+          "p50": 5.639436957943689,
+          "p95": 36.9118259344176,
+          "p98": 66.2486873918927
+        },
+        "frustum": {
+          "nearM": 0.5024968347032674,
+          "farM": 76.1859905006766
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 335,
+        "imageCoverage": 0.2648124684194725,
+        "medianResidual": 0.006184132979592228,
+        "p90Residual": 0.011658162296212228
+      }
+    }
+  },
+  {
+    "id": "img-7577",
+    "cityId": "san-francisco",
+    "country": "united-states",
+    "location": {
+      "latitude": 37.802728,
+      "longitude": -122.428108,
+      "altitudeM": 22.66981524
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -32.23201461032756,
+    "horizontalAccuracyM": 2.898832735,
+    "corrected": {
+      "longitude": -122.42818712260947,
+      "latitude": 37.80275410505418,
+      "altitudeM": -11.114633173681796
+    },
+    "headingDeg": 310.8376878290302,
+    "pitchDeg": 13.716826115154602,
+    "rollDeg": -1.2439447583019998,
+    "focalLengthMm": 6.8,
+    "focalLength35Mm": 24,
+    "horizontalFovDeg": 64.67707969121271,
+    "verticalFovDeg": 80.33904782216365,
+    "source": "computer-vision",
+    "confidence": 0.7023172943260769,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 0.9292847192940666,
+    "farM": 50.22006939188442,
+    "automaticEvidence": {
+      "matcher": "lightglue-superpoint",
+      "matches": 118,
+      "inliers": 60,
+      "inlierRatio": 0.5084745762711864,
+      "rmsErrorPx": 3.950927688908326,
+      "imageCoverage": 0.07566537688206898,
+      "positionDeltaM": 7.704526415486728,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "absolute-pose",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 64,
+        "validDepthRatio": 0.5470085470085471,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 4.646423596470333,
+          "p05": 4.686574236202163,
+          "p50": 15.635856734292503,
+          "p95": 37.29635385263304,
+          "p98": 43.66962555816037
+        },
+        "frustum": {
+          "nearM": 0.9292847192940666,
+          "farM": 50.22006939188442
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 391,
+        "imageCoverage": 0.1666593724256069,
+        "medianResidual": 0.010958430703169085,
+        "p90Residual": 0.018579927272354763
+      }
+    }
+  },
+  {
+    "id": "img-7578",
+    "cityId": "san-francisco",
+    "country": "united-states",
+    "location": {
+      "latitude": 37.801042,
+      "longitude": -122.427794,
+      "altitudeM": 17.65137718
+    },
+    "originalAltitudeReference": "mean-sea-level",
+    "geoidUndulationM": -32.23297024129191,
+    "horizontalAccuracyM": 3.954129049,
+    "corrected": {
+      "longitude": -122.42778380805048,
+      "latitude": 37.80104914058004,
+      "altitudeM": -15.069746896624565
+    },
+    "headingDeg": 203.48762862730692,
+    "pitchDeg": 6.3454595661379685,
+    "rollDeg": -0.1306392759614256,
+    "focalLengthMm": 6.8,
+    "focalLength35Mm": 24,
+    "horizontalFovDeg": 55.733630600233674,
+    "verticalFovDeg": 70.36577705874399,
+    "source": "computer-vision",
+    "confidence": 0.7131628932245666,
+    "calibration": "calibrated",
+    "preferredTier": "photorealistic",
+    "nearM": 0.7156342080943333,
+    "farM": 67.9584690115445,
+    "automaticEvidence": {
+      "matcher": "lightglue-superpoint",
+      "matches": 111,
+      "inliers": 63,
+      "inlierRatio": 0.5675675675675675,
+      "rmsErrorPx": 3.4504968630212636,
+      "imageCoverage": 0.12904350684285207,
+      "positionDeltaM": 3.6895374275175947,
+      "referenceView": "exact-match-camera-provider-overlay",
+      "solutionMode": "absolute-pose",
+      "frustumDepth": {
+        "accepted": true,
+        "method": "full-frame-provider-depth-grid",
+        "columns": 13,
+        "rows": 9,
+        "sampleCount": 117,
+        "validDepthCount": 70,
+        "validDepthRatio": 0.5982905982905983,
+        "nonCityDepthCount": 0,
+        "percentilesM": {
+          "p02": 3.5781710404716662,
+          "p05": 3.603370130433183,
+          "p50": 8.386732315274708,
+          "p95": 49.40356275045032,
+          "p98": 59.09432087960391
+        },
+        "frustum": {
+          "nearM": 0.7156342080943333,
+          "farM": 67.9584690115445
+        }
+      },
+      "overlayAudit": {
+        "matcher": "lightglue-superpoint",
+        "geometricInliers": 553,
+        "imageCoverage": 0.22105939906264344,
+        "medianResidual": 0.0028859343260763137,
+        "p90Residual": 0.007136429684904549
+      }
+    }
+  }
+]

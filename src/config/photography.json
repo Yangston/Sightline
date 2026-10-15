@@ -1,0 +1,395 @@
+{
+  "regions": [
+    {
+      "key": "canada/elora",
+      "country": "canada",
+      "archiveCountry": "Canada",
+      "id": "elora",
+      "name": "Elora",
+      "mapAnchor": { "latitude": 43.68, "longitude": -80.43, "altitudeM": 350 },
+      "coverage": "unknown"
+    },
+    {
+      "key": "canada/toronto",
+      "country": "canada",
+      "archiveCountry": "Canada",
+      "id": "toronto",
+      "name": "Toronto",
+      "mapAnchor": {
+        "latitude": 43.653,
+        "longitude": -79.383,
+        "altitudeM": 100
+      },
+      "coverage": "expected-photorealistic"
+    },
+    {
+      "key": "china/chongqing",
+      "country": "china",
+      "archiveCountry": "China",
+      "id": "chongqing",
+      "name": "Chongqing",
+      "mapAnchor": {
+        "latitude": 29.563,
+        "longitude": 106.551,
+        "altitudeM": 280
+      },
+      "coverage": "fallback-only"
+    },
+    {
+      "key": "china/guilin-yangshuo",
+      "country": "china",
+      "archiveCountry": "China",
+      "id": "guilin-yangshuo",
+      "name": "Guilin and Yangshuo",
+      "mapAnchor": {
+        "latitude": 24.773,
+        "longitude": 110.496,
+        "altitudeM": 180
+      },
+      "coverage": "unknown"
+    },
+    {
+      "key": "china/zhangjiajie",
+      "country": "china",
+      "archiveCountry": "China",
+      "id": "zhangjiajie",
+      "name": "Zhangjiajie",
+      "mapAnchor": {
+        "latitude": 29.117,
+        "longitude": 110.479,
+        "altitudeM": 500
+      },
+      "coverage": "unknown"
+    },
+    {
+      "key": "hong-kong/hong-kong",
+      "country": "hong-kong",
+      "archiveCountry": "Hong-Kong",
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "mapAnchor": {
+        "latitude": 22.3193,
+        "longitude": 114.1694,
+        "altitudeM": 120
+      },
+      "coverage": "expected-photorealistic"
+    },
+    {
+      "key": "taiwan/taipei-north-coast",
+      "country": "taiwan",
+      "archiveCountry": "Taiwan",
+      "id": "taipei-north-coast",
+      "name": "Taipei and Taiwan's north coast",
+      "mapAnchor": { "latitude": 25.08, "longitude": 121.6, "altitudeM": 350 },
+      "coverage": "expected-photorealistic"
+    },
+    {
+      "key": "thailand/bangkok",
+      "country": "thailand",
+      "archiveCountry": "Thailand",
+      "id": "bangkok",
+      "name": "Bangkok",
+      "mapAnchor": {
+        "latitude": 13.756,
+        "longitude": 100.502,
+        "altitudeM": 20
+      },
+      "coverage": "expected-photorealistic"
+    },
+    {
+      "key": "thailand/chiang-mai",
+      "country": "thailand",
+      "archiveCountry": "Thailand",
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "mapAnchor": { "latitude": 18.79, "longitude": 98.99, "altitudeM": 320 },
+      "coverage": "unknown"
+    },
+    {
+      "key": "united-states/san-francisco",
+      "country": "united-states",
+      "archiveCountry": "United-States",
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "mapAnchor": {
+        "latitude": 37.795,
+        "longitude": -122.429,
+        "altitudeM": 80
+      },
+      "coverage": "expected-photorealistic"
+    }
+  ],
+  "cities": [
+    {
+      "id": "san-francisco",
+      "regionKey": "united-states/san-francisco",
+      "name": "San Francisco",
+      "description": "Hills, storefronts, and coastal sightlines reconstructed from iPhone captures.",
+      "publicMap": "google-2d-3d",
+      "center": { "latitude": 37.795, "longitude": -122.426, "altitudeM": 80 },
+      "bounds": {
+        "west": -122.46,
+        "south": 37.77,
+        "east": -122.39,
+        "north": 37.82
+      },
+      "defaultCamera": { "headingDeg": 25, "pitchDeg": -35, "rangeM": 5500 },
+      "coverage": {
+        "photorealistic": "expected",
+        "osmBuildings": "expected",
+        "verifiedAt": "2026-07-16"
+      },
+      "poseExperiments": [
+        {
+          "id": "sf-north-v1",
+          "method": "image-only",
+          "bounds": {
+            "west": -122.442,
+            "south": 37.787,
+            "east": -122.4115,
+            "north": 37.808
+          },
+          "cohortPhotoIds": [
+            "img-7492",
+            "img-7498",
+            "img-7526",
+            "img-7532",
+            "img-7536",
+            "img-7561",
+            "img-7563",
+            "img-7574",
+            "img-7577",
+            "img-7578",
+            "img-7600"
+          ],
+          "gridSpacingM": 50,
+          "candidateLimit": 12,
+          "fallbackCandidateLimit": 12,
+          "suppressionRadiusM": 150,
+          "panoramaRadiusM": 80,
+          "maximumPanoramaDistanceM": 250
+        }
+      ],
+      "pilotPhotoIds": ["img-7492", "img-7498", "img-7526", "img-7532"],
+      "samplePhotoIds": ["img-7492", "img-7526"]
+    },
+    {
+      "id": "taipei-north-coast",
+      "regionKey": "taiwan/taipei-north-coast",
+      "name": "Taipei & North Coast",
+      "description": "A broad scene spanning Taipei streets, mountain settlements, coast, and grassland.",
+      "publicMap": "none",
+      "center": { "latitude": 25.09, "longitude": 121.62, "altitudeM": 350 },
+      "bounds": {
+        "west": 121.47,
+        "south": 24.98,
+        "east": 121.88,
+        "north": 25.25
+      },
+      "defaultCamera": { "headingDeg": 345, "pitchDeg": -45, "rangeM": 32000 },
+      "coverage": {
+        "photorealistic": "expected",
+        "osmBuildings": "expected",
+        "verifiedAt": "2026-07-10"
+      },
+      "pilotPhotoIds": [
+        "img-5077",
+        "img-5201",
+        "img-5441",
+        "img-5495",
+        "img-5590",
+        "img-5607",
+        "img-5718",
+        "img-5772",
+        "img-5829"
+      ],
+      "samplePhotoIds": ["img-5201", "img-5772"]
+    },
+    {
+      "id": "bangkok",
+      "regionKey": "thailand/bangkok",
+      "name": "Bangkok",
+      "description": "iPhone capture points across central Bangkok.",
+      "publicMap": "none",
+      "center": { "latitude": 13.758, "longitude": 100.5, "altitudeM": 20 },
+      "bounds": {
+        "west": 100.45,
+        "south": 13.71,
+        "east": 100.55,
+        "north": 13.81
+      },
+      "defaultCamera": { "headingDeg": 10, "pitchDeg": -42, "rangeM": 12000 },
+      "coverage": {
+        "photorealistic": "unsupported",
+        "osmBuildings": "expected",
+        "verifiedAt": "2026-07-16"
+      },
+      "pilotPhotoIds": [
+        "img-6850",
+        "img-6956",
+        "img-6957",
+        "img-6998",
+        "img-7129",
+        "img-7150"
+      ],
+      "samplePhotoIds": ["img-6957", "img-6088"]
+    },
+    {
+      "id": "toronto",
+      "regionKey": "canada/toronto",
+      "name": "Toronto",
+      "description": "Waterfront, streetcar, downtown, and elevated city views across iPhone captures.",
+      "publicMap": "google-2d-3d",
+      "center": { "latitude": 43.653, "longitude": -79.393, "altitudeM": 100 },
+      "bounds": {
+        "west": -79.44,
+        "south": 43.62,
+        "east": -79.35,
+        "north": 43.69
+      },
+      "defaultCamera": { "headingDeg": 15, "pitchDeg": -42, "rangeM": 12000 },
+      "coverage": {
+        "photorealistic": "expected",
+        "osmBuildings": "expected",
+        "verifiedAt": "2026-07-16"
+      },
+      "pilotPhotoIds": [
+        "img-2309",
+        "img-2604",
+        "img-2689",
+        "img-2713",
+        "img-7283",
+        "img-7449"
+      ],
+      "samplePhotoIds": ["img-7283", "img-2713"]
+    },
+    {
+      "id": "hong-kong",
+      "regionKey": "hong-kong/hong-kong",
+      "name": "Hong Kong",
+      "description": "Steep streets, market lanes, and layered urban facades across iPhone captures.",
+      "publicMap": "google-2d-3d",
+      "center": { "latitude": 22.315, "longitude": 114.165, "altitudeM": 120 },
+      "bounds": {
+        "west": 114.1,
+        "south": 22.24,
+        "east": 114.25,
+        "north": 22.36
+      },
+      "defaultCamera": { "headingDeg": 20, "pitchDeg": -42, "rangeM": 20000 },
+      "coverage": {
+        "photorealistic": "expected",
+        "osmBuildings": "expected",
+        "verifiedAt": "2026-07-16"
+      },
+      "pilotPhotoIds": [
+        "img-2784",
+        "img-2788",
+        "img-2820",
+        "img-2941",
+        "img-2968"
+      ],
+      "samplePhotoIds": ["img-2820", "dscf7706"]
+    },
+    {
+      "id": "chongqing",
+      "regionKey": "china/chongqing",
+      "name": "Chongqing",
+      "description": "Fujifilm poses used to exercise terrain and marker fallbacks.",
+      "publicMap": "none",
+      "center": { "latitude": 29.56, "longitude": 106.56, "altitudeM": 280 },
+      "bounds": {
+        "west": 106.49,
+        "south": 29.51,
+        "east": 106.62,
+        "north": 29.61
+      },
+      "defaultCamera": { "headingDeg": 30, "pitchDeg": -38, "rangeM": 14000 },
+      "coverage": {
+        "photorealistic": "unsupported",
+        "osmBuildings": "unknown",
+        "verifiedAt": "2026-07-10"
+      },
+      "pilotPhotoIds": ["dscf9425", "dscf9562"],
+      "samplePhotoIds": ["dscf9425", "dscf9987"]
+    },
+    {
+      "id": "elora",
+      "regionKey": "canada/elora",
+      "name": "Elora",
+      "description": "Region-level placement for Grand River photographs without per-frame GPS.",
+      "publicMap": "none",
+      "center": { "latitude": 43.68, "longitude": -80.43, "altitudeM": 350 },
+      "bounds": {
+        "west": -80.5,
+        "south": 43.63,
+        "east": -80.35,
+        "north": 43.75
+      },
+      "defaultCamera": { "headingDeg": 15, "pitchDeg": -42, "rangeM": 12000 },
+      "coverage": {
+        "photorealistic": "unknown",
+        "osmBuildings": "unknown",
+        "verifiedAt": "2026-07-13"
+      },
+      "pilotPhotoIds": [],
+      "samplePhotoIds": ["img-7348"]
+    },
+    {
+      "id": "guilin-yangshuo",
+      "regionKey": "china/guilin-yangshuo",
+      "name": "Guilin & Yangshuo",
+      "description": "Region-level placement across the Li River karst landscape.",
+      "publicMap": "none",
+      "center": { "latitude": 24.773, "longitude": 110.496, "altitudeM": 180 },
+      "bounds": { "west": 110.2, "south": 24.5, "east": 110.8, "north": 25.5 },
+      "defaultCamera": { "headingDeg": 20, "pitchDeg": -48, "rangeM": 70000 },
+      "coverage": {
+        "photorealistic": "unsupported",
+        "osmBuildings": "unknown",
+        "verifiedAt": "2026-07-13"
+      },
+      "pilotPhotoIds": [],
+      "samplePhotoIds": ["dscf7904", "dscf8299"]
+    },
+    {
+      "id": "zhangjiajie",
+      "regionKey": "china/zhangjiajie",
+      "name": "Zhangjiajie",
+      "description": "Region-level placement for the Wulingyuan mountain archive.",
+      "publicMap": "none",
+      "center": { "latitude": 29.117, "longitude": 110.479, "altitudeM": 500 },
+      "bounds": {
+        "west": 110.3,
+        "south": 28.95,
+        "east": 110.65,
+        "north": 29.3
+      },
+      "defaultCamera": { "headingDeg": 25, "pitchDeg": -48, "rangeM": 45000 },
+      "coverage": {
+        "photorealistic": "unsupported",
+        "osmBuildings": "unknown",
+        "verifiedAt": "2026-07-13"
+      },
+      "pilotPhotoIds": [],
+      "samplePhotoIds": ["dscf8993", "dscf9052"]
+    },
+    {
+      "id": "chiang-mai",
+      "regionKey": "thailand/chiang-mai",
+      "name": "Chiang Mai",
+      "description": "Region-level placement for northern Thailand photographs.",
+      "publicMap": "none",
+      "center": { "latitude": 18.79, "longitude": 98.99, "altitudeM": 320 },
+      "bounds": { "west": 98.85, "south": 18.68, "east": 99.1, "north": 18.92 },
+      "defaultCamera": { "headingDeg": 15, "pitchDeg": -42, "rangeM": 24000 },
+      "coverage": {
+        "photorealistic": "unknown",
+        "osmBuildings": "unknown",
+        "verifiedAt": "2026-07-13"
+      },
+      "pilotPhotoIds": [],
+      "samplePhotoIds": ["img-6403", "img-6578"]
+    }
+  ]
+}
