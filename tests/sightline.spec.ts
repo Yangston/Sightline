@@ -322,6 +322,7 @@ test("the photograph drawer closes by keyboard and restores focus", async ({
 }) => {
   await page.goto("/explore/san-francisco");
   const opener = page.locator('[aria-controls="city-photo-drawer"]');
+  await expect(opener).toBeEnabled();
   await expect(opener).toHaveAttribute("aria-expanded", "false");
   await opener.focus();
   await page.keyboard.press("Enter");
