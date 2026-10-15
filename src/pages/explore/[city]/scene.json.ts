@@ -1,4 +1,5 @@
 import type { APIRoute } from "astro";
+import { isCollectionCity } from "@/lib/collection";
 import { cityScenes, getCityScenePayload } from "@/lib/photography-map";
 import type { CityScenePayload } from "@/lib/photography-map/types";
 
@@ -6,7 +7,7 @@ type Props = { payload: CityScenePayload };
 
 export function getStaticPaths() {
   return cityScenes
-    .filter((city) => city.publicMap === "google-2d-3d")
+    .filter((city) => isCollectionCity(city.id))
     .map((city) => ({
       params: { city: city.id },
       props: { payload: getCityScenePayload(city.id) },

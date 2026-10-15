@@ -1,5 +1,6 @@
 ---
 import "@/styles/global.css";
+import "@/styles/viewer.css";
 import "@/styles/sightline.css";
 
 interface Props {
@@ -24,7 +25,7 @@ const currentPath = Astro.url.pathname;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#101411" />
+    <meta name="theme-color" content="#f8f7f4" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonical} />
     <meta property="og:type" content="website" />
@@ -42,41 +43,24 @@ const currentPath = Astro.url.pathname;
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="sightline-nav">
       <a class="sightline-wordmark" href="/" aria-label="Sightline home">
-        <span aria-hidden="true"></span>Sightline
+        Sightline<span aria-hidden="true">.</span>
       </a>
       <nav aria-label="Primary navigation">
-        <a
-          href="/explore"
-          aria-current={currentPath.startsWith("/explore") ? "page" : undefined}
-          >Explore</a
+        <a href="/" aria-current={currentPath === "/" ? "page" : undefined}
+          >Collection</a
         >
         <a
           href="/methodology"
           aria-current={currentPath.startsWith("/methodology")
             ? "page"
-            : undefined}>The method</a
-        >
-        <a
-          class="nav-upload"
-          href="/upload"
-          aria-current={currentPath.startsWith("/upload") ? "page" : undefined}
-          >Try your photo <span aria-hidden="true">↗</span></a
+            : undefined}>About</a
         >
       </nav>
     </header>
     <main id="main"><slot /></main>
     <footer class="sightline-footer">
-      <div>
-        <a class="sightline-wordmark" href="/"
-          >Sightline<span aria-hidden="true"></span></a
-        ><p>A photograph is a place to begin.</p>
-      </div>
-      <div class="footer-links">
-        <a href="/methodology">Method &amp; limitations</a><a
-          href="https://github.com/Yangston/Sightline"
-          >View source <span aria-hidden="true">↗</span></a
-        ><p>&copy; 2026 Stone Yang</p>
-      </div>
+      <p>Photography &amp; code by Stone Yang</p>
+      <p>&copy; 2026 Sightline</p>
     </footer>
   </body>
 </html>

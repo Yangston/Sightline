@@ -1,5 +1,6 @@
 import {
   useEffect,
+  useEffectEvent,
   useMemo,
   useRef,
   useState,
@@ -7,6 +8,7 @@ import {
   type PointerEvent as ReactPointerEvent,
   type WheelEvent as ReactWheelEvent,
 } from "react";
+import { getStartingPhoto } from "@/lib/collection";
 import {
   groupPhotoMarkers,
   photoReviewCategory,
@@ -129,6 +131,7 @@ export default function CityMapExperience({
   viewport,
   googleKey,
 }: Props) {
+  const startingPhotoId = getStartingPhoto(city.id, photos)?.id ?? null;
   const experienceRef = useRef<HTMLElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
   const staticMapRef = useRef<HTMLDivElement>(null);
@@ -138,11 +141,12 @@ export default function CityMapExperience({
   const scenePayloadRef = useRef<CityScenePayload | undefined>(undefined);
   const drawerToggleRef = useRef<HTMLButtonElement>(null);
   const threeDLoadRef = useRef(0);
+  const initialViewRequestedRef = useRef(false);
   const modeRef = useRef<MapMode>("2d");
   const selectionRef = useRef<{
     id: string | null;
     method: ReconstructionMethod;
-  }>({ id: photos[0]?.id ?? null, method: "metadata-assisted" });
+  }>({ id: startingPhotoId, method: "metadata-assisted" });
   const staticTransformRef = useRef<StaticMapTransform>({
     x: 0,
     y: 0,
@@ -158,12 +162,10 @@ export default function CityMapExperience({
     | undefined
   >(undefined);
   const [hydrated, setHydrated] = useState(false);
-  const [selectedId, setSelectedId] = useState<string | null>(
-    photos[0]?.id ?? null,
-  );
+  const [selectedId, setSelectedId] = useState<string | null>(startingPhotoId);
   const [reconstructionMethod, setReconstructionMethod] =
     useState<ReconstructionMethod>("metadata-assisted");
-  const [drawerOpen, setDrawerOpen] = useState(true);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const [mode, setMode] = useState<MapMode>("2d");
   const [loading3d, setLoading3d] = useState(false);
   const [staticTiles, setStaticTiles] = useState<StaticMapTile[]>([]);
@@ -172,8 +174,8 @@ export default function CityMapExperience({
   const [staticImageFailed, setStaticImageFailed] = useState(false);
   const [status, setStatus] = useState(
     googleKey
-      ? "Preparing the satellite map. Photorealistic 3D loads only when requested."
-      : "Explore camera geometry in 3D. Detailed map imagery is unavailable in this preview.",
+      ? "Loading satellite map…"
+      : "Map imagery unavailable. Camera geometry is available in 3D.",
   );
   const [frustumVisible, setFrustumVisible] = useState(false);
   const [comparison, setComparison] = useState(false);
@@ -192,6 +194,9 @@ export default function CityMapExperience({
       matchMedia("(prefers-reduced-motion: reduce)").matches,
     [],
   );
+  const openInitialThreeD = useEffectEvent(() => {
+    void openThreeD();
+  });
 
   useEffect(() => {
     const restoreFromUrl = () => {
@@ -207,9 +212,7 @@ export default function CityMapExperience({
       const nextId =
         requested && methodPhotos.some((photo) => photo.id === requested)
           ? requested
-          : methodPhotos.some((photo) => photo.id === selectionRef.current.id)
-            ? selectionRef.current.id
-            : (methodPhotos[0]?.id ?? null);
+          : (getStartingPhoto(city.id, methodPhotos)?.id ?? null);
       selectionRef.current = { id: nextId, method };
       setReconstructionMethod(method);
       setSelectedId(nextId);
@@ -226,6 +229,13 @@ export default function CityMapExperience({
     const hydrationFrame = requestAnimationFrame(() => {
       setHydrated(true);
       restoreFromUrl();
+      if (
+        !initialViewRequestedRef.current &&
+        new URLSearchParams(location.search).get("view") === "3d"
+      ) {
+        initialViewRequestedRef.current = true;
+        openInitialThreeD();
+      }
     });
     window.addEventListener("popstate", restoreFromUrl);
     return () => {
@@ -235,7 +245,7 @@ export default function CityMapExperience({
       controllerRef.current?.destroy();
       controllerRef.current = undefined;
     };
-  }, [imageOnlyPhotos, photos]);
+  }, [city.id, imageOnlyPhotos, photos]);
 
   useEffect(() => {
     if (!googleKey) return;
@@ -294,9 +304,7 @@ export default function CityMapExperience({
         if (controller.signal.aborted) return;
         console.error("The satellite map could not start.", error);
         setStaticImageFailed(true);
-        setStatus(
-          "Satellite imagery could not load. The photo index and gallery remain available.",
-        );
+        setStatus("Map imagery unavailable. Photographs remain available.");
       }
     }
 
@@ -311,10 +319,7 @@ export default function CityMapExperience({
       loadedTileIdsRef.current.size >= staticTiles.length
     ) {
       setStaticImageReady(true);
-      if (modeRef.current === "2d")
-        setStatus(
-          "Satellite map ready. Choose a photograph, then explore its camera in 3D.",
-        );
+      if (modeRef.current === "2d") setStatus("Satellite map ready.");
     }
   }
 
@@ -378,8 +383,8 @@ export default function CityMapExperience({
     setStatus(
       message ??
         (staticImageFailed || !googleKey
-          ? "Explore camera geometry in 3D. Detailed map imagery is unavailable in this preview."
-          : "Satellite map ready. Choose a photograph, then explore its camera in 3D."),
+          ? "Map imagery unavailable. Camera geometry is available in 3D."
+          : "Satellite map ready."),
     );
   }
 
@@ -420,7 +425,7 @@ export default function CityMapExperience({
     const nextSelectedId =
       selectedId && nextPhotos.some((photo) => photo.id === selectedId)
         ? selectedId
-        : (nextPhotos[0]?.id ?? null);
+        : (getStartingPhoto(city.id, nextPhotos)?.id ?? null);
     selectionRef.current = { id: nextSelectedId, method };
     setReconstructionMethod(method);
     setSelectedId(nextSelectedId);
@@ -441,17 +446,15 @@ export default function CityMapExperience({
     }
     setStatus(
       method === "image-only"
-        ? "Showing image-only pose reconstruction. Embedded metadata is used only for the displayed error evaluation."
-        : "Showing the metadata-assisted reconstruction.",
+        ? "Image-only reconstruction. Metadata is used only for evaluation."
+        : "Metadata-assisted reconstruction.",
     );
   }
 
   async function openThreeD(action?: CameraAction) {
     if (modeRef.current === "3d") return;
     if (!hasWebGl()) {
-      setStatus(
-        "WebGL is unavailable. The photo index and gallery remain available.",
-      );
+      setStatus("3D requires WebGL. Photographs remain available.");
       return;
     }
     const saveData = Boolean(
@@ -459,9 +462,7 @@ export default function CityMapExperience({
         .connection?.saveData,
     );
     if (saveData) {
-      setStatus(
-        "3D is paused by your reduced-data preference. The photo index and gallery remain available.",
-      );
+      setStatus("3D is paused by your reduced-data preference.");
       return;
     }
     const loadId = ++threeDLoadRef.current;
@@ -492,15 +493,13 @@ export default function CityMapExperience({
           if (loadId === threeDLoadRef.current)
             setStatus(
               !googleKey && message === "marker ready"
-                ? "3D camera geometry ready. This basic globe has no detailed buildings; photo-to-city visual alignment requires detailed imagery."
+                ? "Camera geometry ready. Detailed imagery is unavailable."
                 : message,
             );
         },
         onFatalError: () => {
           if (loadId === threeDLoadRef.current)
-            returnToTwoD(
-              "The 3D map is temporarily unavailable. You can retry or continue in 2D.",
-            );
+            returnToTwoD("3D unavailable. Retry or continue in 2D.");
         },
       });
       controllerRef.current = controller;
@@ -550,7 +549,7 @@ export default function CityMapExperience({
       console.error("The optional 3D photography map could not start.", error);
       if (loadId === threeDLoadRef.current)
         returnToTwoD(
-          "The 3D view could not start. You can retry or continue with the photo index and gallery.",
+          "The 3D view could not start. Retry or browse the photographs.",
         );
     } finally {
       if (loadId === threeDLoadRef.current) setLoading3d(false);
@@ -734,9 +733,8 @@ export default function CityMapExperience({
     >
       <header className="city-atlas-heading">
         <div>
-          <p className="eyebrow">City archive / {photos.length} photographs</p>
+          <p className="eyebrow">{photos.length} photographs</p>
           <h1 id="city-atlas-title">{city.name}</h1>
-          <p>{city.description}</p>
         </div>
         <div className="city-atlas-actions" role="group" aria-label="Map mode">
           <button
@@ -830,7 +828,7 @@ export default function CityMapExperience({
                     onError={() => {
                       setStaticImageFailed(true);
                       setStatus(
-                        "Satellite imagery could not load. The photo index and gallery remain available.",
+                        "Map imagery unavailable. Photographs remain available.",
                       );
                     }}
                   />
@@ -874,11 +872,7 @@ export default function CityMapExperience({
                 />
               )}
               <div>
-                <h2>See beyond the frame.</h2>
-                <p>
-                  Detailed map imagery is unavailable. Explore the camera
-                  geometry in a basic 3D view.
-                </p>
+                <p>Map imagery unavailable.</p>
                 <button
                   type="button"
                   className="sightline-button primary"
@@ -1060,23 +1054,23 @@ export default function CityMapExperience({
           data-pose-status={selected.pose.calibration}
         >
           {selected.pose.calibration === "rejected"
-            ? "Rejected candidate. Shown for inspection; this camera did not pass alignment checks."
+            ? "Rejected pose. Not verified."
             : selected.pose.calibration === "calibrated"
-              ? "Solved camera pose. Use the frustum to see its field of view, or compare the photograph against the 3D scene."
+              ? "Solved pose."
               : selected.capabilities.frustum
-                ? "Approximate camera pose. Its position and alignment have not been verified."
-                : "This photograph has no publishable camera alignment. Its image and available location remain in the archive."}
+                ? "Approximate pose. Position and alignment are unverified."
+                : "No publishable camera alignment."}
         </p>
       )}
       <aside
         id="city-photo-drawer"
         className="city-photo-drawer"
         data-open={drawerOpen ? "true" : "false"}
-        inert={!drawerOpen}
+        inert={hydrated && !drawerOpen}
         aria-label={`${city.name} photo review index`}
       >
         <header>
-          <p>Photographs & camera poses</p>
+          <p>Photographs</p>
           <button
             type="button"
             onClick={() => {
@@ -1190,15 +1184,13 @@ export default function CityMapExperience({
           }
         `}</style>
         <p className="city-map-noscript">
-          The photo index and gallery remain available without JavaScript.
-          Interactive maps and optional 3D need JavaScript.
+          Maps and 3D require JavaScript. Photographs are listed above.
         </p>
         {imageOnlyPhotos && (
           <div className="city-map-noscript">
             <p>
-              San Francisco also has an image-only experiment. Its results are
-              compared after sealing against embedded device metadata; those
-              differences are not survey truth.
+              Image-only results are evaluated against device metadata, not
+              survey measurements.
             </p>
             <ul>
               {imageOnlyPhotos.map((photo) => (

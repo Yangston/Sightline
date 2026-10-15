@@ -1,8 +1,8 @@
 ---
 import SightlineLayout from "@/layouts/SightlineLayout.astro";
-import CityGallery from "@/components/photography/CityGallery.astro";
 import CityMapExperience from "@/components/photography/CityMapExperience";
 import { imagesForCity } from "@/lib/dataset";
+import { getStartingPhoto, isCollectionCity } from "@/lib/collection";
 import {
   cityScenes,
   deriveStaticMapViewport,
@@ -15,21 +15,21 @@ import type {
 } from "@/lib/photography-map/types";
 
 export function getStaticPaths() {
-  return cityScenes.map((city) => ({
-    params: { city: city.id },
-    props: {
-      city,
-      media: imagesForCity(city.id),
-      photos:
-        city.publicMap === "google-2d-3d"
-          ? getPublicMapPhotoSummariesForCity(city.id)
-          : [],
-      imageOnlyPhotos:
-        city.id === "san-francisco"
-          ? getPublicMapPhotoSummariesForMethod(city.id, "image-only")
-          : undefined,
-    },
-  }));
+  return cityScenes
+    .filter((city) => isCollectionCity(city.id))
+    .map((city) => ({
+      params: { city: city.id },
+      props: {
+        city:
+          city.id === "taipei-north-coast" ? { ...city, name: "Taiwan" } : city,
+        media: imagesForCity(city.id),
+        photos: getPublicMapPhotoSummariesForCity(city.id),
+        imageOnlyPhotos:
+          city.id === "san-francisco"
+            ? getPublicMapPhotoSummariesForMethod(city.id, "image-only")
+            : undefined,
+      },
+    }));
 }
 
 interface Props {
@@ -40,11 +40,9 @@ interface Props {
 }
 
 const { city, media, photos, imageOnlyPhotos } = Astro.props;
-const mapEnabled = city.publicMap === "google-2d-3d";
 const googleKey = import.meta.env.PUBLIC_GOOGLE_MAP_TILES_API_KEY;
-const viewport = mapEnabled ? deriveStaticMapViewport(city.bounds) : undefined;
-const cover =
-  media.find((image) => city.samplePhotoIds.includes(image.id)) ?? media[0];
+const viewport = deriveStaticMapViewport(city.bounds);
+const cover = getStartingPhoto(city.id, media);
 ---
 
 <SightlineLayout
@@ -54,35 +52,18 @@ const cover =
 >
   <div class="sightline-city">
     <nav class="sightline-breadcrumb" aria-label="Breadcrumb">
-      <a href="/explore">Explore</a><span aria-hidden="true">/</span><span
+      <a href="/">Places</a><span aria-hidden="true">/</span><span
         aria-current="page">{city.name}</span
       >
     </nav>
-    {
-      mapEnabled && viewport ? (
-        <CityMapExperience
-          client:idle={{ timeout: 500 }}
-          city={city}
-          photos={photos}
-          imageOnlyPhotos={imageOnlyPhotos}
-          sceneUrl={`/explore/${city.id}/scene.json`}
-          viewport={viewport}
-          googleKey={googleKey}
-        />
-      ) : (
-        <header class="sightline-page-head">
-          <p class="sightline-kicker">
-            Evidence register / {media.length} frames
-          </p>
-          <h1>{city.name}</h1>
-          <p class="sightline-lede">
-            {city.description} This scene remains a reviewed contact sheet until
-            provider coverage and camera evidence support a public
-            reconstruction.
-          </p>
-        </header>
-      )
-    }
-    <CityGallery cityName={city.name} media={media} />
+    <CityMapExperience
+      client:load
+      city={city}
+      photos={photos}
+      imageOnlyPhotos={imageOnlyPhotos}
+      sceneUrl={`/explore/${city.id}/scene.json`}
+      viewport={viewport}
+      googleKey={googleKey}
+    />
   </div>
 </SightlineLayout>

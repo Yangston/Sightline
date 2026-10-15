@@ -3,84 +3,41 @@ import SightlineLayout from "@/layouts/SightlineLayout.astro";
 ---
 
 <SightlineLayout
-  title="Methodology — Sightline"
-  description="How Sightline bounds visual search, solves an absolute camera, verifies rendered evidence, and protects private metadata."
+  title="About — Sightline"
+  description="How Sightline connects photographs to places, and what its reconstructions can tell us."
 >
-  <div class="sightline-shell">
+  <article class="about-page sightline-shell">
     <header class="sightline-page-head">
-      <p class="sightline-kicker">Method and limits</p>
-      <h1>Evidence before appearance.</h1>
-      <p class="sightline-lede">
-        Sightline separates a visually plausible hypothesis from a publishable
-        camera. Every stage can stop without erasing the photograph or
-        disguising the failure.
-      </p>
+      <h1>Behind the view.</h1>
+      <p>Sightline brings photographs back to the places they were taken.</p>
     </header>
     <section class="method-copy">
-      <h2>Metadata-assisted</h2><div>
-        <p>
-          Reviewed exact GPS narrows the search but is never the final camera.
-          Street-level references, local feature matching, provider depth, and
-          robust PnP recover a metric pose. When position evidence is stronger
-          than the absolute solve, Sightline may hold corrected GPS fixed and
-          solve orientation only.
-        </p><p>
-          Mean-sea-level altitude is corrected to the WGS84 ellipsoid before
-          comparison. Device direction and gravity may guide the search, but
-          verification decides the result.
-        </p>
-      </div>
+      <h2>From a photograph to a viewpoint</h2>
+      <p>
+        Location data and visual matches help estimate the camera’s position and
+        direction. In supported cities, you can explore that viewpoint in 3D and
+        compare it with the photograph.
+      </p>
     </section>
     <section class="method-copy">
-      <h2>Image-only</h2><div>
-        <p>
-          The <code>sf-north-v1</code> experiment receives metadata-stripped pixels,
-          an opaque identifier, and fixed geographic bounds. It cannot read GPS, heading,
-          focal length, device orientation, timestamp, source filename, or private
-          metadata.
-        </p><p>
-          Predictions are sealed before a separate evaluator may compare them
-          with embedded device metadata. Those differences are diagnostic, not
-          survey truth.
-        </p>
-      </div>
+      <h2>A result is not a guarantee</h2>
+      <p>
+        Accepted, rejected, approximate, and missing results stay distinct. A
+        solved camera still needs verification and publication approval. GPS
+        uncertainty, changed scenery, and incomplete 3D coverage can affect
+        alignment.
+      </p>
     </section>
     <section class="method-copy">
-      <h2>Verification</h2><div>
-        <ol>
-          <li>Render the solved camera at the source aspect ratio.</li><li>
-            Match the source photograph against that exact render.
-          </li><li>
-            Measure coverage, residual structure, depth consistency, and
-            displacement.
-          </li><li>Reject broad disagreement or insufficient evidence.</li><li>
-            Re-render any repaired pose and apply the same tests again.
-          </li>
-        </ol>
-      </div>
+      <h2>Only reviewed records are public</h2>
+      <p>
+        This collection uses reviewed photographs and location records. Original
+        files and private metadata stay offline. Map imagery comes directly from
+        its provider, with attribution.
+      </p>
     </section>
-    <section class="method-copy">
-      <h2>Publication boundary</h2><div>
-        <p>
-          A verified camera does not automatically authorize projective texture.
-          Exact location, comparison tools, and projection remain separate
-          editorial decisions. Rounded, city-level, and hidden records cannot
-          leak exact camera geometry.
-        </p><p>
-          Provider imagery, identifiers, rich EXIF, credentials, local paths,
-          and detailed matcher evidence remain outside the public artifact.
-        </p>
-      </div>
-    </section>
-    <section class="method-copy">
-      <h2>Limits</h2><div>
-        <p>
-          Sightline is not survey-grade ground truth. GPS uncertainty, scene
-          changes, simplified lens assumptions, panorama pose, provider
-          photogrammetry, occlusion, and incomplete depth all affect the result.
-          Confidence ranks evidence; it never replaces the exact-render audit.
-        </p>
-      </div>
-    </section>
-  </div>
+    <a class="sightline-text-link" href="/"
+      >Back to the collection <span aria-hidden="true">↗</span></a
+    >
+  </article>
 </SightlineLayout>

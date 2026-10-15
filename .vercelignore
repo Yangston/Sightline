@@ -1,4 +1,6 @@
 .astro/
+.env*
+!.env.example
 .private/
 .venv-photo-calibration/
 dist/

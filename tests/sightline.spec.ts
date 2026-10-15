@@ -1,6 +1,5 @@
 import { expect, test, type BrowserContext, type Page } from "@playwright/test";
 import mapRecords from "../src/data/photography-map-records.json" with { type: "json" };
-import { makePhotoFixture } from "./support/photo-fixture";
 
 const productionPreview = process.env.PLAYWRIGHT_USE_PREVIEW === "1";
 // The development server compiles Cesium on first use; built pages retain the
@@ -10,6 +9,11 @@ const viewerStartupTimeout = productionPreview ? 20_000 : 90_000;
 const alignmentPhoto = mapRecords.find(
   (photo) => photo.sceneId === "san-francisco" && photo.capabilities.comparison,
 )!;
+const startingPhotos = [
+  ["san-francisco", "img-7561"],
+  ["toronto", "img-7449"],
+  ["taipei-north-coast", "img-5590"],
+] as const;
 const emptyTileset = {
   asset: { version: "1.1", copyright: "Synthetic test scene" },
   geometricError: 0,
@@ -83,24 +87,128 @@ test.beforeEach(async ({ context }) => {
   await installMapFixture(context);
 });
 
-test("landing page explains the product and exposes the dataset", async ({
+test("the home collection shows only three places and their starting photographs", async ({
   page,
 }) => {
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: /Return to the original/ }),
+    page.getByRole("heading", { name: /A place\.\s*A point of view\./ }),
   ).toBeVisible();
-  await expect(page.locator(".sightline-hero-scene img").first()).toBeVisible();
-  await expect(page.getByText("149", { exact: true })).toBeVisible();
-  await page.getByRole("link", { name: "Explore reconstructions" }).click();
-  await expect(page).toHaveURL(/\/explore$/);
-  await expect(page.locator(".scene-card")).toHaveCount(10);
-  await page.locator('[data-scene-filter="interactive"]').click();
-  await expect(page.locator(".scene-card:visible")).toHaveCount(3);
-  await page.locator('[data-scene-filter="photography"]').click();
-  await expect(page.locator(".scene-card:visible")).toHaveCount(7);
-  await page.locator('[data-scene-filter="all"]').click();
-  await expect(page.locator(".scene-card:visible")).toHaveCount(10);
+  const cards = page.locator(".scene-card");
+  await expect(cards).toHaveCount(3);
+  for (const [index, [city, photo]] of startingPhotos.entries()) {
+    await expect(cards.nth(index)).toHaveAttribute(
+      "href",
+      `/explore/${city}?view=3d`,
+    );
+    await expect(cards.nth(index).locator("img")).toHaveAttribute(
+      "src",
+      new RegExp(photo),
+    );
+    await expect(cards.nth(index)).toContainText("Open 3D view");
+  }
+  await expect(page.locator("[data-scene-filter]")).toHaveCount(0);
+  await expect(page.locator(".city-gallery")).toHaveCount(0);
+});
+
+test("the former explore page redirects to the collection", async ({
+  page,
+}) => {
+  await page.goto("/explore");
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".scene-card")).toHaveCount(3);
+});
+
+test("removed demonstrations and repository links are absent from public navigation", async ({
+  page,
+  request,
+}) => {
+  for (const route of ["/", "/explore/san-francisco", "/methodology"]) {
+    await page.goto(route);
+    await expect(
+      page.locator(
+        'a[href*="github.com"], a[href="/upload"], a[href="/ar"], a[href="/live-demo"]',
+      ),
+    ).toHaveCount(0);
+  }
+  const response = await request.get("/upload");
+  expect(response.status()).toBe(404);
+});
+
+for (const [city, photo] of startingPhotos) {
+  test(`${city} starts with ${photo} without loading 3D`, async ({ page }) => {
+    const requests: string[] = [];
+    page.on("request", (request) => requests.push(request.url()));
+    await page.goto(`/explore/${city}`);
+    await expect(page.locator(".city-selected-photo strong")).toHaveText(photo);
+    await expect(page.locator("[data-open-3d]")).toBeEnabled();
+    await expect(page.locator(".city-gallery")).toHaveCount(0);
+    await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
+    expect(requests.some((url) => /scene\.json|\/cesium\//i.test(url))).toBe(
+      false,
+    );
+    expect(
+      await page.evaluate(() => localStorage.length + sessionStorage.length),
+    ).toBe(0);
+  });
+
+  test(`${city} opens its starting photograph in 3D directly from home`, async ({
+    page,
+  }) => {
+    if (!productionPreview) test.slow();
+    await page.goto("/");
+    await page.locator(`.scene-card[href="/explore/${city}?view=3d"]`).click();
+    await expect(page.locator(".cesium-widget canvas")).toBeVisible({
+      timeout: viewerStartupTimeout,
+    });
+    await expect(page.locator("[data-open-3d]")).toBeEnabled();
+    await expect(page.locator("[data-city-map-experience]")).toHaveAttribute(
+      "data-city-map-mode",
+      "3d",
+    );
+    await expect(page.locator(".city-selected-photo strong")).toHaveText(photo);
+    await expect(page.locator(".city-gallery")).toHaveCount(0);
+    const record = mapRecords.find((record) => record.id === photo)!;
+    await expect(page.locator("[data-pose-status]")).toHaveAttribute(
+      "data-pose-status",
+      record.calibration,
+    );
+    await page
+      .getByRole("button", { name: "2D satellite", exact: true })
+      .click();
+    await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
+    await expect(page.locator("[data-city-map-experience]")).toHaveAttribute(
+      "data-city-map-mode",
+      "2d",
+    );
+  });
+}
+
+test("an explicit photograph link overrides the city default", async ({
+  page,
+}) => {
+  await page.goto(`/explore/san-francisco?photo=${alignmentPhoto.id}`);
+  await expect(page.locator(".city-selected-photo strong")).toHaveText(
+    alignmentPhoto.id,
+  );
+});
+
+test("invalid photograph links and browser history restore the city default", async ({
+  page,
+}) => {
+  await page.goto("/explore/san-francisco?photo=not-a-published-photo");
+  const selected = page.locator(".city-selected-photo strong");
+  await expect(selected).toHaveText("img-7561");
+  await expect(page.locator("[data-open-3d]")).toBeEnabled();
+  await page.evaluate((photoId) => {
+    history.replaceState({}, "", "/explore/san-francisco");
+    history.pushState({}, "", `/explore/san-francisco?photo=${photoId}`);
+    dispatchEvent(new PopStateEvent("popstate"));
+  }, alignmentPhoto.id);
+  await expect(selected).toHaveText(alignmentPhoto.id);
+  await page.goBack();
+  await expect(page).toHaveURL(/\/explore\/san-francisco$/);
+  await expect(selected).toHaveText("img-7561");
 });
 
 test("camera controls render a frustum and retain comparison through resizing", async ({
@@ -199,7 +307,7 @@ test("provider failure restores 2D and allows a clean retry", async ({
   await page.locator("[data-open-3d]").click();
   await failedProvider;
   await expect(page.locator(".city-atlas-status")).toContainText(
-    /could not start/i,
+    /could not start|3D unavailable/i,
   );
   await expect(page.locator(".cesium-widget canvas")).toHaveCount(0);
   failing = false;
@@ -209,20 +317,22 @@ test("provider failure restores 2D and allows a clean retry", async ({
   });
 });
 
-test("gallery keyboard navigation restores focus to the opened photograph", async ({
+test("the photograph drawer closes by keyboard and restores focus", async ({
   page,
 }) => {
   await page.goto("/explore/san-francisco");
-  const opener = page.locator(".city-lightbox-trigger").first();
+  const opener = page.locator('[aria-controls="city-photo-drawer"]');
+  await expect(opener).toHaveAttribute("aria-expanded", "false");
   await opener.focus();
   await page.keyboard.press("Enter");
-  const dialog = page.getByRole("dialog");
-  await expect(dialog).toBeVisible();
-  await page.keyboard.press("ArrowRight");
-  await expect(dialog.locator("p")).toContainText(/^2 \/ /);
+  const drawer = page.locator("#city-photo-drawer");
+  await expect(opener).toHaveAttribute("aria-expanded", "true");
+  const close = page.getByRole("button", { name: "Close photo index" });
+  await close.focus();
   await page.keyboard.press("Escape");
-  await expect(dialog).not.toBeVisible();
+  await expect(drawer).toHaveAttribute("data-open", "false");
   await expect(opener).toBeFocused();
+  await expect(drawer).toHaveAttribute("inert");
 });
 
 test("all public sections fit a 320 pixel screen", async ({ page }) => {
@@ -231,8 +341,9 @@ test("all public sections fit a 320 pixel screen", async ({ page }) => {
     "/",
     "/explore",
     "/explore/san-francisco",
+    "/explore/toronto",
+    "/explore/taipei-north-coast",
     "/methodology",
-    "/upload",
   ]) {
     await page.goto(route);
     await expect(page.locator("h1")).toBeVisible();
@@ -245,7 +356,7 @@ test("all public sections fit a 320 pixel screen", async ({ page }) => {
   }
 });
 
-test("photographs and page navigation remain available without JavaScript", async ({
+test("starting photographs and page navigation remain available without JavaScript", async ({
   browser,
 }) => {
   const context = await browser.newContext({ javaScriptEnabled: false });
@@ -259,114 +370,21 @@ test("photographs and page navigation remain available without JavaScript", asyn
   await expect(
     page.getByRole("heading", { name: "San Francisco", exact: true }),
   ).toBeVisible();
-  await expect(page.locator("[data-manifest-id]")).toHaveCount(15);
-  await expect(page.locator("[data-manifest-id] img").first()).toBeVisible();
+  await expect(page.locator(".city-selected-photo img")).toBeVisible();
+  await expect(page.locator(".city-selected-photo strong")).toHaveText(
+    "img-7561",
+  );
+  await expect(page.getByText(/Maps and 3D require JavaScript/)).toBeVisible();
+  await expect(page.locator(".city-gallery")).toHaveCount(0);
   await page
-    .getByRole("link", { name: "Explore", exact: true })
+    .getByRole("link", { name: "Collection", exact: true })
     .first()
     .click();
-  await expect(page.locator(".scene-card")).toHaveCount(10);
-  await page.goto(
-    "http://127.0.0.1:" + (process.env.PLAYWRIGHT_PORT ?? "4333") + "/upload",
-  );
+  await expect(page.locator(".scene-card")).toHaveCount(3);
   await expect(
-    page.getByText(/Enable JavaScript to read a local photo/),
+    page.getByRole("heading", { name: /A place\.\s*A point of view\./ }),
   ).toBeVisible();
-  await expect(
-    page.getByLabel("Choose a photograph", { exact: true }),
-  ).toBeDisabled();
   await context.close();
-});
-
-test("a local photograph detects its city before explicitly opening 3D", async ({
-  page,
-}) => {
-  if (!productionPreview) test.slow();
-  const providerRequests: string[] = [];
-  page.on("request", (request) => {
-    if (request.url().startsWith("https://tile.googleapis.com/"))
-      providerRequests.push(request.url());
-  });
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/upload");
-  await expect(
-    page.getByLabel("Choose a photograph", { exact: true }),
-  ).toBeEnabled();
-  await page.getByLabel("Choose a photograph", { exact: true }).setInputFiles({
-    name: "synthetic-toronto.jpg",
-    mimeType: "image/jpeg",
-    buffer: await makePhotoFixture(),
-  });
-  await expect(page.locator("[data-upload-result]")).toBeVisible();
-  await expect(page.locator("[data-upload-city]")).toHaveText("Toronto");
-  await expect(page.locator("[data-upload-gps]")).toContainText(
-    "from metadata",
-  );
-  await expect(page.locator("[data-upload-open]")).toBeEnabled();
-  expect(providerRequests).toEqual([]);
-  expect(
-    await page.evaluate(() => localStorage.length + sessionStorage.length),
-  ).toBe(0);
-  await page.locator("[data-upload-open]").click();
-  await expect(page.locator("[data-upload-canvas] canvas")).toBeVisible({
-    timeout: viewerStartupTimeout,
-  });
-  await expect(page.locator("[data-upload-viewer-status]")).toContainText(
-    /ready/i,
-    { timeout: viewerStartupTimeout },
-  );
-  await page
-    .getByRole("button", { name: "Match photo view", exact: true })
-    .click();
-  await expect(page.locator("[data-upload-overlay]")).toBeVisible();
-  await page.setViewportSize({ width: 320, height: 720 });
-  await expectResponsiveViewport(page);
-  await page.getByRole("button", { name: "Close 3D", exact: true }).click();
-  await expect(page.locator("[data-upload-canvas] canvas")).toHaveCount(0);
-  await expect(page.locator("[data-upload-open]")).toBeFocused();
-  await page.getByRole("button", { name: "Remove photo", exact: true }).click();
-  await expect(page.locator("[data-upload-result]")).not.toBeVisible();
-  await expect(page.locator("[data-upload-image]")).not.toHaveAttribute("src");
-  await expect(
-    page.getByLabel("Choose a photograph", { exact: true }),
-  ).toBeFocused();
-  await page.getByLabel("Choose a photograph", { exact: true }).setInputFiles({
-    name: "replacement-without-gps.jpg",
-    mimeType: "image/jpeg",
-    buffer: await makePhotoFixture(false),
-  });
-  await expect(page.locator("[data-upload-status]")).toContainText(
-    "No GPS metadata",
-  );
-  await expect(page.locator("[data-upload-open]")).toBeDisabled();
-});
-
-test("a photo without GPS clearly requests a location and prepares a manual scene", async ({
-  page,
-}) => {
-  await page.goto("/upload");
-  await expect(
-    page.getByLabel("Choose a photograph", { exact: true }),
-  ).toBeEnabled();
-  await page.getByLabel("Choose a photograph", { exact: true }).setInputFiles({
-    name: "synthetic-no-gps.jpg",
-    mimeType: "image/jpeg",
-    buffer: await makePhotoFixture(false),
-  });
-  await expect(page.locator("[data-upload-status]")).toContainText(
-    "No GPS metadata",
-  );
-  await expect(page.locator("[data-upload-open]")).toBeDisabled();
-  await page.getByLabel("Latitude", { exact: true }).fill("43.65");
-  await page.getByLabel("Longitude", { exact: true }).fill("-79.38");
-  await page
-    .getByRole("button", { name: "Prepare scene", exact: true })
-    .click();
-  await expect(page.locator("[data-upload-city]")).toHaveText("Toronto");
-  await expect(page.locator("[data-upload-gps]")).toContainText(
-    "entered location",
-  );
-  await expect(page.locator("[data-upload-open]")).toBeEnabled();
 });
 
 test("San Francisco restores the image-only method without eager Cesium", async ({
@@ -393,13 +411,17 @@ test("San Francisco restores the image-only method without eager Cesium", async 
   );
 });
 
-test("gallery-only scenes retain complete durable photographs", async ({
-  page,
+test("places outside the three city views are no longer public routes", async ({
+  request,
 }) => {
-  await page.goto("/explore/elora");
-  await expect(page.locator("[data-city-map-experience]")).toHaveCount(0);
-  await expect(page.locator("[data-gallery-ready='true']")).toBeVisible();
-  await expect(page.locator("[data-manifest-id]")).toHaveCount(1);
+  const publicCities = new Set<string>(startingPhotos.map(([city]) => city));
+  const removedCities = [
+    ...new Set(mapRecords.map((photo) => photo.sceneId)),
+  ].filter((city) => !publicCities.has(city));
+  for (const city of removedCities) {
+    const response = await request.get(`/explore/${city}`);
+    expect(response.status(), city).toBe(404);
+  }
 });
 
 test("development calibration routes are production-safe redirects", async ({
